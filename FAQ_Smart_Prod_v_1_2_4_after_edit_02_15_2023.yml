@@ -1,0 +1,2982 @@
+main: true
+name: FAQInsightsProd
+
+context:
+  variables:
+    name: string
+    tncMessage: string
+    faqstring1: string
+    topic: string
+    faqstring2: string
+    brandName: string
+    faqSetup: string
+    needHelpURL: string
+    messages: string
+    helpfulLinksURL: string
+    #confirmHelp: YesNo
+    askAQuestionstring: string
+    faqstring: string
+    csrmessage: string
+    email: string
+    myCustomProps: string
+    addDetails: string
+    mobileNum: string
+    errorName: string
+    invalidMobileCount: string
+    invalidContactCount: string
+    mobileNum2: string
+    emailAddress: string
+    emailAddress2: string
+    customerdetails: string
+    firstname: string
+    lastname: string
+    subcaseType: string
+    productInquiry: string
+    helpfulLinkMsg: string
+    chatwithagentmenumsg: string
+    deploymentid: string
+    nocsrmessage: string
+    buttonid: string
+    YesNo: YesNo
+    rb: "resourcebundle"
+    # medallia parameters
+    MedalliaCustomProps: "string"
+    MedalliaHandoverIntent: "string"
+    MedalliaHandoverSkill: "string"
+    medalliaBrandName: "string"
+    medalliaProductName: "string"
+    MedalliaHandoverSwitchYesAndNo: "string"
+    MedalliaHandoverUserName: "string"
+    MedalliaHandoverTelNum: "string"
+    mecdatatobepassed: "string"
+    medalliaButtonName: "string"
+    
+states:
+
+  conditionExistsUnresolvedFromStartSkill:
+    component: "System.ConditionExists"
+    properties:
+      variable: user.unresolvedCount
+    transitions:
+      actions:
+        exists: setInvalidMobileCount
+        notexists: setUnresolved
+        
+  setUnresolved:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions:
+      next: setInvalidMobileCount
+      
+  setInvalidMobileCount:
+    component: "System.SetVariable"
+    properties:
+      variable: invalidMobileCount
+      value: "A"
+
+  intent:
+    component: System.Intent
+    properties:
+      optionsPrompt: "Hmm... I wasn't sure, do you want to..."
+      qnaUseResult: true
+      optionsQnaLabel: "Check our FAQs on this topic" 
+      qnaEnable: true
+      qnaTimeout: 5000
+      qnaSkipIfIntentFound: true
+      qnaUseSourceVariable: false
+                                
+      daIntercept: "always"
+      variable: "iResult"
+    transitions:
+      actions:
+        Ask Us a Question: setUnresolvedAskQuestion
+        qna: setUnresolvedQNA
+        Live Chat: setUnresolvedLiveAgent
+        unresolvedIntent: conditionExistsUnresolved
+        diretsokausapahente: chatWithAgentMenu
+
+  setUnresolvedAskQuestion:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions: 
+      next: "checkTNCStatus"
+
+  setUnresolvedQNA:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions: 
+      next: "setqastring"
+
+  setUnresolvedLiveAgent:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions: 
+      next: "chatWithAgentMenu"
+   
+  checkTNCStatus:
+    component: "System.Switch"
+    properties:
+      variable: user.termsAccepted
+      values:
+        - "YES"
+        - "NO"
+    transitions:
+      actions:
+        "YES": greeting
+        "NO": initTNCMsg
+        "NONE": initTNCMsg
+  
+  initTNCMsg:
+    component: System.Output
+    properties:
+      text: "Welcome! I am your Smart Chatbot. I am here to help you with your queries on the latest promos and gadgets and Prepaid or Postpaid account needs."
+    transitions: {}
+  
+  setTNCMsg:
+    component: System.SetVariable
+    properties:
+      variable: tncMessage
+      value:
+        - "We are committed in protecting your personal information. We will process conversations according to our Privacy Policy and Terms of Use."
+        - "Data Privacy Notice"
+        - "https://smrt.ph/ChatbotDataPrivacy"
+        - " "
+        - "Terms of Use"
+        - "https://smrt.ph/ChatbotTermsOfUse"
+        - " "
+        - "Do you agree with this?"
+    transitions: {}
+    
+  showTermsOfUse:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "<#list tncMessage.value as text>${text}\n</#list>"
+          separateBubbles: true
+          actions:
+            - label: "I Agree"
+              type: postback
+              payload:
+                action: Accept
+              name: Terms of Use
+            - label: "I Do Not Agree"
+              type: postback
+              payload:
+                action: Cancel
+              name: Terms of Use
+    transitions:
+      actions:
+        Accept: setUserAccept
+        Cancel: setUserCancel
+        textReceived: "intent"
+        
+  setUserAccept:
+    component: System.SetVariable
+    properties:
+      variable: user.termsAccepted
+      value: "YES"
+    transitions:
+      next: greeting
+  
+  setUserCancel:
+    component: System.SetVariable
+    properties:
+      variable: user.termsAccepted
+      value: "NO"
+    transitions:
+      next: userCancel
+  
+  userCancel:
+    component: System.Output
+    properties:
+      text: "Should you need assistance, just send us a message. Thanks ${profile.firstName} for reaching out to us."
+    transitions:
+      return: done    
+  
+  greeting:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "Happy to answer any questions you may have. Please choose between our FAQs below for specific brand queries, or Helpful Links for general information."
+            name: Menu
+            separateBubbles: false
+            actions:
+            - label: FAQs
+              type: postback
+              payload:
+                action: showBrandMenu
+            - label: Helpful Links
+              type: postback
+              payload:
+                action: showHelpfulLinks
+    transitions:
+      actions:
+        showBrandMenu: showBrandMenu
+        showHelpfulLinks: setHelpfulLinksMsg
+        textReceived: intent
+
+###################################################################################
+# General States
+###################################################################################
+  goodbye:
+    component: System.Output
+    properties:
+      text: "Thank you for using the Smart Chatbot. Have a great day!\n\nIf you need help with your account, just type “Menu”"
+    transitions:
+      return: success
+      
+  setqastring:
+    component: System.SetVariable
+    properties:
+      variable: faqstring1
+      value: "${(iResult.value.query)!null}"  
+  qna:
+    component: "System.QnA"
+    properties:
+      #sourceVariable: faqstring1
+      minimumMatch: "30%,20%"
+      transitionOnTextReceived: false
+      exitLabel: "FAQ Menu"
+      keepTurn: 
+        next: true
+        none: true
+        exit: true
+        textReceived: true
+      matchListLimit: 5
+      #categoryListLimit: 5
+      matchFields: "questions"
+      resultLayout: "horizontal"
+      #categoryLayout: "horizontal"      
+      enableCategoryDrilldown: false      
+      viewAnswerLabel: "Show me"
+      moreAnswersLabel: "Show me more"
+      #categoriesLabel: "Browse FAQ"
+      answersLabel: "Check answers"
+    transitions:
+      actions:
+        none: "unresolved"
+        exit: "resetVar1" #"greeting"
+        #textReceived: intent
+      next: setMedalliaVariableForIntentForAskUsAQuestion #"confirmAnswer" #original 
+ 
+  ## set medallia intent for FAQ using faqstring1 ##
+  #set madallia variable for intent FAQ
+  setMedalliaVariableForIntentForAskUsAQuestion:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Ask us a question"
+    transitions:
+      next: confirmAnswer
+  #end setmedallia intent for intent faq using faqstring1                                                      
+      
+  resetVar1:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: greeting
+
+  setmyqastring:
+    component: System.SetVariable
+    properties:
+      variable: faqstring1
+      value: "${(iResult.value.query)!null}"  
+
+  myqna:
+    component: System.QnA
+    properties:
+      sourceVariable: faqstring1
+      minimumMatch: "30%,20%"
+      matchFields: "categories+questions"
+      transitionOnTextReceived: false
+      matchListLimit: 1
+      enableCategoryDrilldown: false
+      keepTurn: true
+      exitLabel: "End FAQ"
+    transitions:
+      actions:
+        none: unresolved
+        exit: "endQnaMsg"
+      next: setMedalliaVariableForIntentForFAQString1 #resetVar #original trigger survey for medallia faq 08/21
+
+  ## set medallia intent for FAQ using faqstring1 ##
+  #set madallia variable for intent FAQ
+  setMedalliaVariableForIntentForFAQString1:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Top 5 faq - ${faqstring1}"
+    transitions:
+      next: resetVar
+  #end setmedallia intent for intent faq using faqstring1
+  
+  ## - skip reset var and reset var after survey 08/21/2022
+  resetVar:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: confirmAnswer
+      
+  ##--State until bug fix is provided
+  fillerState:
+    component: "System.Output"
+    properties:
+      text: "Ask me another question and I’ll do my best to help you find the answer. You may type ‘Exit’ to exit this topic"
+      keepTurn: true
+    transitions: 
+      return: "done"
+
+  confirmAnswer:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: "text"
+            text: "Was I able to answer your question? Select Yes to go to the Menu or No to be able to talk to a Customer Service Representative."
+            separateBubbles: true
+            actions:
+            - label: "Yes"
+              type: "postback"
+              payload:
+                action: "Yes"
+            - label: "No"
+              type: "postback"
+              payload:
+                action: "No"
+    transitions:
+      actions:
+        Yes: "setMedalliaViriableForSwitchYesAndNo" #original "offerSomeHelpOnYes" #trigger medallia survey on yes medallia 08/21/2022
+        No: "offerSomeHelpOnNo"
+        textReceived: "intent"
+ 
+ #set medallia varibales 08/21/2022
+
+  setMedalliaViriableForSwitchYesAndNo:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverSwitchYesAndNo
+      value: "Yes"
+    transitions:
+      next: setMedalliaVariableForSkill
+      
+  setMedalliaVariableForSkill:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverSkill
+      value: "FAQ" #"FAQ - ${MedalliaHandoverSwitchYesAndNo}"
+    transitions:
+      next: setMedalliaSetUserEmail
+  
+  #end medallia variable for intent FAQ
+
+  #set medallia varibales for no answer 08/21/2022
+  setMedalliaViriableForSwitchYesAndNoAnswerNo:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverSwitchYesAndNo
+      value: "No"
+    transitions:
+      next: setMedalliaVariableForSkillForAnswerNo
+      
+  setMedalliaVariableForSkillForAnswerNo:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverSkill
+      value: "FAQ"
+    transitions:
+      next: setMedalliaSetUserEmail
+  #end medallia variable for intent FAQ
+
+  offerSomeHelpOnYes:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "Is there anything else I can help you with? Select an option below."
+            separateBubbles: false
+            actions:
+            - label: Go to FAQs Menu
+              type: postback
+              payload:
+                action: Go to FAQs Menu
+            - label: Go to Main Menu
+              type: postback
+              payload:
+                action: "system.textReceived"
+                variables:
+                  system.text: "${rb('gotomainmenu')}"
+            - label: End Conversation
+              type: postback
+              payload:
+                action: End Chatbot Conversation
+    transitions:
+      actions:
+        End Chatbot Conversation: goodbye 
+        Go to FAQs Menu: greeting
+        textReceived: intent
+
+  catcher1:
+    component: System.Output
+    properties:
+      text: " "
+      keepTurn: true
+    transitions:
+      next: intent
+      
+  offerSomeHelpOnNo:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      metadata:
+        responseItems:
+          - type: text
+            text: "Is there anything else I can help you with? Select an option below."
+            separateBubbles: false
+            actions:
+            - label: Go to Help Menu
+              type: postback
+              payload:
+                action: Go to Help Menu
+            - label: Chat with Agent
+              type: postback
+              payload:
+                action: Live Chat
+            - label: End Conversation
+              type: postback
+              payload:
+                action: End Chatbot Conversation
+    transitions:
+      actions:
+        End Chatbot Conversation: goodbye
+        Live Chat: chatWithAgentMenu
+        Go to Help Menu: setMedalliaViriableForSwitchYesAndNoAnswerNo #original #HelpMenu #trigger medallia survey on no medallia 08/21/2022
+        textReceived: intent
+        
+  catcher2:
+    component: System.Output                         
+    properties:
+      text: " "
+      keepTurn: true
+    transitions:
+      next: intent
+       
+  HelpMenu:
+    component: "System.CommonResponse"
+    properties:
+      metadata:
+        responseItems:
+        - type: "text"
+          text:  "What can I help you with? Please select from the options below."
+          separateBubbles: true
+          actions:
+          - label: "Billing Services"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "Billing Services"
+          - label: "Account Services"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "Account Services"
+          - label: "Report a Problem"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "Report a Problem"
+          - label: "Follow Up"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "Follow Up"
+          - label: "Main Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+      processUserMessage: true
+    transitions:
+      actions:
+        textReceived: intent
+
+  catcher3:
+    component: System.Output
+    properties:
+      text: " "
+      keepTurn: true
+    transitions:
+      next: intent
+      
+  chatWithAgentMenu:
+    component: "System.SetVariable"
+    properties:
+      variable: "chatwithagentmenumsg"
+      value:
+      - "We are now in the process of connecting you to one of our Customer Service Representatives. You will be asked questions related to your concern."
+
+  chatWithAgentMenuMessage:
+    component: "System.Output"
+    properties:
+      text: "<#list chatwithagentmenumsg.value as text>${text}\n</#list>" 
+      keepTurn: true
+    transitions: {}
+
+  chatWithAgentMenuContinuation:
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: " Please choose from the options below." 
+          separateBubbles: true
+          actions:
+          - label: Report a Problem
+            type: postback
+            payload:
+              action: Report a Problem
+          - label: Billing Concern
+            type: postback
+            payload:
+              action: Billing concern
+          - label: Account Request
+            type: postback
+            payload:
+              action: Account request
+          - label: Product inquiry
+            type: postback
+            payload:
+              action: Product inquiry
+          - label: Go to Main Menu
+            type: postback
+            payload:
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+      processUserMessage: true
+    transitions:
+      actions:
+        Report a Problem: setreportAProblemSubcaseType
+        Billing concern: setbillingConcernSubcaseType
+        Account request: setaccountConcernSubcaseType
+        Product inquiry: setproductInquirySubcaseType
+        textReceived: intent
+      
+  setreportAProblemSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "Report a Problem"
+    transitions:
+      next: "reportAProblemMenu" 
+
+  setbillingConcernSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "Billing Concern"
+    transitions:
+      next: "billingConcernMenu"
+
+  setaccountConcernSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "Account Request"
+    transitions:
+      next: "accountConcernMenu"
+
+  setproductInquirySubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Product Inquiry"
+    transitions:
+      next: "productInquiry"
+
+  reportAProblemMenu:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "What is the nature of your concern? Select from the options below."
+            separateBubbles: false
+            actions:
+            - label: Signal problem
+              type: postback
+              payload:
+                action: Signal problem
+            - label: Data connection
+              type: postback
+              payload:
+                action: Data connection
+            - label: Voice connection
+              type: postback
+              payload:
+                action: Voice connection
+            - label: Loading concern
+              type: postback
+              payload:
+                action: Loading concern
+            - label: Promo/Offer concern
+              type: postback
+              payload:
+                action: Promo Offer concern
+            - label: Int’l Roaming
+              type: postback
+              payload:
+                action: Intl Roaming
+            - label: SMS Concern
+              type: postback
+              payload:
+                action: SMS Concern
+            - label: Lost/Defective SIM
+              type: "postback"
+              payload: 
+                action: "system.textReceived"
+                variables:
+                  system.text: lostdefective2022
+            - label: Back to Previous
+              type: postback
+              payload:
+                action: Go back to previous Menu
+    transitions:
+      actions:
+        Signal problem: setReportAProblemSignalProblemSubcaseType
+        Data connection: setReportAProblemDataConnectionSubcaseType
+        Voice connection: setReportAProblemVoiceConnectionSubcaseType
+        Loading concern: setReportAProblemLoadingConcernSubcaseType
+        Promo Offer concern: setReportAProblemPromoOfferConcernSubcaseType
+        Intl Roaming: setReportAProblemIntlRoamingSubcaseType
+        SMS Concern: setReportAProblemSMSConcernSubcaseType
+        #Lost Defective SIM: setReportAProblemLostDefectiveSIMSubcaseType
+        Go back to previous Menu: chatWithAgentMenu
+        textReceived: "intent"
+
+  setReportAProblemSignalProblemSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Signal problem"
+    transitions:
+      next: "checkWaitTime" 
+
+  setReportAProblemDataConnectionSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - Data connection"
+    transitions:
+      next: "checkWaitTime" 
+
+  setReportAProblemVoiceConnectionSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - Voice connection"
+    transitions:
+      next: "checkWaitTime" 
+
+  setReportAProblemLoadingConcernSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - Loading concern"
+    transitions:
+      next: "checkWaitTime"
+
+  setReportAProblemPromoOfferConcernSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - Promo/Offer concern"
+    transitions:
+      next: "checkWaitTime"
+
+  setReportAProblemIntlRoamingSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - Int'l Roaming"
+    transitions:
+      next: "checkWaitTime" 
+
+  setReportAProblemSMSConcernSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ  - SMS Concern"
+    transitions:
+      next: "checkWaitTime"
+
+  setReportAProblemLostDefectiveSIMSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Lost/Defective SIM"
+    transitions:
+      next: "checkWaitTime"
+
+  billingConcernMenu:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "What is the nature of your concern? Select from the options below."
+            separateBubbles: false
+            actions:
+            - label: Question on my bill
+              type: postback
+              payload:
+                action: Question on my bill
+            - label: Request Copy of Bill
+              type: postback
+              payload:
+                action: Request Copy of Bill
+            - label: Bill Details Inquiry
+              type: postback
+              payload:
+                action: Bill Details Inquiry
+    transitions:
+      actions:
+        Question on my bill: setBillingConcernQuestionOnMyBillSubcaseType
+        Request Copy of Bill: setBillingConcernRequestCopyOfBillSubcaseType
+        Bill Details Inquiry: setBillingConcernBillDetailsInquirySubcaseType
+        textReceived: "intent"
+
+  setBillingConcernQuestionOnMyBillSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Question on My Bill"
+    transitions:
+      next: "checkWaitTime"
+
+  setBillingConcernRequestCopyOfBillSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Request Copy of Bill"
+    transitions:
+      next: "checkWaitTime"
+
+  setBillingConcernBillDetailsInquirySubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Bill Details Inquiry"
+    transitions:
+      next: "checkWaitTime"
+
+  accountConcernMenu:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "What is the nature of your concern? Select from the options below."
+            separateBubbles: false
+            actions:
+            - label: Report a Payment
+              type: postback
+              payload:
+                action: Report a Payment
+            - label: Upgrade Plan
+              type: postback
+              payload:
+                action: Upgrade Plan
+            - label: Renew Plan
+              type: postback
+              payload:
+                action: Renew Plan
+            - label: Report Lost SIM
+              type: postback
+              payload:
+                action: Report Lost SIM
+    transitions:
+      actions:
+        Report a Payment: setAccountConcernReportAPaymentSubcaseType
+        Upgrade Plan: setAccountConcernUpgradePlanSubcaseType
+        Renew Plan: setAccountConcernRenewPlanSubcaseType
+        Report Lost SIM: setAccountConcernReportLostSIMSubcaseType
+        textReceived: "intent"
+
+  setAccountConcernReportAPaymentSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Report a Payment"
+    transitions:
+      next: "checkWaitTime"
+
+  setAccountConcernUpgradePlanSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Upgrade Plan"
+    transitions:
+      next: "checkWaitTime"
+
+  setAccountConcernRenewPlanSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Renew Plan"
+    transitions:
+      next: "checkWaitTime"
+
+  setAccountConcernReportLostSIMSubcaseType:
+    component: "System.SetVariable"
+    properties:
+      variable: subcaseType
+      value: "FAQ - Report Lost SIM"
+    transitions:
+      next: "checkWaitTime"
+
+
+  productInquiry:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "productInquiry"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "For us to be able to assist you further, please type in your inquiry."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "checkWaitTime"
+      actions: 
+        cancelOperation: "confirmAssist"  
+
+  checkWaitTime:
+    component: "checkWaitTime"
+    properties:
+      deploymentid: "5722u0000008OJY"
+      buttonid: "5732u000000CaSp"
+    transitions:
+      actions:
+        zerominute: "connectCSRMsg"
+        zerotothirtyminutes: "contactCSRWait"
+        #sixtyminutes: "contactCSRWait"
+        sixtyminutes: "rejected"
+        
+  connectCSRMsg:
+    component: "System.SetVariable"
+    properties:
+      variable: "csrmessage"
+      value:
+      - "Thanks for reaching out to us. I’ll try to connect you to a Customer Service Representative to handle your concern."
+      - " "
+      - "Our Customer Service Representatives may ask for your account information to validate your identity. Would you like to continue?"
+      - " "
+      - "Click Yes to continue."
+      - "Click No to end the chat session."
+     
+  connectCSR:
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "<#list csrmessage.value as text>${text}\n</#list>" 
+          separateBubbles: true
+          actions:
+          - label: "Yes"
+            type: "postback"
+            payload:
+              action: "Yes"
+          - label: "No"
+            type: "postback"
+            payload:
+              action: "No"
+      processUserMessage: true
+    transitions:
+      actions:
+        Yes: "setUserEmail"
+        No: "offerSomeHelpOnYes"
+        textReceived: "intent"
+
+  contactCSRWait:
+    component: "System.CommonResponse"
+    properties:
+      variable: "YesNo"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "Thanks for reaching out to us. I’ll try to connect you to a Customer Service Representative to handle your concern.\n\nOur Customer Service Representatives may ask for your account information to validate your identity.Would you like to continue?\n\nClick Yes to continue.\nClick No to end the chat session."
+          separateBubbles: true
+          actions:
+          - label: "Yes"
+            type: "postback"
+            payload:
+              action: "Yes"
+          - label: "No"
+            type: "postback"
+            payload:
+              action: "No"
+      processUserMessage: true
+    transitions:
+      actions:
+        Yes: "contactCSRNextInLine"
+        No: "offerSomeHelpOnYes"
+        textReceived: "intent"
+
+  contactCSRNextInLine:
+    component: "System.Output"
+    properties:
+      text: "Sorry, all our Customer Service Representatives are currently engaged. \n\nIf you can hold for a few of minutes, we’ll assist you as soon as we can.\n\nYour estimated wait time is: ${waitTimeMinute} minute(s)."
+      keepTurn: true
+    transitions:
+      next: "contactCSRNextInLineConfirmation"
+
+  contactCSRNextInLineConfirmation:
+    component: "System.CommonResponse"
+    properties:
+      variable: "YesNo"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "Would you like to continue?\n\nClick Yes to stay in line.\nClick No to create a Help Ticket instead.\n\nYou may also type “Menu” to go back to the Main Menu.“Exit” to end our session."
+          separateBubbles: true
+          actions:
+          - label: "Yes"
+            type: "postback"
+            payload:
+              action: "Yes"
+          - label: "No"
+            type: "postback"
+            payload:
+              action: "No"
+      processUserMessage: true
+    transitions:
+      actions:
+        Yes: "contactCSRConfirmWait"
+        No: "additionalDetails" #"getEmailAddress"
+        textReceived: "intent"
+        
+  contactCSRConfirmWait:
+    component: "System.Output"
+    properties:
+      text: "Please hold for the next available agent. I’ll give you your number in line and estimated wait time. Thank you."
+      keepTurn: true
+    transitions:
+      next: "setUserEmail"        
+
+########################################################################################
+#Start Live Chat                                                                       #
+########################################################################################
+
+  agentConnectingSpiel:
+    component: "System.Output"
+    properties:
+      text: "One of our Customer Service Representatives will be chatting with you shortly."
+      keepTurn: true
+    transitions:
+      next: "setUserEmail"
+      
+  setUserEmail:
+    component: "System.SetVariable"
+    properties:
+      variable: "email"
+      value: ${profile.email}
+    transitions:
+      next: "setUserFirstName"
+
+  setUserFirstName:
+    component: "System.SetVariable"
+    properties:
+      variable: "firstname"
+      value: ${profile.firstname}
+    transitions:
+      next: "setUserLastName"
+
+  setUserLastName:
+    component: "System.SetVariable"
+    properties:
+      variable: "lastname"
+      value: ${profile.lastname}    
+    transitions:
+      next: "setCustomProperties"
+        
+  setCustomProperties:
+    component: "System.SetVariable"
+    properties:
+      variable: "myCustomProps"
+      value:
+        Category: "SMART Non Tech Queue Live Chat"
+        Skill: "FAQs"
+    transitions:
+      next: "startContactAgent"
+  
+  startContactAgent:
+    component: "System.AgentInitiation"
+    properties:
+      subject: "${question}"
+      agentChannel: "AgentFrameworkProd"          
+      customProperties: "${myCustomProps.value}"
+      waitingMessage:  "One of our Customer Service Representatives will be chatting with you shortly."
+      rejectedMessage: " "
+    transitions:
+      actions:
+        accepted: "agentConversation"
+        rejected: "rejected"
+        
+  agentConversation:
+    component: "System.AgentConversation"
+    properties:
+      agentChannel: "AgentFrameworkProd"               
+      expiryMessage: "Your chat with the agent timed out. We will redirect you back again to Smart Digital Assistant."
+      conclusionMessage: " "
+    transitions:
+      actions:
+        expired: "agentRedirection"
+        next: "endMsg"
+      
+  agentRedirection:
+    component: "System.Output"
+    properties:
+      text: "Agent left the conversation"
+      keepTurn: true
+    transitions:
+      next: "endMsg"
+      
+  endMsg:
+    component: "System.Output"
+    properties:
+      text: "We'll redirect you back again to Smart Chatbot.\n\nThank you for using the Smart Chatbot. Have a great day! If you need help with your account, just type 'Menu'."
+    transitions:
+      return: "done"
+
+  endQnaMsg:
+    component: "System.Output"
+    properties:
+      text: "Thank you for using the Smart Chatbot. Have a great day! \n\nIf you need help with your account, just type “Menu”"
+    transitions:
+      return: "done"
+###################################################################################
+# End Live Chat                                                                   #
+################################################################################### 
+
+  rejected:
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "Sorry, all our Customer Service Representatives are currently engaged. I can still accept your request and provide you with feedback within 6 hours. \n\nWould you like to proceed? Select Yes to create a Help Ticket or No to end the chat session." 
+          separateBubbles: true
+          actions:
+          - label: "Yes"
+            type: "postback"
+            payload:
+              action: "Yes"
+          - label: "No"
+            type: "postback"
+            payload:
+              action: "No"
+      processUserMessage: true
+    transitions:
+      actions:
+        Yes: "additionalDetails"
+        No: "goodbye"
+        textReceived: "intent"
+        
+  additionalDetails:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "addDetails"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Please type in additional details to further help us understand your concern."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "setInvalidMobileCountAgent"
+      actions: 
+        cancelOperation: "confirmAssist"
+################ Mobile Number Validation #######################################################
+  setInvalidMobileCountAgent:
+    component: "System.SetVariable"
+    properties:
+      variable: invalidMobileCount
+      value: "A"
+    transitions: 
+      next: "getMobileNum"
+
+  getMobileNum:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "mobileNum"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Please enter the concerned mobile number (11-digit mobile number Ex. 09998765432)."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateMobileNum"
+      actions: 
+        cancelOperation: "confirmAssist"
+
+  confirmAssist:
+    component: "System.CommonResponse"
+    properties:
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "Is there anything else I can help you with?"
+          separateBubbles: true
+          actions:
+          - label: "Go to Help Menu"
+            type: "postback"
+            payload:
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotohelpmenu')}"
+          - label: "Go to Main Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+          - label: "End Conversation"
+            type: "postback"
+            payload: 
+              action: "End Conversation"
+      processUserMessage: true
+    transitions:
+      actions:
+        End Conversation: "byeThanks"
+        textReceived: "intent"
+        
+  validateMobileNum:
+    component: checkMobileFormat
+    properties:
+      mobile: "${mobileNum.value}"
+    transitions:
+      actions:
+        valid: "setInvalidOtherMobileCount" 
+        invalid: "setInvalidSmart"
+        invalidFormat: "setInvalidFormat"
+        
+  setInvalidSmart:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidSmart"
+    transitions:
+      next: "refreshMobileNum"
+      
+  setInvalidFormat:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidFormat"
+    transitions:
+      next: "refreshMobileNum"
+        
+        
+  refreshMobileNum:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "mobileNum"
+    transitions:
+      next: "setInvalidMobileCounter"
+  
+  setInvalidMobileCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "invalidMobileCount"
+      value: "${invalidMobileCount.value}${invalidMobileCount.value}" 
+  
+  mobileCounter:
+    component: "System.ConditionEquals"
+    properties:
+      variable: "invalidMobileCount"
+      value: "AAAAAAAA"
+    transitions:
+      actions:
+        equal: "maxPromptError"
+        notequal: "errorSwitch"
+        
+  errorSwitch:
+    component: "System.Switch"
+    properties:
+      variable: errorName
+      values:
+        - "invalidSmart"
+        - "invalidFormat"
+    transitions:
+      actions:
+        "invalidSmart": "invalidSmartNumber"
+        "invalidFormat": "invalidNumberFormat"
+        
+  invalidSmartNumber:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "mobileNum"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Sorry! You have entered an invalid mobile number Please try again and enter your 11-digit Smart/TnT mobile number. (ex. 09998765432)\n\nThank you."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateMobileNum"
+      actions: 
+        cancelOperation: "confirmAssist"
+      
+  invalidNumberFormat:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "mobileNum"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "You have entered an invalid mobile number. Please try again and enter your 11-digit Smart mobile number. Ex. 09998765432)\n\nThank you."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateMobileNum"
+      actions: 
+        cancelOperation: "confirmAssist" 
+
+  setInvalidOtherMobileCount:
+    component: "System.SetVariable"
+    properties:
+      variable: invalidContactCount
+      value: "A"
+    transitions:
+      next: "otherContact"
+        
+  otherContact:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "mobileNum2"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Please provide your other contact number where we can reach you. 11-digit mobile number or 10-digit landline (including area code).\n\nEx. for mobile: 09998765432, for landline: 0287654321.\n\nIf you have no other number, please type 'None'."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateotherContactNum"
+      actions: 
+        cancelOperation: "confirmAssist"
+
+  validateotherContactNum:
+    component: checkotherContact
+    properties:
+      mobile: "${mobileNum2.value}"
+    transitions:
+      actions:
+        valid: "confirmDetails" 
+        invalid: "refreshContactNum"
+        invalidFormat: "refreshContactNum"
+          
+  refreshContactNum:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "mobileNum2"
+    transitions:
+      next: "setInvalidContactCounter"
+  
+  setInvalidContactCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "invalidContactCount"
+      value: "${invalidContactCount.value}${invalidContactCount.value}" 
+  
+  contactCounter:
+    component: "System.ConditionEquals"
+    properties:
+      variable: "invalidContactCount"
+      value: "AAAAAAAA"
+    transitions:
+      actions:
+        equal: "maxPromptError"
+        notequal: "invalidContactNumber"
+        
+  invalidContactNumber:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "mobileNum2"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "You have entered an incorrect other contact number format.\n\nPlease try again and enter your alternative contact number where we can reach you.\n\nExample for mobile: 09998765432, for landline: 0287654321."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateotherContactNum"
+      actions: 
+        cancelOperation: "confirmAssist" 
+        
+  maxPromptError:  
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      maxPrompts: 10
+      metadata:
+        responseItems:        
+        - type: "text"
+          text:  "Sorry, you have exceeded the number of invalid attempts.\n\nSelect ‘FAQs’ to try again or ‘Main Menu’ to see what else I can help you with."
+          separateBubbles: true
+          actions:
+          - label: "FAQs"
+            type: "postback"
+            payload:
+              action: "FAQs"
+          - label: "Main Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+      processUserMessage: true
+    transitions:
+      actions:
+        FAQs: "showBrandMenu"
+        textReceived: "intent"
+        
+ ######################### END Mobile Number Validation #############################  
+ 
+ ########### Primary Email Contact Validation ######################## 08/17/2021 Chatbot Insights Resolve entities to Component Validation - EmailAddress
+  getEmailAddress:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "emailAddress"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Please enter the email address you are using. (ex. customer@email.com)"
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validatePrimeEmail"
+      actions: 
+        cancelOperation: "confirmAssist"
+
+
+  validatePrimeEmail:
+    component: checkEmailFormat
+    properties:
+      Email: "${emailAddress.value}"
+    transitions:
+      actions:
+        valid: "reTypeEmailAddress"
+        invalid: "setInvalidPrime" #  
+        invalidFormat: "setInvalidPrimeFormat" # 
+        
+  setInvalidPrime:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidPrime"
+    transitions:
+      next: "refreshEmail"
+      
+  setInvalidPrimeFormat:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidPrimeFormat"
+    transitions:
+      next: "refreshEmail"
+                
+  refreshEmail:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "emailAddress"
+    transitions:
+      next: "setInvalidEmailCounter"
+
+  setInvalidEmailCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "invalidEmailCount"
+      value: "${invalidEmailCount.value}${invalidEmailCount.value}" 
+  
+  emailCounter:
+    component: "System.ConditionEquals"
+    properties:
+      variable: "invalidEmailCount"
+      value: "AAAAAAAA"
+    transitions:
+      actions:
+        equal: "maxPromptError"
+        notequal: "errorEmailSwitch"
+
+  errorEmailSwitch:
+    component: "System.Switch"
+    properties:
+      variable: errorName
+      values:
+        - "invalidPrime"
+        - "invalidPrimeFormat"
+    transitions:
+      actions:
+        "invalidSmart": "maxPromptError"
+        "invalidFormat": "maxPromptError"
+        
+
+########### Other Email Contact Validation ########################
+  reTypeEmailAddress:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "emailAddress2"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "Re-type the email address for confirmation. (ex. customer@email.com). This should match the first email address you provided."
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "validateSecondEmail" 
+      actions: 
+        cancelOperation: "confirmAssist"
+
+  validateSecondEmail:
+    component: checkEmailFormat
+    properties:
+      Email: "${emailAddress2.value}"
+    transitions:
+      actions:
+        valid: "checkEmailMatch"
+        invalid: "setInvalidSmart" # x 
+        invalidFormat: "setInvalidFormat" # x
+
+  setInvalidSecond:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidSecond"
+    transitions:
+      next: "refreshSecondEmail"
+      
+  setInvalidSecondFormat:
+    component: "System.SetVariable"
+    properties:
+      variable: errorName
+      value: "invalidSecondFormat"
+    transitions:
+      next: "refreshSecondEmail"
+                
+  refreshSecondEmail:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "emailAddress2"
+    transitions:
+      next: "setInvalidSecondEmailCounter"
+
+  setInvalidSecondEmailCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "invalidSecondEmailCount"
+      value: "${invalidEmailCount.value}${invalidEmailCount.value}" 
+  
+  emailSecondCounter:
+    component: "System.ConditionEquals"
+    properties:
+      variable: "invalidSecondEmailCount"
+      value: "AAAAAAAA"
+    transitions:
+      actions:
+        equal: "maxPromptError"
+        notequal: "errorEmailSecondSwitch"
+
+  errorEmailSecondSwitch:
+    component: "System.Switch"
+    properties:
+      variable: errorName
+      values:
+        - "invalidPrime"
+        - "invalidPrimeFormat"
+    transitions:
+      actions:
+        "invalidSmart": "maxPromptError"
+        "invalidFormat": "maxPromptError"
+        
+
+##################check matching email flow ################
+  checkEmailMatch:
+    component: "System.ConditionEquals"
+    properties:
+      source: "${emailAddress.value}"
+      value: "${emailAddress2.value}"
+    transitions:
+      actions:
+        equal: "confirmDetails"
+        notequal: "emailNotMatch"
+        
+  emailNotMatch:  
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      maxPrompts: 10
+      metadata:
+        responseItems:        
+        - type: "text"
+          text:  "<#if system.invalidUserInput ==  'true'></#if>The email address did not match the first email address provided.\n\nSelect ‘Help Menu’ to try again or ‘Go to Main Menu’ to see what else I can help you with."
+          separateBubbles: true
+          actions:
+          - label: "Help Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotohelpmenu')}"
+          - label: "Go to Main Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+      processUserMessage: true
+    transitions:
+      actions:
+        textReceived: "intent"
+        
+########################################################################################
+#Start Case Creation                                                                   #
+########################################################################################
+      
+  confirmDetails:
+    component: "System.SetVariable"
+    properties:
+      variable: "customerdetails"
+      value:
+      - "Thank you for the information! Please confirm if the details are correct."
+      - " "
+      - "Type: ${subcaseType}"
+      - "Concern: ${addDetails}"
+      - "Date of Report: ${(.now?long + 28000000)?number_to_date?string['MM/dd/yyyy']}"
+      - "Mobile number: ${mobileNum}"
+      - "Other Contact Number: ${mobileNum2}"
+      - " "
+      - "Are the details correct? Select Yes to proceed or No to change details."
+      #- "Email Address: ${emailAddress}"
+
+  #requestBillCopy:
+    #component: "System.Output"
+    #properties:
+      #text: "<#list customerdetails.value as text>${text}\n</#list>" 
+      #keepTurn: true
+    #transitions:
+      #next: "confirmRec"
+      
+  confirmRec:  
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      maxPrompts: 10
+      metadata:
+        responseItems:        
+        - type: "text"
+          text: "<#list customerdetails.value as text>${text}\n</#list>" 
+          #text:  "<#if system.invalidUserInput ==  'true'>\ 
+          #\ </#if>For us to process your request we need to access your records, if you agree please select ‘Proceed’ . If you wish to make some changes with your request, please select ‘Change Details’"
+          separateBubbles: true
+          actions:
+          - label: "Yes"
+            type: "postback"
+            payload:
+              action: "Yes"
+          - label: "No"
+            type: "postback"
+            payload: 
+              action: "No"
+      processUserMessage: true
+    transitions:
+      actions:
+        Yes: "FAQCaseCreation" 
+        No: "refreshDetails"
+        textReceived: "intent"
+        
+  refreshDetails:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "addDetails, mobileNum, mobileNum2, emailAddress, emailAddress2, customerdetails"
+    transitions:
+      next: "additionalDetails"
+      
+  FAQCaseCreation:
+    component: "caseCreation"
+    properties:
+      skillName:  "FAQs"
+      firstName: "${profile.firstName}"
+      lastName: "${profile.lastName}"
+      subMenu: "FAQs" #original "${subcaseType}"
+      message: "${customerdetails}"
+      userId: "${profile.firstName}, ${profile.lastName}"
+      email: "${emailAddress2}"
+      RecordTypeId: "0122u000000PGpZAAW"
+      OwnerId: "00G2u000000czEGEAY"
+      Subject: "SMART-Ordertake"
+                                    
+                                
+    transitions:
+      actions:
+        valid: "caseCreated"
+        invalid: "invalidCaseCreation"
+        failure: "failedCase"
+        
+  caseCreated:
+    component: "System.Output"
+    properties:
+      text: "Your concern is now with our support team\n\nPlease keep your lines open, someone from our team will get in touch with you through the contact numbers provided within 6 hours."
+      keepTurn: true
+    transitions:
+      next: "offerSomeHelpOnYes"
+
+  invalidCaseCreation:
+    component: "System.CommonResponse"
+    properties:
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+        - type: "text"
+          text: "Invalid Case Creation." 
+          separateBubbles: true
+          actions:
+          - label: "Go to Main Menu"
+            type: "postback"
+            payload: 
+              action: "system.textReceived"
+              variables:
+                system.text: "${rb('gotomainmenu')}"
+      processUserMessage: true
+    transitions:
+      actions:
+        textReceived: "intent"
+  
+  failedCase:
+    component: "System.Output"
+    properties:
+      text: "Case Not Created"
+    transitions:
+      return: "done"
+      
+########################################################################################
+#End Case Creation                                                                     #
+########################################################################################
+
+###################################################################################
+# Main Menu
+###################################################################################  
+  showBrandMenu:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      nlpResultVariable: "iResult"
+      metadata:
+        responseItems:
+          - type: text
+            text: "Which brand are you using? Select a Smart brand below."
+            name: Brand Menu
+            separateBubbles: true
+            actions:
+            - label: Smart Prepaid
+              type: postback
+              payload:
+                action: Smart_Prepaid
+              name: Smart Prepaid
+            - label: Smart Postpaid
+              type: postback
+              payload:
+                action: Smart_Postpaid
+              name: Smart Postpaid
+            - label: Smart Bro Prepaid
+              type: postback
+              payload:
+                action: SmartBro_Prepaid
+              name: Smart Bro Prepaid
+            - label: Smart Bro Postpaid
+              type: postback
+              payload:
+                action: SmartBro_Postpaid
+              name: Smart Bro Postpaid
+            - label: TNT
+              type: postback
+              payload:
+                action: TNT
+              name: TNT
+    transitions:
+      actions:
+        Smart Prepaid: setSmartPrepaid
+        Smart_Postpaid: setSmartPostpaid
+        SmartBro_Prepaid: setSmartBroPrepaid
+        SmartBro_Postpaid: setSmartBroPostpaid
+        TNT: setTNT
+        textReceived: "intent"
+
+  setSmartPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: brandName
+      value: "Smart Prepaid"
+    transitions: {}
+    
+  setFAQPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: faqSetup
+      value: "prepaidFAQ"
+    transitions: {}
+  
+  #set madallia variable for brand and product
+  setMedalliaBrandPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions: {}
+  
+  setMedalliaProductPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "Prepaid"
+    transitions: {}
+    
+  setMedalliaButtonPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaButtonName
+      value: "Smart Prepaid"
+    transitions: {}
+  #end set medallia variable for brand and product  
+
+  setPrepaidHelpURL:
+    component: System.SetVariable
+    properties:
+      variable: needHelpURL
+      value: "https://smrt.ph/HelpPrepaid"
+    transitions:
+      next: brandSwitch
+
+  setSmartPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: brandName
+      value: "Smart Postpaid"
+    transitions: {}
+    
+  setFAQPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: faqSetup
+      value: "postpaidFAQ"
+    transitions: {}
+    
+  #set madallia variable for brand and product
+  setMedalliaBrandPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions: {}
+  
+  setMedalliaProductPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "Postpaid"
+    transitions: {}
+    
+  setMedalliaButtonPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: medalliaButtonName
+      value: "Smart Postpaid"
+    transitions: {}
+  #end set medallia variable for brand and product  
+  
+  setPostpaidHelpURL:
+    component: System.SetVariable
+    properties:
+      variable: needHelpURL
+      value: "https://smrt.ph/HelpPostpaid"
+    transitions:
+      next: brandSwitch
+      
+  setSmartBroPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: brandName
+      value: "Smart Bro Prepaid"
+    transitions: {}
+    
+  setFAQBroPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: faqSetup
+      value: "broPrepaidFAQ"
+    transitions: {}
+  
+  #set madallia variable for brand and product
+  setMedalliaSmartBroPrepaidBrandName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart Bro"
+    transitions: {}
+  
+  setMedalliaSmartBroPrepaidProductName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "Prepaid"
+    transitions: {}
+    
+  setMedalliaSmartBroPrepaidButtonName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaButtonName
+      value: "Smart Bro Prepaid"
+    transitions: {}
+  #end set medallia variable for brand and product 
+  
+  setBroPrepaidHelpURL:
+    component: System.SetVariable
+    properties:
+      variable: needHelpURL
+      value: "https://smrt.ph/HelpBro"
+    transitions:
+      next: brandSwitch
+  
+  setSmartBroPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: brandName
+      value: "Smart Bro Postpaid"
+    transitions: {}
+    
+  setFAQBroPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: faqSetup
+      value: "broPostpaidFAQ"
+    transitions: {}
+    
+  #set madallia variable for brand and product
+  setMedalliaSmartBroPostpaidBrandName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart Bro"
+    transitions: {}
+  
+  setMedalliaSmartBroPostpaidProductName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "Postpaid"
+    transitions: {}
+    
+  setMedalliaSmartBroPostpaidButtontName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaButtonName
+      value: "Smart Bro Postpaid"
+    transitions: {}
+  #end set medallia variable for brand and product  
+    
+  setBroPostpaidHelpURL:
+    component: System.SetVariable
+    properties:
+      variable: needHelpURL
+      value: "https://smrt.ph/HelpBro"
+    transitions:
+      next: brandSwitch      
+ 
+  setTNT:
+    component: System.SetVariable
+    properties:
+      variable: brandName
+      value: "TNT"
+    transitions: {}
+    
+  setFAQTNT:
+    component: System.SetVariable
+    properties:
+      variable: faqSetup
+      value: "TNTFAQ"
+    transitions: {} 
+    
+  #set madallia variable for brand and product
+  setMedalliaTntPostpaidBrandName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "TNT"
+    transitions: {}
+  
+  setMedalliaTntPostpaidProductName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "Prepaid"
+    transitions: {}
+
+  setMedalliaTntbuttonName:
+    component: System.SetVariable
+    properties:
+      variable: medalliaButtonName
+      value: "TNT"
+    transitions: {}
+  #end set medallia variable for brand and product  
+
+  setTNTHelpURL:
+    component: System.SetVariable
+    properties:
+      variable: needHelpURL
+      value: "https://tntph.com"
+    transitions:
+      next: brandSwitch
+  
+  brandSwitch:
+    component: System.CommonResponse
+    properties:
+      keepTurn: true
+      processUserMessage: true
+      metadata:
+        responseItems:
+        - type: text
+          text: "FAQs Menu for ${brandName.value}. Select from the options below."
+          name: Brand Menu
+          separateBubbles: true
+          actions:
+            - label: Top 5 FAQs
+              type: postback
+              payload:
+                action: FAQs
+              name: FAQs
+            - label: Need More Help?
+              type: postback
+              payload:
+                action: Need More Help
+              name: Need More Help
+            - label: Ask Us a Question
+              type: postback
+              payload:
+                action: Ask Us a Question
+              name: Ask Us a Question
+    transitions:
+      next: askAQuestion 
+      actions:
+        FAQs: ${faqSetup.value}
+        Ask Us a Question: askAQuestion
+        Need More Help: offerURL
+        textReceived: intent
+      
+  offerURL:
+    component: System.Output
+    properties:
+      text: "To know more about ${brandName.value} please click the link below and you will be redirected to their support page. \n\n${needHelpURL.value}"
+      keepTurn: true
+    transitions:
+      next: setMedalliaVariableForIntentForHelpfulLinks #needMoreHelp #original set medallia variable
+      
+  ## set medallia intent for FAQ for helpful links ##
+  #set madallia variable for intent FAQ
+  setMedalliaVariableForIntentForHelpfulLinks:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Need more help - ${medalliaButtonName}" #${needHelpURL.value}
+    transitions:                                                                                                                 
+      next: needMoreHelp   
+
+  needMoreHelp:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      metadata:
+        responseItems:
+          - type: text
+            text: "Was I able to help you with your concern? Select Yes to go to the Menu or No to be able to talk to a Customer Service Representative."
+            name: Menu
+            separateBubbles: true
+            actions:
+            - label: "Yes"
+              type: postback
+              payload:
+                action: "Yes"
+              name: "Yes"
+            - label: "No"
+              type: postback
+              payload:
+                action: "No"
+              name: "No"
+    transitions:
+      actions:
+        "Yes": "setMedalliaViriableForSwitchYesAndNo" #original "offerSomeHelpOnYes" #trigger medallia survey on yes medallia 08/21/2022
+        "No": offerSomeHelpOnNo
+        textReceived: intent
+
+  askAQuestion:
+    component: "System.SetVariable"
+    properties:
+      variable: askAQuestionstring
+      value:
+      - "Let me know how I can help you. Ask me a question about Smart’s products and I'll get back to you with the best answer. For Billing and Account issues, you may type “Chat with Live Agent”"
+  
+  respondToGreeting:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      variable: "faqstring"
+      metadata: 
+        responseItems:        
+        - type: "text"
+          text: "<#list askAQuestionstring.value as text>${text}\n\n</#list>"
+        globalActions: 
+        - label: "Exit"
+          type: "postback"
+          keyword: "Main Menu,Exit,Bye,Menu,chat with agent,agent"
+          payload: 
+            action: "cancelOperation"   
+    transitions: 
+      next: "intent"
+      actions: 
+        cancelOperation: "confirmAssist"
+###################################################################################
+# Show Top 5 FAQs
+###################################################################################
+  prepaidFAQ:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: setPrepaid
+  setPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: "topic"
+      value:
+        - name: What is the SIM Card Registration Law and how do I register my Smart Prepaid SIM?
+        - name: How to Reload my Smart Prepaid Account?
+        - name: How to monitor mobile data usage?
+        - name: How to use Pasaload?
+        - name: How to activate roaming for Prepaid?
+    transitions: 
+      next: showCart
+
+  postpaidFAQ:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: setPostpaid
+  setPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: "topic"
+      value:
+        - name: What is the SIM Card Registration Law and how do I register my Smart Postpaid SIM?
+        - name: How to Apply for a Smart Postpaid Plan Online? 
+        - name: How Can I Check my Postpaid Balance or Bill?
+        - name: How to Reconnect a Redirected Postpaid Line?
+        - name: Can Postpaid Subscribers Transfer Load via Pasaload?
+      # - name: How Do I Monitor my Smart Postpaid Mobile Data Usage?
+    transitions: 
+      next: showCart
+
+  broPrepaidFAQ:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: setbroPrepaid
+  setbroPrepaid:
+    component: System.SetVariable
+    properties:
+      variable: "topic"
+      value:
+        - name: What is the SIM Card Registration Law and how do I register my Smart Bro Prepaid SIM? # How to Reload my Smart Bro Prepaid Account? 
+        - name: How do I subscribe to Smart Bro Prepaid?
+        - name: How do I know my Smart Bro number?
+        - name: How do I check my Smart Bro balance?
+        - name: How to change your Smart Bro device settings?
+    transitions: 
+      next: showCart
+
+  broPostpaidFAQ:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: setbroPostpaid
+  setbroPostpaid:
+    component: System.SetVariable
+    properties:
+      variable: "topic"
+      value:
+        - name: What is the SIM Card Registration Law and how do I register my Smart Bro Postpaid SIM?
+        - name: How to Apply for a Smart Bro Postpaid Individual Plan? 
+      # - name: Can I purchase add-ons for my Smart Bro Postpaid?
+        - name: How do I know my Smart Bro number?
+        - name: How do I check my Smart Bro balance?
+        - name: How to change your Smart Bro device settings?
+    transitions: 
+      next: showCart
+
+  TNTFAQ:
+    component: System.ResetVariables
+    properties:
+      variableList: faqstring1
+    transitions:
+      next: setTNTqna
+  setTNTqna:
+    component: System.SetVariable
+    properties:
+      variable: "topic"
+      value:
+        - name: Ano ang SIM Card Registration Act at paano i-register ang SIM ko?
+        - name: Paano mag Reload ng TNT Account?
+        - name: Paano mag Pasaload?
+        - name: May 5G SIM ba ang TNT? # How do I check the expiration of subscriptions to promos?
+        - name: Ano ang TNT Camp Saya? # "Why can't I find Giga Offers on the New Smart App?"
+        # - name: Can I upgrade my TNT SIM to an LTE SIM?
+    transitions: 
+      next: showCart
+
+
+###################################################################################
+# Show Cart (State that will be used by services states)
+###################################################################################
+  showCart:
+    component: System.Output
+    properties:
+      text: "Here you may select from the Top 5 FAQs for ${brandName.value}"
+      keepTurn: true
+    transitions: {}
+  showCartMenu:
+    component: "System.CommonResponse"
+    properties:
+      processUserMessage: true
+      keepTurn: false
+      metadata: 
+        responseItems:
+          - type: cards
+            cardLayout: horizontal
+            cards:
+              - title: "${topic.name}"
+                iteratorVariable: topic
+                rangeSize: 5
+                # actions defined here are added to the card.  
+                actions:
+                  - label: "View"
+                    type: postback
+                    payload:
+                      action: myqna
+                      variables:
+                        faqstring1: "${topic.name}"        
+#        - type: "text"  
+#          text: "Top 5 FAQs for ${brandName.value}"  
+#          separateBubbles: false
+#        - type: "text"  
+#          text: "Here are the Top 5 FAQs for ${brandName.value}" 
+#          actions: 
+#          - label: "${topic.name}"
+#            type: "postback"
+#            keyword: 
+#            payload: 
+#              action: "myqna"  
+#              variables: 
+#                faqstring1: "${topic.name}"
+#            iteratorVariable: topic
+    transitions: 
+      actions: 
+        myqna: myqna
+        textReceived: intent
+      
+###################################################################################
+# Helpful Links
+###################################################################################
+  setHelpfulLinksMsg:
+    component: System.SetVariable
+    properties:
+      variable: messages
+      value:
+        SmartOnlineURLmsg:
+        - "To manage your My Smart Account, click this link https://smrt.ph/MySmart and you will be redirected to the My Smart website."
+        - ""
+        - "To go back to Main Menu, type “Menu”"
+        #- "(You are about to leave the Chatbot)"
+        NetCoverageURLmsg:
+        - "To check the network coverage in your location, you will be redirected to the Smart Network Coverage Locator."
+        - "Click on link below to continue."
+        - "https://smrt.ph/OurNetwork"
+        #- "(You are about to leave the Chatbot)"
+        NearestStoreURLmsg:
+        - "To know the nearest Smart Store that can cater to your needs, you will be redirected to the Smart Store Locator."
+        - "Click on link below to continue."
+        - "https://smrt.ph/StoreLocator"
+        #- "(You are about to leave the Chatbot)"
+        Smart5gURLmsg:
+        - "To know more about Smart 5g, you will be redirected to the Smartopedia."
+        - "Click on link below to continue."
+        - "https://smrt.ph/5G_Smart"
+        #- "(You are about to leave the Chatbot)"
+        SmartOnlineChannelsURLmsg:
+        - "To know more about the Smart Online Channels, you will be redirected to our Smartopedia."
+        - "Click on link below to continue."
+        - "https://smrt.ph/Help_OnlineChannels"
+        #- "(You are about to leave the Chatbot)"
+        DataPrivacyURLmsg:
+        - "To know more about the Data Privacy."
+        - "Click on link below to continue."
+        - "https://smrt.ph/ChatbotDP"
+    transitions: {}
+
+  setHelpfulLinkMessage:
+    component: "System.SetVariable"
+    properties:
+      variable: "helpfulLinkMsg"
+      value:
+      - "Here are links to the Smart Website that you might find useful."
+
+
+  helpfulLinkMessage:
+    component: "System.Output"
+    properties:
+      text: "<#list helpfulLinkMsg.value as text>${text}\n</#list>" 
+      keepTurn: true
+    transitions: {}
+      
+  helpfulLinksMenu:
+    component: System.CommonResponse
+    properties:
+      #keepTurn: true
+      processUserMessage: true
+      metadata:
+        responseItems:
+        - type: text
+          text: "Please select from the options below."
+          name: Helpful Links Menu
+          separateBubbles: false
+          actions:
+            - label: "SIM Registration Law"
+              type: postback
+              payload:
+                action: SIM Registration Law
+              name: Manage My Smart Account Online
+            - label: "My Smart Account"
+              type: postback
+              payload:
+                action: Manage My Smart Account Online
+              name: Manage My Smart Account Online
+            - label: "Data Privacy Notice"
+              type: postback
+              payload:
+                action: Data Privacy Notice
+              name: Data Privacy Notice
+            - label: "Smart 5G"
+              type: postback
+              payload:
+                action: Smart 5G
+              name: Smart 5G
+            - label: "Smart Store Near Me"
+              type: postback
+              payload:
+                action: Smart Store Near Me
+              name: Smart Store Near Me
+            - label: "Smart Online Channels"
+              type: postback
+              payload:
+                action: Smart Online Channels
+              name: Smart Online Channels
+            - label: "Network Coverage"
+              type: postback
+              payload:
+                action: Check My Network Coverage
+              name: Check My Network Coverage
+            - label: Go to FAQs Menu
+              type: postback
+              payload:
+                action: Go to FAQs Menu
+    transitions:
+      actions:
+        SIM Registration Law: setMedalliaVariableForIntentForSimRegistrationLaw #SIMRegOutput
+        Manage My Smart Account Online: setMedalliaVariableForIntentForMySmartAccount #showSmartOnlineURLMsg #original
+        Check My Network Coverage: setMedalliaVariableForIntentForNetworkCoverage #showNetCoverageURLMsg #original
+        Smart Store Near Me: setMedalliaVariableForIntentForSmartStoreNearMe #showNearestStoreURLMsg #original
+        Smart 5G: setMedalliaVariableForIntentForMySmart5G #showSmart5gURLMsg #original
+        Smart Online Channels: setMedalliaVariableForIntentForSmartOnlineChannels #showSmartOnlineChannelsURLMsg #original
+        Data Privacy Notice: setMedalliaVariableForIntentForDataPrivacyNotice #showDataPrivacyURLMsg #original
+        Go to FAQs Menu: greeting
+        textReceived: intent
+  
+  ##set medallia variable for helpful links for simregoutput added 12/21/2022
+  #set madallia variable for intent FAQ
+  setMedalliaVariableForIntentForSimRegistrationLaw:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - SIM Registration Law"
+    transitions:
+      next: setMedalliaVariableForIntentForSimRegistrationLawBrand
+      
+  setMedalliaVariableForIntentForSimRegistrationLawBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForSimRegistrationLawProduct
+  
+  setMedalliaVariableForIntentForSimRegistrationLawProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions: {}
+  # end for my account
+
+  SIMRegOutput:
+    component: System.Output
+    properties:
+      text:   "The SIM Card Registration Law\n\nRepublic Act No. 11934 mandates all SIM card users, both existing and new, to register their SIMs with their current Telcos. This protects the users from any form of fraudulent activity, scams, and other criminal activities using mobile phones.\n\nFor more information on how to register your SIM card, you may visit the following websites:\n\nFor Smart: https://smrt.ph/simregfaqs\n\nFor TNT: https://tntph.com/Pages/sim-reg"
+      keepTurn: true
+    transitions: 
+      next: "needMoreHelp"
+
+  ## set medallia variable for helpful links
+  #set madallia variable for intent FAQ
+  setMedalliaVariableForIntentForMySmartAccount:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - My Smart Account"
+    transitions:
+      next: setMedalliaVariableForIntentForMySmartAccountBrand
+      
+  setMedalliaVariableForIntentForMySmartAccountBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForMySmartAccountProduct
+  
+  setMedalliaVariableForIntentForMySmartAccountProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showSmartOnlineURLMsg
+  # end for my account
+  
+  # start for network coverage
+  setMedalliaVariableForIntentForNetworkCoverage:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - Network Coverage"
+    transitions:
+      next: setMedalliaVariableForIntentForNetworkCoverageBrand
+      
+  setMedalliaVariableForIntentForNetworkCoverageBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForNetworkCoverageProduct
+  
+  setMedalliaVariableForIntentForNetworkCoverageProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showNetCoverageURLMsg
+  ## end for network coverage
+  
+  #start smart store near me
+  setMedalliaVariableForIntentForSmartStoreNearMe:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - Smart Store Near Me"
+    transitions:
+      next: setMedalliaVariableForIntentForSmartStoreNearMeBrand
+    
+  setMedalliaVariableForIntentForSmartStoreNearMeBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForSmartStoreNearMeProduct
+  
+  setMedalliaVariableForIntentForSmartStoreNearMeProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showNearestStoreURLMsg
+  ## end for smart store near me
+  
+  ## start for smart 5G
+  setMedalliaVariableForIntentForMySmart5G:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - Smart 5G"
+    transitions:
+      next: setMedalliaVariableForIntentForMySmart5GBrand
+      
+  setMedalliaVariableForIntentForMySmart5GBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForMySmart5GProduct
+  
+  setMedalliaVariableForIntentForMySmart5GProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showSmart5gURLMsg  
+  ## end for smart 5G
+  
+  ## start for smart online channels    
+  setMedalliaVariableForIntentForSmartOnlineChannels:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - Smart Online Channels"
+    transitions:
+      next: setMedalliaVariableForIntentForSmartOnlineChannelsBrand
+      
+  setMedalliaVariableForIntentForSmartOnlineChannelsBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForSmartOnlineChannelsProduct
+  
+  setMedalliaVariableForIntentForSmartOnlineChannelsProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showSmartOnlineChannelsURLMsg   
+  ## end for smart online channel
+  
+  ## start for data privacy
+  setMedalliaVariableForIntentForDataPrivacyNotice:
+    component: System.SetVariable
+    properties:
+      variable: MedalliaHandoverIntent
+      value: "Helpful links - Data Privacy Notice"
+    transitions:
+      next: setMedalliaVariableForIntentForDataPrivacyNoticeBrand
+      
+  setMedalliaVariableForIntentForDataPrivacyNoticeBrand:
+    component: System.SetVariable
+    properties:
+      variable: medalliaBrandName
+      value: "Smart"
+    transitions:
+      next: setMedalliaVariableForIntentForDataPrivacyNoticeProduct
+  
+  setMedalliaVariableForIntentForDataPrivacyNoticeProduct:
+    component: System.SetVariable
+    properties:
+      variable: medalliaProductName
+      value: "NA"
+    transitions:
+      next: showDataPrivacyURLMsg  
+  ## end for data privacy
+  ## end set medallia variable for helpful links
+  
+  showSmartOnlineURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.SmartOnlineURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions:
+      next: "needMoreHelp"
+      
+  setSmartOnlineURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/MySmart"
+    transitions:
+      next: confirmHelpfulLinks
+  
+  showNetCoverageURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.NetCoverageURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions: 
+      next: "needMoreHelp"
+      
+  setNetCoverageURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/OurNetwork"
+    transitions:
+      next: confirmHelpfulLinks
+  
+  showNearestStoreURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.NearestStoreURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions: 
+      next: "needMoreHelp"
+      
+  setNearestStoreURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/StoreLocator"
+    transitions:
+      next: confirmHelpfulLinks
+
+  showSmart5gURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.Smart5gURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions: 
+      next: "needMoreHelp"
+      
+  showSmart5gURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/5G_Smart"
+    transitions:
+      next: confirmHelpfulLinks
+  
+  showSmartOnlineChannelsURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.SmartOnlineChannelsURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions: 
+      next: "needMoreHelp"
+      
+  showSmartOnlineChannelsURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/Help_OnlineChannels"
+    transitions:
+      next: confirmHelpfulLinks
+
+  showDataPrivacyURLMsg:
+    component: System.Output
+    properties:
+      text: "<#list messages.value.DataPrivacyURLmsg as text>${text}\n \n</#list>"
+      keepTurn: true
+    transitions:
+      next: "needMoreHelp"
+      
+  setDataPrivacyURL:
+    component: System.SetVariable
+    properties:
+      variable: helpfulLinksURL
+      value: "https://smrt.ph/ChatbotDP"
+    transitions:
+      next: confirmHelpfulLinks
+
+  confirmHelpfulLinks:
+    component: System.CommonResponse
+    properties:
+      keepTurn: true
+      processUserMessage: true
+      metadata:
+        responseItems:
+        - type: text
+          text: "You are about to leave the Chatbot, would you like to proceed? "
+          name: Helpful Links Menu
+          separateBubbles: false
+          actions:
+            - label: "Yes"
+              type: url
+              payload:
+                url: ${helpfulLinksURL.value}
+              name: "Yes"
+            - label: "No, I would like to go to the FAQs Menu"
+              type: postback
+              payload:
+                action: "No"
+              name: "No, I would like to go to the FAQs Menu"
+            - label: Go to Main Menu
+              type: postback
+              payload:
+                action: "system.textReceived"
+                variables:
+                  system.text: "${rb('gotomainmenu')}"
+    transitions:
+      actions:
+        "No": greeting
+        textReceived: intent
+        
+###################################################################################
+# MEDALLIA FLOW                                                                   #
+###################################################################################
+
+  setMedalliaSetUserEmail:
+    component: "System.SetVariable"
+    properties:
+      value: "myemail@email.com"
+      variable: "profile.email"
+    transitions: {}
+    
+  setMedalliaSetUserFirstName:
+    component: "System.SetVariable"
+    properties:
+      value: "${profile.firstname}" 
+      variable: "profile.firstName"
+    transitions: {}
+    
+  setMedalliaSetUserLastName:
+    component: "System.SetVariable"
+    properties:
+      value: "${profile.lastname}"
+      variable: "profile.lastName"
+    transitions: {}
+    
+  setMedalliaHandoverUserName:
+    component: "System.SetVariable"
+    properties:
+      value: "${profile.firstName} ${profile.lastName}" #change name to firstname ${profile.firstName}
+      variable: "MedalliaHandoverUserName"
+    transitions: {}  
+
+  setMedalliaHandoverTelNum:
+    component: "System.SetVariable"
+    properties:
+      variable: "MedalliaHandoverTelNum"
+      value: "${(.now?long + 28840000)}" #"${MedalliaHandoverUserName}${MedalliaHandoverIntent}" #"${(.now?long + 28840000)}" #"${mobileNum.value}" #"${system.message.messagePayload.text}" #change telnumber var base on skill
+    transitions: {}
+    
+  setMedalliaCustomProperties:
+    component: "System.SetVariable"
+    properties:
+      variable: "MedalliaCustomProps"
+      value:
+        MECData:
+          - MedalliaHandoverMID: "${(.now?long + 28840000)}"
+          - MedalliaHandoverDateTime: "${(.now?long + 28840000)?number_to_datetime?string['MM/dd/yyyy HH:mm']}"
+          - MedalliaHandoverUserName: "${MedalliaHandoverUserName}"
+          - MedalliaHandoverMobileNum: "${MedalliaHandoverTelNum}"
+          - MedalliaHandoverSocial: "Smart Communications Inc."
+          - MedalliaHandoverSkill: "${MedalliaHandoverSkill}"
+          - MedalliaHandoverIntent: "${MedalliaHandoverIntent}"
+          - MedalliaHandoverFullfil: "Self-Service"
+          - MedalliaHandoverBrand: "${medalliaBrandName}"
+          - MedalliaHandoverChannel: "Chatbot"
+          - MedalliaHandoverProduct: "${medalliaProductName}"
+          - MedalliaHandoverIID: "${(.now?long + 28840000)}"
+          
+    transitions: {}
+          
+#  MedalliaCheckData:
+#    component: "System.SetVariable"
+#    properties:
+#      variable: "mecdatatobepassed"
+#      value:
+#      - "Kindly confirm the details:"
+#      - " "
+#      - "MID: ${(.now?long + 28840000)}"
+#      - "MEC_DT: ${(.now?long + 28840000)?number_to_datetime?string['MM/dd/yyyy HH:mm']}"
+#      - "MEC_UN: ${MedalliaHandoverUserName}"
+#      - "MEC_MOBILE: ${MedalliaHandoverTelNum}"
+#      - "MEC_SOCIAL: Smart Communications Inc"
+#      - "MEC_SKILL: ${MedalliaHandoverSkill}"
+#      - "MEC_INTENT: ${MedalliaHandoverIntent}"
+#      - "MEC_FULLFIL: Self-Service"
+#      - "MEC_BRAND: ${medalliaBrandName}"
+#      - "MEC_CHANNEL: Chatbot"
+#      - "MEC_PRODUCT: ${medalliaProductName}"
+#      - "IID: ${(.now?long + 28840000)}"
+#    transitions:
+#     next: "medalliaCheckpayload"
+      
+#  medalliaCheckpayload:
+#    component: "System.Output"
+#    properties:
+#      #text: "${system.message.messagePayload.channelExtensions}"
+#      #text: "${system.message.messagePayload.userId}"
+#      #text: "${system.message.userId}"
+#      #text: "${(.now?long + 28000000)"
+#      text: "${system.message}"
+#      keepTurn: true
+#    transitions:
+#      next: "medalliaRequestMessage"
+     
+#  medalliaRequestMessage:
+#    component: "System.Output"
+#    properties:
+#      text: "<#list mecdatatobepassed.value as text>${text}\n</#list>" 
+#      keepTurn: true
+    
+#  medalliaStartConvoMedallia:
+#    component: "System.Output"
+#    properties:
+#      text: "odaconnectsmart" #"rejectmessege"
+#      keepTurn: true
+#  #  transitions: 
+#  #    next: "rejectedMedallia" #added for testing only
+
+  startContactMedallia:
+    component: "System.AgentInitiation"
+    properties:
+      subject: "Medallia Survey From ODA"
+      agentChannel: "AgentFrameworkMedalliaProd"
+      #agentActions: "MyAction,Payments"
+      waitingMessage: " "
+      rejectedMessage: "survey is not available at the moment."
+      customProperties: "${MedalliaCustomProps.value}" 
+    transitions:
+      actions:
+        accepted: "medalliaConversation" 
+        rejected: "rejectedMedallia"
+        
+  medalliaConversation:
+    component: "System.AgentConversation"
+    properties:
+      agentChannel: "AgentFrameworkMedalliaProd"
+      exitKeywords: "bye,thanks,thank you,Main Menu,Menu,main menu"
+      conclusionMessage: " "
+    transitions:
+      actions:
+        MyAction: "medalliaRedirection"
+        Payments: "medalliaRedirection"
+      next: "medalliaswitchRedirectionForEndMsg"
+      
+  medalliaRedirection:
+    component: "System.Output"
+    properties:
+      text: "survey is not available at the moment."
+      keepTurn: false
+    transitions:
+      next: "medalliaswitchRedirectionForEndMsg" #change to end state
+      
+  rejectedMedallia:
+    component: "System.Output"
+    properties:
+      text: ""
+      keepTurn: true
+    transitions:
+      next: "medalliaswitchRedirectionForEndMsg"
+  
+  medalliaswitchRedirectionForEndMsg:
+    component: "System.Switch"
+    properties:
+      variable: MedalliaHandoverSwitchYesAndNo
+      values:
+        - "Yes"
+        - "No"
+        #- "Billing Adjustment"
+        #- "Change Ownership"
+    transitions:
+      actions:
+        "Yes": "restMedalliaVariablesForYes"
+        "No": "restMedalliaVariablesForNo"
+        #"Billing Adjustment": "restMedalliaVariablesSendCopyOfBill" #same end message for copy of bill resuing state # remove trigger
+        #"Change Ownership" : "restMedalliaVariablesSendCopyOfBill" #same end message for copy of bill resuing state # remove trigger
+        
+  restMedalliaVariablesForYes:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "MedalliaHandoverCustomProps, MedalliaHandoverMID, MedalliaHandoverDateTime, MedalliaHandoverTelNum, MedalliaHandoverUserName, MedalliaHandoverSkill, MedalliaHandoverIntent, mecdatatobepassed, faqstring1, faqstring, MedalliaCustomProps, medalliaBrandName, medalliaProductName, MedalliaHandoverSwitchYesAndNo, medalliaButtonName"
+    transitions:
+      next: "offerSomeHelpOnYes"
+  
+  restMedalliaVariablesForNo:
+    component: "System.ResetVariables"
+    properties:
+      variableList: "MedalliaHandoverCustomProps, MedalliaHandoverMID, MedalliaHandoverDateTime, MedalliaHandoverTelNum, MedalliaHandoverUserName, MedalliaHandoverSkill, MedalliaHandoverIntent, mecdatatobepassed, faqstring1, faqstring, MedalliaCustomProps, medalliaBrandName, medalliaProductName, MedalliaHandoverSwitchYesAndNo, medalliaButtonName"
+    transitions:
+      next: "HelpMenu"
+      
+  #restMedalliaVariablesSendCopyOfBill:
+  #  component: "System.ResetVariables"
+  #  properties:
+  #    variableList: "MedalliaHandoverCustomProps, MedalliaHandoverMID, MedalliaHandoverDateTime, MedalliaHandoverTelNum, MedalliaHandoverUserName, MedalliaHandoverSkill, MedalliaHandoverIntent, mecdatatobepassed"
+  #  transitions:
+  #    next: "furtherAssistMsg"
+
+  
+###################################################################################
+# UNRESOLVED HANDLING                                                             #
+###################################################################################
+
+  conditionExistsUnresolved:
+    component: "System.ConditionExists"
+    properties:
+      variable: user.unresolvedCount
+    transitions:
+      actions:
+        exists: incUnresolvedCounter
+        notexists: setUnresolvedCounter
+
+  setUnresolvedCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions: 
+      next: "incUnresolvedCounter"
+
+  incUnresolvedCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: user.unresolvedCount
+      value: "${user.unresolvedCount.value}${user.unresolvedCount.value}"
+
+  unresolvedStopper:
+    component: "System.ConditionEquals"
+    properties:
+      variable: user.unresolvedCount
+      value: "AAAA"
+    transitions:
+      actions:
+        equal: resetUnresolvedCounter
+        notequal: unresolved
+
+  unresolved:
+    component: System.Output
+    properties:
+      text: "I’m sorry I can’t seem to understand what you’re saying. Please type the words again or type ‘Menu’ to see what else I can help you with."
+    transitions:
+      next: intent
+
+  resetUnresolvedCounter:
+    component: "System.SetVariable"
+    properties:
+      variable: "user.unresolvedCount"
+      value: "A"
+    transitions: 
+      next: "unresolvedAgent"
+
+  unresolvedAgent:
+    component: System.CommonResponse
+    properties:
+      processUserMessage: true
+      metadata:
+        responseItems:
+          - type: text
+            text: "I’m sorry I can’t seem to understand what you’re saying. Would you like to talk to Customer Service Representative instead?"
+            separateBubbles: false
+            actions:
+            - label: Chat with Agent
+              type: postback
+              payload:
+                action: Live Chat
+    transitions:
+      actions:
+        Live Chat: chatWithAgentMenu
+        textReceived: intent
+
+  byeThanks:
+    component: "System.Output"
+    properties:
+      text: "Thank you for using the Smart Chatbot. Have a great day! \n\nIf you need help with your account, just type 'Menu' "
+    transitions:
+      return: "done"
