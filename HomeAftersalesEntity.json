@@ -1,0 +1,394 @@
+{
+    "name": "HomeAftersalesEntity",
+    "roles": [
+        "HomeAftersalesEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "How to remove cignal",
+            "synonyms": [
+                "how to remove cignal"
+            ]
+        },
+        {
+            "keyword": "Paano po padisconnect yung pldt",
+            "synonyms": [
+                "paano po padisconnect yung pldt"
+            ]
+        },
+        {
+            "keyword": "Sana nga makapagswitch na agad kami kay pldt",
+            "synonyms": [
+                "sana nga makapagswitch na agad kami kay pldt"
+            ]
+        },
+        {
+            "keyword": "Stay na kami sa pldt plan",
+            "synonyms": [
+                "stay na kami sa pldt plan"
+            ]
+        },
+        {
+            "keyword": "additional line",
+            "synonyms": [
+                "additional line"
+            ]
+        },
+        {
+            "keyword": "after sales",
+            "synonyms": [
+                "after sales"
+            ]
+        },
+        {
+            "keyword": "align nyo rin ang aming speed sa bagong offer",
+            "synonyms": [
+                "align nyo rin ang aming speed sa bagong offer"
+            ]
+        },
+        {
+            "keyword": "apply",
+            "synonyms": [
+                "apply"
+            ]
+        },
+        {
+            "keyword": "cancel",
+            "synonyms": [
+                "cancel"
+            ]
+        },
+        {
+            "keyword": "cancel my account",
+            "synonyms": [
+                "cancel my account"
+            ]
+        },
+        {
+            "keyword": "change location",
+            "synonyms": [
+                "change location"
+            ]
+        },
+        {
+            "keyword": "change of plan",
+            "synonyms": [
+                "change of plan"
+            ]
+        },
+        {
+            "keyword": "cignal",
+            "synonyms": [
+                "cignal upgrade"
+            ]
+        },
+        {
+            "keyword": "cnu mg set up ng wifi mesh",
+            "synonyms": [
+                "cnu mg set up ng wifi mesh"
+            ]
+        },
+        {
+            "keyword": "cut",
+            "synonyms": [
+                "cut"
+            ]
+        },
+        {
+            "keyword": "deactivate",
+            "synonyms": [
+                "deactivate"
+            ]
+        },
+        {
+            "keyword": "delay",
+            "synonyms": [
+                "delay"
+            ]
+        },
+        {
+            "keyword": "deliver",
+            "synonyms": [
+                "deliver"
+            ]
+        },
+        {
+            "keyword": "disconnection",
+            "synonyms": [
+                "disconnection"
+            ]
+        },
+        {
+            "keyword": "downgrade",
+            "synonyms": [
+                "downgrade"
+            ]
+        },
+        {
+            "keyword": "facility",
+            "synonyms": [
+                "facility"
+            ]
+        },
+        {
+            "keyword": "famcam",
+            "synonyms": [
+                "famcam"
+            ]
+        },
+        {
+            "keyword": "feature",
+            "synonyms": [
+                "feature"
+            ]
+        },
+        {
+            "keyword": "how to change wifi password",
+            "synonyms": [
+                "how to change wifi password"
+            ]
+        },
+        {
+            "keyword": "how to relocate",
+            "synonyms": [
+                "how to relocate"
+            ]
+        },
+        {
+            "keyword": "how to relocate my wifi",
+            "synonyms": [
+                "how to relocate my wifi"
+            ]
+        },
+        {
+            "keyword": "install",
+            "synonyms": [
+                "install"
+            ]
+        },
+        {
+            "keyword": "inupgrade",
+            "synonyms": [
+                "inupgrade"
+            ]
+        },
+        {
+            "keyword": "ipapacancel",
+            "synonyms": [
+                "ipapacancel"
+            ]
+        },
+        {
+            "keyword": "magpalit ng number",
+            "synonyms": [
+                "magpalit ng number"
+            ]
+        },
+        {
+            "keyword": "magpalit ng telephone number",
+            "synonyms": [
+                "magpalit ng telephone number"
+            ]
+        },
+        {
+            "keyword": "magpapaupgrade",
+            "synonyms": [
+                "magpapaupgrade"
+            ]
+        },
+        {
+            "keyword": "magpaupgrade",
+            "synonyms": [
+                "magpaupgrade"
+            ]
+        },
+        {
+            "keyword": "magupgrade",
+            "synonyms": [
+                "magupgrade"
+            ]
+        },
+        {
+            "keyword": "magupgrade ng wifi",
+            "synonyms": [
+                "magupgrade ng wifi"
+            ]
+        },
+        {
+            "keyword": "maitransfer",
+            "synonyms": [
+                "maitransfer"
+            ]
+        },
+        {
+            "keyword": "makabitan",
+            "synonyms": [
+                "makabitan"
+            ]
+        },
+        {
+            "keyword": "migration",
+            "synonyms": [
+                "migration"
+            ]
+        },
+        {
+            "keyword": "nagpaupgrade",
+            "synonyms": [
+                "nagpaupgrade"
+            ]
+        },
+        {
+            "keyword": "nakapagpalit na ko ng number",
+            "synonyms": [
+                "nakapagpalit na ko ng number"
+            ]
+        },
+        {
+            "keyword": "pagpapadowngrade",
+            "synonyms": [
+                "pagpapadowngrade"
+            ]
+        },
+        {
+            "keyword": "pagpapaupgrade",
+            "synonyms": [
+                "pagpapaupgrade"
+            ]
+        },
+        {
+            "keyword": "pagpatransfer",
+            "synonyms": [
+                "pagpatransfer"
+            ]
+        },
+        {
+            "keyword": "pakiputol",
+            "synonyms": [
+                "pakiputol"
+            ]
+        },
+        {
+            "keyword": "patransfer",
+            "synonyms": [
+                "patransfer"
+            ]
+        },
+        {
+            "keyword": "pre termination",
+            "synonyms": [
+                "pre termination"
+            ]
+        },
+        {
+            "keyword": "pretermination",
+            "synonyms": [
+                "pretermination"
+            ]
+        },
+        {
+            "keyword": "putulan",
+            "synonyms": [
+                "maputolan",
+                "maputulan",
+                "naputolan",
+                "naputulan",
+                "putolan",
+                "putulan"
+            ]
+        },
+        {
+            "keyword": "regine",
+            "synonyms": [
+                "regine"
+            ]
+        },
+        {
+            "keyword": "relocate",
+            "synonyms": [
+                "relocate"
+            ]
+        },
+        {
+            "keyword": "relocation",
+            "synonyms": [
+                "relocation"
+            ]
+        },
+        {
+            "keyword": "roku",
+            "synonyms": [
+                "roku"
+            ]
+        },
+        {
+            "keyword": "subscription",
+            "synonyms": [
+                "subscription"
+            ]
+        },
+        {
+            "keyword": "switch",
+            "synonyms": [
+                "switch"
+            ]
+        },
+        {
+            "keyword": "telpad",
+            "synonyms": [
+                "telpad"
+            ]
+        },
+        {
+            "keyword": "terminate",
+            "synonyms": [
+                "terminate"
+            ]
+        },
+        {
+            "keyword": "termination",
+            "synonyms": [
+                "termination"
+            ]
+        },
+        {
+            "keyword": "transfer",
+            "synonyms": [
+                "transfer"
+            ]
+        },
+        {
+            "keyword": "tvolution",
+            "synonyms": [
+                "tvolution"
+            ]
+        },
+        {
+            "keyword": "updates",
+            "synonyms": [
+                "updates"
+            ]
+        },
+        {
+            "keyword": "upgrade",
+            "synonyms": [
+                "upgrade"
+            ]
+        },
+        {
+            "keyword": "upgrading",
+            "synonyms": [
+                "upgrading"
+            ]
+        },
+        {
+            "keyword": "want ko na din talaga iupgrade tong wifi",
+            "synonyms": [
+                "want ko na din talaga iupgrade tong wifi"
+            ]
+        }
+    ]
+}

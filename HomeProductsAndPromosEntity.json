@@ -1,0 +1,932 @@
+{
+    "name": "HomeProductsAndPromosEntity",
+    "roles": [
+        "HomeProductsAndPromosEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Ano ang bago",
+            "synonyms": [
+                "ano ang bago"
+            ]
+        },
+        {
+            "keyword": "Applying",
+            "synonyms": [
+                "applying"
+            ]
+        },
+        {
+            "keyword": "Available ba lahat sa online store",
+            "synonyms": [
+                "available ba lahat sa online store"
+            ]
+        },
+        {
+            "keyword": "Dami pala inooffer dito kay pldt",
+            "synonyms": [
+                "dami pala inooffer dito kay pldt"
+            ]
+        },
+        {
+            "keyword": "Gusto ko itry yung bagong wifi nila ngayon sa pldt",
+            "synonyms": [
+                "Gusto ko itry yung bagong wifi nila ngayon sa pldt"
+            ]
+        },
+        {
+            "keyword": "HBO Go Premium",
+            "synonyms": [
+                "HBO Go Premium"
+            ]
+        },
+        {
+            "keyword": "How much is that and what are the terms",
+            "synonyms": [
+                "how much is that and what are the terms"
+            ]
+        },
+        {
+            "keyword": "How much naman po ang 25 mbps sa pldt",
+            "synonyms": [
+                "how much naman po ang 25 mbps sa pldt"
+            ]
+        },
+        {
+            "keyword": "How po kayo nakapagplan sa pldt",
+            "synonyms": [
+                "How po kayo nakapagplan sa pldt"
+            ]
+        },
+        {
+            "keyword": "I like that kind of modem",
+            "synonyms": [
+                "i like that kind of modem"
+            ]
+        },
+        {
+            "keyword": "Legit ba na may 25 mbps sila",
+            "synonyms": [
+                "legit ba na may 25 mbps sila"
+            ]
+        },
+        {
+            "keyword": "Libre na ba modem sa pldt",
+            "synonyms": [
+                "libre na ba modem sa pldt"
+            ]
+        },
+        {
+            "keyword": "Lionsgate Play",
+            "synonyms": [
+                "lionsgate play"
+            ]
+        },
+        {
+            "keyword": "MVP rewards",
+            "synonyms": [
+                "MVP rewards"
+            ]
+        },
+        {
+            "keyword": "Mabilis na ba yung 100 mbps nila",
+            "synonyms": [
+                "mabilis na ba yung 100 mbps nila"
+            ]
+        },
+        {
+            "keyword": "Magkano ba ngayon ang 25 mbps sa pldt",
+            "synonyms": [
+                "how much naman po ang 25 mbps sa pldt",
+                "magkano ba ngayon ang 25 mbps sa pldt"
+            ]
+        },
+        {
+            "keyword": "Pano po mg pa kabit ng pldt",
+            "synonyms": [
+                "pano po mg pa kabit ng pldt"
+            ]
+        },
+        {
+            "keyword": "Pwede po bang iavail",
+            "synonyms": [
+                "pwede po bang iavail"
+            ]
+        },
+        {
+            "keyword": "Sana affordable mga wifi sa pldt",
+            "synonyms": [
+                "sana affordable mga wifi sa pldt"
+            ]
+        },
+        {
+            "keyword": "Viu Premium",
+            "synonyms": [
+                "viu premium"
+            ]
+        },
+        {
+            "keyword": "Want ko na rin magsubscribe",
+            "synonyms": [
+                "want ko na rin magsubscribe"
+            ]
+        },
+        {
+            "keyword": "add on",
+            "synonyms": [
+                "add on"
+            ]
+        },
+        {
+            "keyword": "amortization",
+            "synonyms": [
+                "amortization"
+            ]
+        },
+        {
+            "keyword": "android",
+            "synonyms": [
+                "android"
+            ]
+        },
+        {
+            "keyword": "applicant for connection",
+            "synonyms": [
+                "applicant for connection"
+            ]
+        },
+        {
+            "keyword": "application",
+            "synonyms": [
+                "application"
+            ]
+        },
+        {
+            "keyword": "apply",
+            "synonyms": [
+                "apply"
+            ]
+        },
+        {
+            "keyword": "area",
+            "synonyms": [
+                "area"
+            ]
+        },
+        {
+            "keyword": "avail",
+            "synonyms": [
+                "aavail",
+                "avail"
+            ]
+        },
+        {
+            "keyword": "available facility",
+            "synonyms": [
+                "available facility"
+            ]
+        },
+        {
+            "keyword": "available port",
+            "synonyms": [
+                "available port"
+            ]
+        },
+        {
+            "keyword": "available service",
+            "synonyms": [
+                "available service"
+            ]
+        },
+        {
+            "keyword": "bagong offer",
+            "synonyms": [
+                "bagong offer"
+            ]
+        },
+        {
+            "keyword": "bagong offer sa pldt",
+            "synonyms": [
+                "bagong offer sa pldt"
+            ]
+        },
+        {
+            "keyword": "boost",
+            "synonyms": [
+                "boost"
+            ]
+        },
+        {
+            "keyword": "booster package",
+            "synonyms": [
+                "booster package"
+            ]
+        },
+        {
+            "keyword": "branch",
+            "synonyms": [
+                "branch"
+            ]
+        },
+        {
+            "keyword": "branches",
+            "synonyms": [
+                "branches"
+            ]
+        },
+        {
+            "keyword": "bundle",
+            "synonyms": [
+                "bundle"
+            ]
+        },
+        {
+            "keyword": "bundle plan",
+            "synonyms": [
+                "bundle plan"
+            ]
+        },
+        {
+            "keyword": "business line",
+            "synonyms": [
+                "business line"
+            ]
+        },
+        {
+            "keyword": "cam",
+            "synonyms": [
+                "cam"
+            ]
+        },
+        {
+            "keyword": "cash out",
+            "synonyms": [
+                "cash out"
+            ]
+        },
+        {
+            "keyword": "cignal",
+            "synonyms": [
+                "cignal"
+            ]
+        },
+        {
+            "keyword": "cignal plan",
+            "synonyms": [
+                "cignal plan"
+            ]
+        },
+        {
+            "keyword": "crystals",
+            "synonyms": [
+                "crystals"
+            ]
+        },
+        {
+            "keyword": "dailymotion",
+            "synonyms": [
+                "dailymotion"
+            ]
+        },
+        {
+            "keyword": "discount",
+            "synonyms": [
+                "discount"
+            ]
+        },
+        {
+            "keyword": "dsl available",
+            "synonyms": [
+                "dsl available"
+            ]
+        },
+        {
+            "keyword": "dubmash",
+            "synonyms": [
+                "dubmash"
+            ]
+        },
+        {
+            "keyword": "duo",
+            "synonyms": [
+                "duo"
+            ]
+        },
+        {
+            "keyword": "fabtab",
+            "synonyms": [
+                "fabtab"
+            ]
+        },
+        {
+            "keyword": "facility",
+            "synonyms": [
+                "facility"
+            ]
+        },
+        {
+            "keyword": "famcam",
+            "synonyms": [
+                "famcam"
+            ]
+        },
+        {
+            "keyword": "fiber available",
+            "synonyms": [
+                "fiber available"
+            ]
+        },
+        {
+            "keyword": "fiber plan",
+            "synonyms": [
+                "fiber plan"
+            ]
+        },
+        {
+            "keyword": "fibr",
+            "synonyms": [
+                "fibr"
+            ]
+        },
+        {
+            "keyword": "flexibundle",
+            "synonyms": [
+                "flexibundle"
+            ]
+        },
+        {
+            "keyword": "free youtube",
+            "synonyms": [
+                "free youtube"
+            ]
+        },
+        {
+            "keyword": "gadget",
+            "synonyms": [
+                "gadget"
+            ]
+        },
+        {
+            "keyword": "galaxy",
+            "synonyms": [
+                "galaxy"
+            ]
+        },
+        {
+            "keyword": "giga",
+            "synonyms": [
+                "giga"
+            ]
+        },
+        {
+            "keyword": "giga surf",
+            "synonyms": [
+                "giga surf"
+            ]
+        },
+        {
+            "keyword": "gigasurf",
+            "synonyms": [
+                "gigasurf"
+            ]
+        },
+        {
+            "keyword": "google wifi",
+            "synonyms": [
+                "google wifi"
+            ]
+        },
+        {
+            "keyword": "hbo",
+            "synonyms": [
+                "hbo"
+            ]
+        },
+        {
+            "keyword": "hbo go",
+            "synonyms": [
+                "hbo go"
+            ]
+        },
+        {
+            "keyword": "holiday",
+            "synonyms": [
+                "holiday"
+            ]
+        },
+        {
+            "keyword": "home Biz",
+            "synonyms": [
+                "home biz"
+            ]
+        },
+        {
+            "keyword": "home app",
+            "synonyms": [
+                "home app"
+            ]
+        },
+        {
+            "keyword": "how to apply",
+            "synonyms": [
+                "how to apply",
+                "paano po mag apply"
+            ]
+        },
+        {
+            "keyword": "how to avail",
+            "synonyms": [
+                "how to avail"
+            ]
+        },
+        {
+            "keyword": "htc",
+            "synonyms": [
+                "htc"
+            ]
+        },
+        {
+            "keyword": "huwawei",
+            "synonyms": [
+                "huwawei"
+            ]
+        },
+        {
+            "keyword": "i phone",
+            "synonyms": [
+                "i phone"
+            ]
+        },
+        {
+            "keyword": "i-aapply ko",
+            "synonyms": [
+                "i-aapply ko"
+            ]
+        },
+        {
+            "keyword": "iflix",
+            "synonyms": [
+                "iflix"
+            ]
+        },
+        {
+            "keyword": "inquire",
+            "synonyms": [
+                "inquire"
+            ]
+        },
+        {
+            "keyword": "installation",
+            "synonyms": [
+                "installation"
+            ]
+        },
+        {
+            "keyword": "iphone",
+            "synonyms": [
+                "iphone"
+            ]
+        },
+        {
+            "keyword": "latest",
+            "synonyms": [
+                "latest"
+            ]
+        },
+        {
+            "keyword": "lg",
+            "synonyms": [
+                "lg"
+            ]
+        },
+        {
+            "keyword": "list of products",
+            "synonyms": [
+                "list of products"
+            ]
+        },
+        {
+            "keyword": "location",
+            "synonyms": [
+                "location"
+            ]
+        },
+        {
+            "keyword": "loyalty",
+            "synonyms": [
+                "loyalty"
+            ]
+        },
+        {
+            "keyword": "magaaply",
+            "synonyms": [
+                "magaaply"
+            ]
+        },
+        {
+            "keyword": "magagandang offer",
+            "synonyms": [
+                "magagandang offer"
+            ]
+        },
+        {
+            "keyword": "magapply",
+            "synonyms": [
+                "magapply"
+            ]
+        },
+        {
+            "keyword": "maginquire",
+            "synonyms": [
+                "maginquire"
+            ]
+        },
+        {
+            "keyword": "magpkabit",
+            "synonyms": [
+                "magpkabit"
+            ]
+        },
+        {
+            "keyword": "magplan",
+            "synonyms": [
+                "magplan"
+            ]
+        },
+        {
+            "keyword": "magswitch sa pldt",
+            "synonyms": [
+                "magswitch sa pldt"
+            ]
+        },
+        {
+            "keyword": "main office",
+            "synonyms": [
+                "main office"
+            ]
+        },
+        {
+            "keyword": "makapag apply",
+            "synonyms": [
+                "makapag apply"
+            ]
+        },
+        {
+            "keyword": "makaregister",
+            "synonyms": [
+                "makaregister"
+            ]
+        },
+        {
+            "keyword": "masubukan tong mga bagong offer ng pldt",
+            "synonyms": [
+                "masubukan tong mga bagong offer ng pldt"
+            ]
+        },
+        {
+            "keyword": "masubukan yang bagong offer na set up sa pldt",
+            "synonyms": [
+                "masubukan yang bagong offer na set up sa pldt"
+            ]
+        },
+        {
+            "keyword": "may area ba kayo",
+            "synonyms": [
+                "may area ba kayo"
+            ]
+        },
+        {
+            "keyword": "may bago na bang release na device ang nokia",
+            "synonyms": [
+                "may bago na bang release na device ang nokia"
+            ]
+        },
+        {
+            "keyword": "may bagong fiber po diba",
+            "synonyms": [
+                "may bagong fiber po diba"
+            ]
+        },
+        {
+            "keyword": "mesh",
+            "synonyms": [
+                "mesh"
+            ]
+        },
+        {
+            "keyword": "modem fee",
+            "synonyms": [
+                "modem fee"
+            ]
+        },
+        {
+            "keyword": "na aavail",
+            "synonyms": [
+                "na aavail"
+            ]
+        },
+        {
+            "keyword": "nba",
+            "synonyms": [
+                "nba"
+            ]
+        },
+        {
+            "keyword": "netflix",
+            "synonyms": [
+                "netflix"
+            ]
+        },
+        {
+            "keyword": "new products",
+            "synonyms": [
+                "new products"
+            ]
+        },
+        {
+            "keyword": "news",
+            "synonyms": [
+                "news"
+            ]
+        },
+        {
+            "keyword": "office",
+            "synonyms": [
+                "office"
+            ]
+        },
+        {
+            "keyword": "office hours",
+            "synonyms": [
+                "office hours"
+            ]
+        },
+        {
+            "keyword": "offices",
+            "synonyms": [
+                "offices"
+            ]
+        },
+        {
+            "keyword": "oppo",
+            "synonyms": [
+                "oppo"
+            ]
+        },
+        {
+            "keyword": "paano mag avail",
+            "synonyms": [
+                "paano mag avail"
+            ]
+        },
+        {
+            "keyword": "paano proseso",
+            "synonyms": [
+                "paano proseso"
+            ]
+        },
+        {
+            "keyword": "packages",
+            "synonyms": [
+                "packages"
+            ]
+        },
+        {
+            "keyword": "pakabit",
+            "synonyms": [
+                "pakabit"
+            ]
+        },
+        {
+            "keyword": "pasa data",
+            "synonyms": [
+                "pasa data"
+            ]
+        },
+        {
+            "keyword": "pasa load",
+            "synonyms": [
+                "pasa load"
+            ]
+        },
+        {
+            "keyword": "pasadata",
+            "synonyms": [
+                "pasadata"
+            ]
+        },
+        {
+            "keyword": "penalty",
+            "synonyms": [
+                "penalty"
+            ]
+        },
+        {
+            "keyword": "plan",
+            "synonyms": [
+                "plan"
+            ]
+        },
+        {
+            "keyword": "pldthomeprepaidwifi",
+            "synonyms": [
+                "pldthomeprepaidwifi"
+            ]
+        },
+        {
+            "keyword": "pokemon",
+            "synonyms": [
+                "pokemon"
+            ]
+        },
+        {
+            "keyword": "pok\u00e9mon",
+            "synonyms": [
+                "pok\u00e9mon"
+            ]
+        },
+        {
+            "keyword": "process",
+            "synonyms": [
+                "process"
+            ]
+        },
+        {
+            "keyword": "project",
+            "synonyms": [
+                "project"
+            ]
+        },
+        {
+            "keyword": "promo",
+            "synonyms": [
+                "promo"
+            ]
+        },
+        {
+            "keyword": "register",
+            "synonyms": [
+                "register"
+            ]
+        },
+        {
+            "keyword": "registration",
+            "synonyms": [
+                "registration"
+            ]
+        },
+        {
+            "keyword": "requirements",
+            "synonyms": [
+                "requirements"
+            ]
+        },
+        {
+            "keyword": "residential line",
+            "synonyms": [
+                "residential line"
+            ]
+        },
+        {
+            "keyword": "retention",
+            "synonyms": [
+                "retention"
+            ]
+        },
+        {
+            "keyword": "reward",
+            "synonyms": [
+                "reward"
+            ]
+        },
+        {
+            "keyword": "rewards",
+            "synonyms": [
+                "rewards"
+            ]
+        },
+        {
+            "keyword": "roku",
+            "synonyms": [
+                "roku"
+            ]
+        },
+        {
+            "keyword": "samsung",
+            "synonyms": [
+                "samsung"
+            ]
+        },
+        {
+            "keyword": "service center",
+            "synonyms": [
+                "service center"
+            ]
+        },
+        {
+            "keyword": "skype qik",
+            "synonyms": [
+                "skype qik"
+            ]
+        },
+        {
+            "keyword": "smart deals",
+            "synonyms": [
+                "smart deals"
+            ]
+        },
+        {
+            "keyword": "spinnr",
+            "synonyms": [
+                "spinnr"
+            ]
+        },
+        {
+            "keyword": "ssc",
+            "synonyms": [
+                "ssc"
+            ]
+        },
+        {
+            "keyword": "surf max",
+            "synonyms": [
+                "surf max"
+            ]
+        },
+        {
+            "keyword": "surfmax",
+            "synonyms": [
+                "surfmax"
+            ]
+        },
+        {
+            "keyword": "telpad",
+            "synonyms": [
+                "telpad"
+            ]
+        },
+        {
+            "keyword": "triple play",
+            "synonyms": [
+                "triple play"
+            ]
+        },
+        {
+            "keyword": "tvo",
+            "synonyms": [
+                "tvo"
+            ]
+        },
+        {
+            "keyword": "tvolution",
+            "synonyms": [
+                "tvolution"
+            ]
+        },
+        {
+            "keyword": "ufc",
+            "synonyms": [
+                "ufc"
+            ]
+        },
+        {
+            "keyword": "unli call",
+            "synonyms": [
+                "unli call"
+            ]
+        },
+        {
+            "keyword": "vimeo",
+            "synonyms": [
+                "vimeo"
+            ]
+        },
+        {
+            "keyword": "whole home wifi",
+            "synonyms": [
+                "whole home wifi"
+            ]
+        },
+        {
+            "keyword": "wifi 6 ba pag ganyan",
+            "synonyms": [
+                "wifi 6 ba pag ganyan"
+            ]
+        },
+        {
+            "keyword": "wifi mesh",
+            "synonyms": [
+                "wifi mesh"
+            ]
+        },
+        {
+            "keyword": "youtube",
+            "synonyms": [
+                "youtube"
+            ]
+        }
+    ]
+}

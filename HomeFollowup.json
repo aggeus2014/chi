@@ -1,0 +1,12 @@
+{
+    "name": "HomeFollowup",
+    "entities": [
+        "HomeAftersalesEntity:HomeAftersalesEntity",
+        "HomeAppreciativeEntity:HomeAppreciativeEntity",
+        "HomeBillingEntity:HomeBillingEntity",
+        "HomeConnectivityEntity:HomeConnectivityEntity",
+        "HomeFollowupEntity:HomeFollowupEntity",
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity",
+        "NFREntity:NFREntity"
+    ]
+}

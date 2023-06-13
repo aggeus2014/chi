@@ -1,0 +1,96 @@
+{
+    "name": "HomeProductsAndPromosEufyEntity",
+    "roles": [
+        "HomeProductsAndPromosEufyEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Eufy",
+            "synonyms": [
+                "Eufy"
+            ]
+        },
+        {
+            "keyword": "Eufy Camera",
+            "synonyms": [
+                "Eufy Camera"
+            ]
+        },
+        {
+            "keyword": "Eufy Device",
+            "synonyms": [
+                "Eufy Device"
+            ]
+        },
+        {
+            "keyword": "Eufy Home Security Device",
+            "synonyms": [
+                "eufy home security device",
+                "home security devices"
+            ]
+        },
+        {
+            "keyword": "Eufy Indoor Cam 2k",
+            "synonyms": [
+                "Eufy Indoor Cam 2k"
+            ]
+        },
+        {
+            "keyword": "Eufy Outdoor Cam 2C",
+            "synonyms": [
+                "Eufy Outdoor Cam 2C"
+            ]
+        },
+        {
+            "keyword": "Eufy Outdoor Cam 2Pro",
+            "synonyms": [
+                "Eufy Outdoor Cam 2Pro"
+            ]
+        },
+        {
+            "keyword": "Eufy Outdoor Camera",
+            "synonyms": [
+                "eufy outdoor camera"
+            ]
+        },
+        {
+            "keyword": "Eufy Security App",
+            "synonyms": [
+                "Eufy Security App"
+            ]
+        },
+        {
+            "keyword": "Eufy Security Device",
+            "synonyms": [
+                "Eufy Security Device"
+            ]
+        },
+        {
+            "keyword": "Eufy Smart Door Lock",
+            "synonyms": [
+                "Eufy Smart Door Lock"
+            ]
+        },
+        {
+            "keyword": "Eufy Video Doorbell",
+            "synonyms": [
+                "Eufy Video Doorbell"
+            ]
+        },
+        {
+            "keyword": "Home Security",
+            "synonyms": [
+                "Home Security"
+            ]
+        },
+        {
+            "keyword": "Home Security Device",
+            "synonyms": [
+                "Home Security Device"
+            ]
+        }
+    ]
+}

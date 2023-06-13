@@ -1,0 +1,10 @@
+{
+    "name": "HomeAppreciative",
+    "entities": [
+        "HomeAftersalesEntity:HomeAftersalesEntity",
+        "HomeAppreciativeEntity:HomeAppreciativeEntity",
+        "HomeConnectivityEntity:HomeConnectivityEntity",
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity",
+        "NFREntity:NFREntity"
+    ]
+}

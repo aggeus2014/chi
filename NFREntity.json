@@ -1,0 +1,3112 @@
+{
+    "name": "NFREntity",
+    "roles": [
+        "NFREntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "#CancelPLDT",
+            "synonyms": [
+                "#cancelpldt"
+            ]
+        },
+        {
+            "keyword": "#PLDTHomeEheads2022",
+            "synonyms": [
+                "#pldthomeeheads2022"
+            ]
+        },
+        {
+            "keyword": "#PLDT_DOES_NOT_CARE",
+            "synonyms": [
+                "#pldt_does_not_care"
+            ]
+        },
+        {
+            "keyword": "#StarlinkInternet",
+            "synonyms": [
+                "#starlinkinternet"
+            ]
+        },
+        {
+            "keyword": "100x",
+            "synonyms": [
+                "100x"
+            ]
+        },
+        {
+            "keyword": "200k pesos",
+            "synonyms": []
+        },
+        {
+            "keyword": "20k pesos",
+            "synonyms": []
+        },
+        {
+            "keyword": "6 Steps Bago Bumili ng Lupa sa Pilipinas",
+            "synonyms": [
+                "6 steps bago bumili ng lupa sa pilipinas"
+            ]
+        },
+        {
+            "keyword": "@ntc",
+            "synonyms": [
+                "@ntc"
+            ]
+        },
+        {
+            "keyword": "@pldt pkigalaw Ng baso aba",
+            "synonyms": [
+                "@pldt pkigalaw ng baso aba"
+            ]
+        },
+        {
+            "keyword": "Abala tong PLDT",
+            "synonyms": [
+                "Abala tong PLDT"
+            ]
+        },
+        {
+            "keyword": "All of them are so pretty",
+            "synonyms": [
+                "All of them are so pretty"
+            ]
+        },
+        {
+            "keyword": "Basta patuloy lang sa serbisyo",
+            "synonyms": [
+                "basta patuloy lang sa serbisyo"
+            ]
+        },
+        {
+            "keyword": "Bawal ba sa 12 years old Yan",
+            "synonyms": [
+                "bawal ba sa 12 years old yan"
+            ]
+        },
+        {
+            "keyword": "Bitcoin",
+            "synonyms": [
+                "bitcoin"
+            ]
+        },
+        {
+            "keyword": "Bitcoin trading",
+            "synonyms": [
+                "bitcoin trading"
+            ]
+        },
+        {
+            "keyword": "ByronMcDonald0",
+            "synonyms": [
+                "ByronMcDonald0"
+            ]
+        },
+        {
+            "keyword": "CEB \ufffd",
+            "synonyms": [
+                "CEB \ufffd",
+                "ceb"
+            ]
+        },
+        {
+            "keyword": "Camille Clarito",
+            "synonyms": [
+                "camille clarito"
+            ]
+        },
+        {
+            "keyword": "Celeste",
+            "synonyms": [
+                "Celeste"
+            ]
+        },
+        {
+            "keyword": "Cheetah Broadband lang sakalam",
+            "synonyms": [
+                "cheetah broadband lang sakalam"
+            ]
+        },
+        {
+            "keyword": "Claudette Villanueva",
+            "synonyms": [
+                "claudette villanueva"
+            ]
+        },
+        {
+            "keyword": "Comedy po ba yang Delivery Man",
+            "synonyms": [
+                "comedy po ba yang delivery man"
+            ]
+        },
+        {
+            "keyword": "Cryptocurrency",
+            "synonyms": [
+                "Cryptocurrency"
+            ]
+        },
+        {
+            "keyword": "DRP",
+            "synonyms": [
+                "drp"
+            ]
+        },
+        {
+            "keyword": "Dominican Republic",
+            "synonyms": [
+                "Dominican Republic"
+            ]
+        },
+        {
+            "keyword": "DrEhijeleTheSpellCastle",
+            "synonyms": [
+                "drehijelethespellcastle"
+            ]
+        },
+        {
+            "keyword": "Drag Race PH",
+            "synonyms": [
+                "drag race ph"
+            ]
+        },
+        {
+            "keyword": "Edi di ko na need magload kada babyahe",
+            "synonyms": [
+                "edi di ko na need magload kada babyahe"
+            ]
+        },
+        {
+            "keyword": "Everyone keeps talking about your diligence and honesty",
+            "synonyms": [
+                "Everyone keeps talking about your diligence and honesty"
+            ]
+        },
+        {
+            "keyword": "FEEL SORRY FOR THE AGENTS",
+            "synonyms": [
+                "feel sorry for the agents"
+            ]
+        },
+        {
+            "keyword": "Fb link below",
+            "synonyms": [
+                "fb link below"
+            ]
+        },
+        {
+            "keyword": "Fuckkkkk youuuuuuuu",
+            "synonyms": [
+                "fuckkkkk youuuuuuuu"
+            ]
+        },
+        {
+            "keyword": "GLOBE",
+            "synonyms": [
+                "globe"
+            ]
+        },
+        {
+            "keyword": "Ganda nan pang laro",
+            "synonyms": [
+                "ganda nan pang laro"
+            ]
+        },
+        {
+            "keyword": "Ganda ng progress nila",
+            "synonyms": [
+                "ganda ng progress nila"
+            ]
+        },
+        {
+            "keyword": "Ganda nung lessons",
+            "synonyms": [
+                "ganda nung lessons"
+            ]
+        },
+        {
+            "keyword": "Ganito din ba sainyo",
+            "synonyms": [
+                "ganito din ba sainyo"
+            ]
+        },
+        {
+            "keyword": "Gano kataas yung height",
+            "synonyms": [
+                "gano kataas yung height"
+            ]
+        },
+        {
+            "keyword": "Gcash",
+            "synonyms": []
+        },
+        {
+            "keyword": "Grabe yung confidence na biniga nila sakin",
+            "synonyms": [
+                "grabe yung confidence na biniga nila sakin"
+            ]
+        },
+        {
+            "keyword": "HenryGrayson568",
+            "synonyms": [
+                "henrygrayson568"
+            ]
+        },
+        {
+            "keyword": "Hilig ko pa naman bumyahe",
+            "synonyms": [
+                "hilig ko pa naman bumyahe"
+            ]
+        },
+        {
+            "keyword": "Hobby ko magcollect ng mga ganitong usb eh",
+            "synonyms": [
+                "hobby ko magcollect ng mga ganitong usb eh"
+            ]
+        },
+        {
+            "keyword": "I agree with prioritization",
+            "synonyms": [
+                "i agree with prioritization"
+            ]
+        },
+        {
+            "keyword": "I decided to act on faith instead of fear",
+            "synonyms": [
+                "i decided to act on faith instead of fear"
+            ]
+        },
+        {
+            "keyword": "I forgot if I successfully registered my SIM card How can I check",
+            "synonyms": [
+                "i forgot if i successfully registered my sim card how can i check"
+            ]
+        },
+        {
+            "keyword": "I love the way they stood for theirselves",
+            "synonyms": [
+                "i love the way they stood for theirselves"
+            ]
+        },
+        {
+            "keyword": "I started investing",
+            "synonyms": [
+                "i started investing"
+            ]
+        },
+        {
+            "keyword": "IPAPARAID KO OFFICE NYO",
+            "synonyms": [
+                "ipaparaid ko office nyo"
+            ]
+        },
+        {
+            "keyword": "In case of emergency",
+            "synonyms": [
+                "in case of emergency"
+            ]
+        },
+        {
+            "keyword": "Ito na nga yung hanapbuhay ko e gamestreaming",
+            "synonyms": [
+                "ito na nga yung hanapbuhay ko e gamestreaming"
+            ]
+        },
+        {
+            "keyword": "Jacobowskymargan",
+            "synonyms": [
+                "jacobowskymargan"
+            ]
+        },
+        {
+            "keyword": "Ka-TM",
+            "synonyms": [
+                "ka-tm"
+            ]
+        },
+        {
+            "keyword": "KarlFischerfx",
+            "synonyms": [
+                "karlfischerfx"
+            ]
+        },
+        {
+            "keyword": "Kay tagal kitang hinintay",
+            "synonyms": [
+                "kay tagal kitang hinintay"
+            ]
+        },
+        {
+            "keyword": "LGBT",
+            "synonyms": [
+                "lgbt"
+            ]
+        },
+        {
+            "keyword": "LOOKING PO AKO NG GUSTO MAG RENT NG LUPA PARA",
+            "synonyms": [
+                "looking po ako ng gusto mag rent ng lupa para"
+            ]
+        },
+        {
+            "keyword": "Latashagilmore0",
+            "synonyms": [
+                "Latashagilmore0"
+            ]
+        },
+        {
+            "keyword": "Lester Dan Labastida",
+            "synonyms": [
+                "lester dan labastida"
+            ]
+        },
+        {
+            "keyword": "Lilipat na ba kami sa Starlink",
+            "synonyms": [
+                "Lilipat na ba kami sa Starlink"
+            ]
+        },
+        {
+            "keyword": "Lipat na starlink",
+            "synonyms": [
+                "lipat na starlink"
+            ]
+        },
+        {
+            "keyword": "Love all of them sm",
+            "synonyms": [
+                "love all of them sm"
+            ]
+        },
+        {
+            "keyword": "MAARI NA PO TAYONG MAGPAHULA PM LANG PO SA PAGE",
+            "synonyms": [
+                "maari na po tayong magpahula pm lang po sa page"
+            ]
+        },
+        {
+            "keyword": "MGA PLASTIK",
+            "synonyms": [
+                "MGA PLASTIK"
+            ]
+        },
+        {
+            "keyword": "Madalas ko din ioff",
+            "synonyms": [
+                "madalas ko din ioff"
+            ]
+        },
+        {
+            "keyword": "Madami na po bang nakapagtry nito",
+            "synonyms": [
+                "madami na po bang nakapagtry nito"
+            ]
+        },
+        {
+            "keyword": "Maganda kapadin",
+            "synonyms": [
+                "Maganda kapadin"
+            ]
+        },
+        {
+            "keyword": "Maging productive nawa talaga ako sana ngayon may mga apps ba na makakatulong",
+            "synonyms": [
+                "maging productive nawa talaga ako sana ngayon may mga apps ba na makakatulong"
+            ]
+        },
+        {
+            "keyword": "Manifesting makabili ako ng mga ganito",
+            "synonyms": [
+                "manifesting makabili ako ng mga ganito"
+            ]
+        },
+        {
+            "keyword": "Marina Summers",
+            "synonyms": [
+                "Marina Summers"
+            ]
+        },
+        {
+            "keyword": "MarrissaGeorge5",
+            "synonyms": [
+                "MarrissaGeorge5"
+            ]
+        },
+        {
+            "keyword": "Mas lalo pa akong gagaling nito sa games",
+            "synonyms": [
+                "mas lalo pa akong gagaling nito sa games"
+            ]
+        },
+        {
+            "keyword": "May clock na ko na Xiaomi bigay ni daddy",
+            "synonyms": [
+                "may clock na ko na xiaomi bigay ni daddy"
+            ]
+        },
+        {
+            "keyword": "Mi Smart Clock",
+            "synonyms": [
+                "mi smart clock"
+            ]
+        },
+        {
+            "keyword": "Miss PLDT",
+            "synonyms": [
+                "Miss PLDT"
+            ]
+        },
+        {
+            "keyword": "Miss Universe",
+            "synonyms": [
+                "Miss Universe"
+            ]
+        },
+        {
+            "keyword": "Mrs Marrissa George",
+            "synonyms": [
+                "mrs marrissa george"
+            ]
+        },
+        {
+            "keyword": "Mrs Regina brown",
+            "synonyms": [
+                "Mrs Regina brown"
+            ]
+        },
+        {
+            "keyword": "Mrs Ruth Robert",
+            "synonyms": [
+                "mrs ruth robert"
+            ]
+        },
+        {
+            "keyword": "Ms Universe",
+            "synonyms": [
+                "Ms Universe"
+            ]
+        },
+        {
+            "keyword": "Name lang maganda",
+            "synonyms": [
+                "name lang maganda"
+            ]
+        },
+        {
+            "keyword": "Napakatanga ng pldt",
+            "synonyms": [
+                "napakatanga ng pldt"
+            ]
+        },
+        {
+            "keyword": "Nebenemen PLDT",
+            "synonyms": [
+                "nebenemen pldt"
+            ]
+        },
+        {
+            "keyword": "Offline Survival Manual",
+            "synonyms": [
+                "offline survival manual"
+            ]
+        },
+        {
+            "keyword": "Oh to be confident and empowered like them",
+            "synonyms": [
+                "Oh to be confident and empowered like them"
+            ]
+        },
+        {
+            "keyword": "Ok sa april 25 ko nalang ipaparegister sim ko",
+            "synonyms": [
+                "Ok sa april 25 ko nalang ipaparegister sim ko"
+            ]
+        },
+        {
+            "keyword": "One decision changed my life!",
+            "synonyms": [
+                "one decision changed my life!"
+            ]
+        },
+        {
+            "keyword": "Online Sabong",
+            "synonyms": [
+                "Online Sabong"
+            ]
+        },
+        {
+            "keyword": "Online trading is profitable",
+            "synonyms": [
+                "online trading is profitable"
+            ]
+        },
+        {
+            "keyword": "Outang ina nyo pldt",
+            "synonyms": [
+                "outang ina nyo pldt"
+            ]
+        },
+        {
+            "keyword": "PAMPABALIK PAMPAAMO PAMPATANGGAL BISYO",
+            "synonyms": [
+                "pampabalik pampaamo pampatanggal bisyo"
+            ]
+        },
+        {
+            "keyword": "PAMPATINO PAMPALAMBOT NG PUSO PAMPA IBIG",
+            "synonyms": [
+                "PAMPATINO PAMPALAMBOT NG PUSO PAMPA IBIG"
+            ]
+        },
+        {
+            "keyword": "PLDC",
+            "synonyms": [
+                "pldc"
+            ]
+        },
+        {
+            "keyword": "PLDT baog",
+            "synonyms": [
+                "pldt baog"
+            ]
+        },
+        {
+            "keyword": "PLDT buang",
+            "synonyms": [
+                "pldt buang"
+            ]
+        },
+        {
+            "keyword": "PLDT rubbish",
+            "synonyms": [
+                "PLDT rubbish"
+            ]
+        },
+        {
+            "keyword": "PM NA KAYO DERITSO SAKIN  MATUTULONGAN KO KAYO",
+            "synonyms": [
+                "pm na kayo deritso sakin  matutulongan ko kayo"
+            ]
+        },
+        {
+            "keyword": "Page not found",
+            "synonyms": [
+                "page not found"
+            ]
+        },
+        {
+            "keyword": "Paki alis po PLDT sa pinas",
+            "synonyms": [
+                "paki alis po pldt sa pinas"
+            ]
+        },
+        {
+            "keyword": "Pano ba gagaling sa paglalaro ng online games",
+            "synonyms": [
+                "pano ba gagaling sa paglalaro ng online games"
+            ]
+        },
+        {
+            "keyword": "Pano kapag yung serious situation na",
+            "synonyms": [
+                "pano kapag yung serious situation na"
+            ]
+        },
+        {
+            "keyword": "Parang gusto ko din na ma check stat ko",
+            "synonyms": [
+                "parang gusto ko din na ma check stat ko"
+            ]
+        },
+        {
+            "keyword": "Please hold for the next available agent If you want to end this session type 'Exit'",
+            "synonyms": [
+                "please hold for the next available agent if you want to end this session type 'exit'"
+            ]
+        },
+        {
+            "keyword": "Prepared naman kami sa bahay",
+            "synonyms": [
+                "prepared naman kami sa bahay"
+            ]
+        },
+        {
+            "keyword": "Puro auto reply",
+            "synonyms": [
+                "Puro auto reply"
+            ]
+        },
+        {
+            "keyword": "Putaaaanginaaaaa moooooo pldttttt",
+            "synonyms": [
+                "Putaaaanginaaaaa moooooo pldttttt"
+            ]
+        },
+        {
+            "keyword": "Raise ur hands",
+            "synonyms": [
+                "raise ur hands"
+            ]
+        },
+        {
+            "keyword": "Reginabrown51",
+            "synonyms": [
+                "Reginabrown51"
+            ]
+        },
+        {
+            "keyword": "SA MGA MAY PROBLEMA SA PARTNER",
+            "synonyms": [
+                "sa mga may problema sa partner"
+            ]
+        },
+        {
+            "keyword": "SIS",
+            "synonyms": [
+                "sis"
+            ]
+        },
+        {
+            "keyword": "SUNUGON KO OFFICE NIYO",
+            "synonyms": [
+                "sunugon ko office niyo"
+            ]
+        },
+        {
+            "keyword": "Shainna Gayle",
+            "synonyms": [
+                "Shainna Gayle"
+            ]
+        },
+        {
+            "keyword": "Slayed na slayed ang mga momshiebells",
+            "synonyms": [
+                "Slayed na slayed ang mga momshiebells"
+            ]
+        },
+        {
+            "keyword": "Stock Trading",
+            "synonyms": [
+                "stock trading"
+            ]
+        },
+        {
+            "keyword": "TANGAAAAA ANG PLDT",
+            "synonyms": [
+                "tangaaaaa ang pldt"
+            ]
+        },
+        {
+            "keyword": "THE GOSPEL OF ALMIGHTY GOD",
+            "synonyms": [
+                "the gospel of almighty god"
+            ]
+        },
+        {
+            "keyword": "Take a minute to ask urself din",
+            "synonyms": [
+                "take a minute to ask urself din"
+            ]
+        },
+        {
+            "keyword": "The design is very classic",
+            "synonyms": [
+                "the design is very classic"
+            ]
+        },
+        {
+            "keyword": "The page you are looking for cannot be found",
+            "synonyms": [
+                "the page you are looking for cannot be found"
+            ]
+        },
+        {
+            "keyword": "TheSpellCastle",
+            "synonyms": [
+                "thespellcastle"
+            ]
+        },
+        {
+            "keyword": "TodoAngGVsaTM",
+            "synonyms": [
+                "todoanggvsatm"
+            ]
+        },
+        {
+            "keyword": "Torn if im gonnay buy it or not muna",
+            "synonyms": [
+                "torn if im gonnay buy it or not muna"
+            ]
+        },
+        {
+            "keyword": "Twinkle",
+            "synonyms": [
+                "Twinkle"
+            ]
+        },
+        {
+            "keyword": "USA",
+            "synonyms": [
+                "USA"
+            ]
+        },
+        {
+            "keyword": "Valenzuela",
+            "synonyms": [
+                "Valenzuela"
+            ]
+        },
+        {
+            "keyword": "Valorant tournament",
+            "synonyms": [
+                "valorant tournament"
+            ]
+        },
+        {
+            "keyword": "Via text lang ba yan?",
+            "synonyms": [
+                "via text lang ba yan?"
+            ]
+        },
+        {
+            "keyword": "Wala bang award yung unang makakakumpleto ng to do list",
+            "synonyms": [
+                "wala bang award yung unang makakakumpleto ng to do list"
+            ]
+        },
+        {
+            "keyword": "What a bunch of lies",
+            "synonyms": [
+                "what a bunch of lies"
+            ]
+        },
+        {
+            "keyword": "Who else also watched",
+            "synonyms": [
+                "who else also watched"
+            ]
+        },
+        {
+            "keyword": "Wireless subsidiaries is the key",
+            "synonyms": [
+                "wireless subsidiaries is the key"
+            ]
+        },
+        {
+            "keyword": "Xiaomi",
+            "synonyms": [
+                "xiaomi"
+            ]
+        },
+        {
+            "keyword": "Xilhouette",
+            "synonyms": [
+                "Xilhouette"
+            ]
+        },
+        {
+            "keyword": "Yan lang pala gagawin",
+            "synonyms": [
+                "yan lang pala gagawin"
+            ]
+        },
+        {
+            "keyword": "Yan pala ang smart way kaya pala di ako smart",
+            "synonyms": [
+                "yan pala ang smart way kaya pala di ako smart"
+            ]
+        },
+        {
+            "keyword": "Yung cinocomfort nila isa't isa dun ako talaga nahook e",
+            "synonyms": [
+                "yung cinocomfort nila isa't isa dun ako talaga nahook e"
+            ]
+        },
+        {
+            "keyword": "Zedrich G Palo reg mo sim mo",
+            "synonyms": [
+                "Zedrich G Palo reg mo sim mo"
+            ]
+        },
+        {
+            "keyword": "abbeyajakaye5",
+            "synonyms": [
+                "abbeyajakaye5"
+            ]
+        },
+        {
+            "keyword": "agooy",
+            "synonyms": [
+                "agooy"
+            ]
+        },
+        {
+            "keyword": "ah iri yung nadaanan namin nung nakaraan",
+            "synonyms": [
+                "ah iri yung nadaanan namin nung nakaraan"
+            ]
+        },
+        {
+            "keyword": "alangkwenta",
+            "synonyms": [
+                "alangkwenta"
+            ]
+        },
+        {
+            "keyword": "alarm clock",
+            "synonyms": [
+                "alarm clock"
+            ]
+        },
+        {
+            "keyword": "angas nyo",
+            "synonyms": [
+                "angas nyo"
+            ]
+        },
+        {
+            "keyword": "animal",
+            "synonyms": [
+                "animal"
+            ]
+        },
+        {
+            "keyword": "apologize",
+            "synonyms": [
+                "apologize"
+            ]
+        },
+        {
+            "keyword": "asa naman",
+            "synonyms": [
+                "asa naman"
+            ]
+        },
+        {
+            "keyword": "ate Kong nurse",
+            "synonyms": [
+                "ate kong nurse"
+            ]
+        },
+        {
+            "keyword": "awanen",
+            "synonyms": [
+                "awanen"
+            ]
+        },
+        {
+            "keyword": "awiitt!!",
+            "synonyms": [
+                "awiitt!!"
+            ]
+        },
+        {
+            "keyword": "awit",
+            "synonyms": [
+                "awit"
+            ]
+        },
+        {
+            "keyword": "babaw",
+            "synonyms": [
+                "babaw"
+            ]
+        },
+        {
+            "keyword": "baboy",
+            "synonyms": [
+                "baboy"
+            ]
+        },
+        {
+            "keyword": "baka namann",
+            "synonyms": [
+                "baka namann"
+            ]
+        },
+        {
+            "keyword": "baloga",
+            "synonyms": [
+                "baloga"
+            ]
+        },
+        {
+            "keyword": "bandaid",
+            "synonyms": [
+                "bandaid"
+            ]
+        },
+        {
+            "keyword": "basura",
+            "synonyms": [
+                "basura"
+            ]
+        },
+        {
+            "keyword": "basurang",
+            "synonyms": [
+                "basurang"
+            ]
+        },
+        {
+            "keyword": "beh anong oras ka babalik",
+            "synonyms": [
+                "beh anong oras ka babalik"
+            ]
+        },
+        {
+            "keyword": "bibigyan ka namin ng FREE",
+            "synonyms": [
+                "bibigyan ka namin ng free"
+            ]
+        },
+        {
+            "keyword": "binary options",
+            "synonyms": [
+                "binary options"
+            ]
+        },
+        {
+            "keyword": "black keyboard",
+            "synonyms": [
+                "black keyboard"
+            ]
+        },
+        {
+            "keyword": "blocked",
+            "synonyms": [
+                "blocked"
+            ]
+        },
+        {
+            "keyword": "bobo",
+            "synonyms": [
+                "bobo"
+            ]
+        },
+        {
+            "keyword": "bobong",
+            "synonyms": [
+                "bobong"
+            ]
+        },
+        {
+            "keyword": "bogo",
+            "synonyms": [
+                "bogo"
+            ]
+        },
+        {
+            "keyword": "bogok",
+            "synonyms": [
+                "bogok"
+            ]
+        },
+        {
+            "keyword": "bolok",
+            "synonyms": [
+                "bolok"
+            ]
+        },
+        {
+            "keyword": "boret",
+            "synonyms": [
+                "boret"
+            ]
+        },
+        {
+            "keyword": "botbot",
+            "synonyms": [
+                "botbot"
+            ]
+        },
+        {
+            "keyword": "botbot!",
+            "synonyms": [
+                "botbot!"
+            ]
+        },
+        {
+            "keyword": "botx2",
+            "synonyms": [
+                "botx2"
+            ]
+        },
+        {
+            "keyword": "boycot",
+            "synonyms": [
+                "boycot"
+            ]
+        },
+        {
+            "keyword": "breaks",
+            "synonyms": [
+                "breaks"
+            ]
+        },
+        {
+            "keyword": "bubo",
+            "synonyms": [
+                "bubo"
+            ]
+        },
+        {
+            "keyword": "bubu",
+            "synonyms": [
+                "bubu"
+            ]
+        },
+        {
+            "keyword": "bubuk",
+            "synonyms": [
+                "bubuk"
+            ]
+        },
+        {
+            "keyword": "budol",
+            "synonyms": [
+                "budol"
+            ]
+        },
+        {
+            "keyword": "bugbog",
+            "synonyms": [
+                "bugbog"
+            ]
+        },
+        {
+            "keyword": "bugok",
+            "synonyms": [
+                "bugok"
+            ]
+        },
+        {
+            "keyword": "bullshit",
+            "synonyms": [
+                "bullshit"
+            ]
+        },
+        {
+            "keyword": "bulok",
+            "synonyms": [
+                "bulok"
+            ]
+        },
+        {
+            "keyword": "bwaka",
+            "synonyms": [
+                "bwaka"
+            ]
+        },
+        {
+            "keyword": "bwesit",
+            "synonyms": [
+                "bwesit"
+            ]
+        },
+        {
+            "keyword": "bwiset",
+            "synonyms": [
+                "bwiset"
+            ]
+        },
+        {
+            "keyword": "cashing out",
+            "synonyms": [
+                "cashing out"
+            ]
+        },
+        {
+            "keyword": "choice",
+            "synonyms": [
+                "choice"
+            ]
+        },
+        {
+            "keyword": "closing na ano meaning nun",
+            "synonyms": [
+                "closing na ano meaning nun"
+            ]
+        },
+        {
+            "keyword": "coinph wallet",
+            "synonyms": [
+                "coinph wallet"
+            ]
+        },
+        {
+            "keyword": "comment na robot",
+            "synonyms": [
+                "comment na robot"
+            ]
+        },
+        {
+            "keyword": "company who took me out from zero to hero",
+            "synonyms": [
+                "company who took me out from zero to hero"
+            ]
+        },
+        {
+            "keyword": "crypto",
+            "synonyms": [
+                "crypto"
+            ]
+        },
+        {
+            "keyword": "cute mo naman pldt",
+            "synonyms": [
+                "cute mo naman pldt"
+            ]
+        },
+        {
+            "keyword": "dami kong access ah",
+            "synonyms": [
+                "dami kong access ah"
+            ]
+        },
+        {
+            "keyword": "dapat alam ano uunahin paramasmabilis matapos",
+            "synonyms": [
+                "dapat alam ano uunahin paramasmabilis matapos"
+            ]
+        },
+        {
+            "keyword": "dapat productive na",
+            "synonyms": [
+                "dapat productive na"
+            ]
+        },
+        {
+            "keyword": "dapat talaga alam natin ang priority",
+            "synonyms": [
+                "dapat talaga alam natin ang priority"
+            ]
+        },
+        {
+            "keyword": "deputa",
+            "synonyms": [
+                "deputa"
+            ]
+        },
+        {
+            "keyword": "deserve nyo",
+            "synonyms": [
+                "deserve nyo"
+            ]
+        },
+        {
+            "keyword": "di na pwede nga birthday eh",
+            "synonyms": [
+                "di na pwede nga birthday eh"
+            ]
+        },
+        {
+            "keyword": "dili",
+            "synonyms": [
+                "dili"
+            ]
+        },
+        {
+            "keyword": "dipota",
+            "synonyms": [
+                "dipota"
+            ]
+        },
+        {
+            "keyword": "disappointed",
+            "synonyms": [
+                "disappointed"
+            ]
+        },
+        {
+            "keyword": "dogshit",
+            "synonyms": [
+                "dogshit"
+            ]
+        },
+        {
+            "keyword": "don't do list",
+            "synonyms": [
+                "don't do list"
+            ]
+        },
+        {
+            "keyword": "dumale",
+            "synonyms": [
+                "dumale"
+            ]
+        },
+        {
+            "keyword": "duterte",
+            "synonyms": [
+                "duterte"
+            ]
+        },
+        {
+            "keyword": "earthquakes",
+            "synonyms": [
+                "earthquakes"
+            ]
+        },
+        {
+            "keyword": "everyday updated na kamii",
+            "synonyms": [
+                "everyday updated na kamii"
+            ]
+        },
+        {
+            "keyword": "f***y**!",
+            "synonyms": [
+                "f***y**!"
+            ]
+        },
+        {
+            "keyword": "facken",
+            "synonyms": [
+                "facken"
+            ]
+        },
+        {
+            "keyword": "faking",
+            "synonyms": [
+                "faking"
+            ]
+        },
+        {
+            "keyword": "fighter",
+            "synonyms": [
+                "fighter"
+            ]
+        },
+        {
+            "keyword": "for real sa mini stop or depende",
+            "synonyms": [
+                "for real sa mini stop or depende",
+                "for real sa mini stop? or depende?"
+            ]
+        },
+        {
+            "keyword": "forced",
+            "synonyms": [
+                "forced"
+            ]
+        },
+        {
+            "keyword": "freelance",
+            "synonyms": [
+                "freelance"
+            ]
+        },
+        {
+            "keyword": "freelancing",
+            "synonyms": [
+                "freelancing"
+            ]
+        },
+        {
+            "keyword": "fuck",
+            "synonyms": [
+                "fuck"
+            ]
+        },
+        {
+            "keyword": "fucking",
+            "synonyms": [
+                "fucking"
+            ]
+        },
+        {
+            "keyword": "futa",
+            "synonyms": [
+                "futa"
+            ]
+        },
+        {
+            "keyword": "gagamit ako nung app",
+            "synonyms": [
+                "gagamit ako nung app"
+            ]
+        },
+        {
+            "keyword": "gago",
+            "synonyms": [
+                "gago"
+            ]
+        },
+        {
+            "keyword": "ganda ng ganyang keyboard",
+            "synonyms": [
+                "ganda ng ganyang keyboard"
+            ]
+        },
+        {
+            "keyword": "ganyan yung pinapabili ng kua ko eh",
+            "synonyms": [
+                "ganyan yung pinapabili ng kua ko eh"
+            ]
+        },
+        {
+            "keyword": "giatay",
+            "synonyms": [
+                "giatay"
+            ]
+        },
+        {
+            "keyword": "go converge",
+            "synonyms": [
+                "go converge"
+            ]
+        },
+        {
+            "keyword": "good luck",
+            "synonyms": [
+                "good luck"
+            ]
+        },
+        {
+            "keyword": "good thing maraming app for different emergencies and situations Ganda din ng interface",
+            "synonyms": [
+                "good thing maraming app for different emergencies and situations ganda din ng interface"
+            ]
+        },
+        {
+            "keyword": "good vibes",
+            "synonyms": [
+                "good vibes"
+            ]
+        },
+        {
+            "keyword": "gospelwilliams5",
+            "synonyms": [
+                "gospelwilliams5"
+            ]
+        },
+        {
+            "keyword": "great innovation",
+            "synonyms": [
+                "great innovation"
+            ]
+        },
+        {
+            "keyword": "great person who supports and encourages me on a daily basis",
+            "synonyms": [
+                "great person who supports and encourages me on a daily basis"
+            ]
+        },
+        {
+            "keyword": "gusto ko po yung nailaw",
+            "synonyms": [
+                "gusto ko po yung nailaw"
+            ]
+        },
+        {
+            "keyword": "haaaayysssss",
+            "synonyms": [
+                "haaaayysssss"
+            ]
+        },
+        {
+            "keyword": "hahhahahaha!",
+            "synonyms": [
+                "hahhahahaha!"
+            ]
+        },
+        {
+            "keyword": "hamboggggg",
+            "synonyms": [
+                "hamboggggg"
+            ]
+        },
+        {
+            "keyword": "hano?",
+            "synonyms": [
+                "hano?"
+            ]
+        },
+        {
+            "keyword": "hapit",
+            "synonyms": [
+                "hapit"
+            ]
+        },
+        {
+            "keyword": "hassle",
+            "synonyms": [
+                "hassle"
+            ]
+        },
+        {
+            "keyword": "hayop",
+            "synonyms": [
+                "hayop"
+            ]
+        },
+        {
+            "keyword": "hayp,",
+            "synonyms": [
+                "hayp,"
+            ]
+        },
+        {
+            "keyword": "hayup",
+            "synonyms": [
+                "hayup"
+            ]
+        },
+        {
+            "keyword": "hazelalice20",
+            "synonyms": [
+                "hazelalice20",
+                "mrs hazel alice"
+            ]
+        },
+        {
+            "keyword": "hinay",
+            "synonyms": [
+                "hinay"
+            ]
+        },
+        {
+            "keyword": "hiyang-hiyang",
+            "synonyms": [
+                "hiyang-hiyang"
+            ]
+        },
+        {
+            "keyword": "hoping nga ako na magamit ko",
+            "synonyms": [
+                "hoping nga ako na magamit ko"
+            ]
+        },
+        {
+            "keyword": "horrible",
+            "synonyms": [
+                "horrible"
+            ]
+        },
+        {
+            "keyword": "hoy",
+            "synonyms": [
+                "hoy"
+            ]
+        },
+        {
+            "keyword": "hoy pldt",
+            "synonyms": [
+                "hoy pldt"
+            ]
+        },
+        {
+            "keyword": "https:\/\/",
+            "synonyms": [
+                "https:\/\/"
+            ]
+        },
+        {
+            "keyword": "https:\/\/wwwfacebookcom\/MarrissaGeorge5",
+            "synonyms": [
+                "https:\/\/wwwfacebookcom\/marrissageorge5"
+            ]
+        },
+        {
+            "keyword": "https:\/\/wwwfacebookcom\/ruthrobertalexei6",
+            "synonyms": [
+                "https:\/\/wwwfacebookcom\/ruthrobertalexei6"
+            ]
+        },
+        {
+            "keyword": "huh",
+            "synonyms": [
+                "huh"
+            ]
+        },
+        {
+            "keyword": "idiot",
+            "synonyms": [
+                "idiot"
+            ]
+        },
+        {
+            "keyword": "impact",
+            "synonyms": [
+                "impact"
+            ]
+        },
+        {
+            "keyword": "improve ang skills",
+            "synonyms": [
+                "improve ang skills"
+            ]
+        },
+        {
+            "keyword": "inspire",
+            "synonyms": [
+                "inspire"
+            ]
+        },
+        {
+            "keyword": "intay third telco",
+            "synonyms": [
+                "intay third telco"
+            ]
+        },
+        {
+            "keyword": "introduced to an Expert Trader",
+            "synonyms": [
+                "introduced to an expert trader"
+            ]
+        },
+        {
+            "keyword": "inutil",
+            "synonyms": [
+                "inutil"
+            ]
+        },
+        {
+            "keyword": "inuugali nyo na yan ah",
+            "synonyms": [
+                "inuugali nyo na yan ah"
+            ]
+        },
+        {
+            "keyword": "investment",
+            "synonyms": [
+                "investment"
+            ]
+        },
+        {
+            "keyword": "ipasara",
+            "synonyms": [
+                "ipasara"
+            ]
+        },
+        {
+            "keyword": "ipatong lahat ng gamit mo",
+            "synonyms": [
+                "ipatong lahat ng gamit mo"
+            ]
+        },
+        {
+            "keyword": "ipon ko para dito",
+            "synonyms": [
+                "ipon ko para dito"
+            ]
+        },
+        {
+            "keyword": "jawa",
+            "synonyms": [
+                "jawa"
+            ]
+        },
+        {
+            "keyword": "joke",
+            "synonyms": [
+                "joke"
+            ]
+        },
+        {
+            "keyword": "jusme",
+            "synonyms": [
+                "jusme"
+            ]
+        },
+        {
+            "keyword": "kagago",
+            "synonyms": [
+                "kagago"
+            ]
+        },
+        {
+            "keyword": "kairita",
+            "synonyms": [
+                "kairita"
+            ]
+        },
+        {
+            "keyword": "kalokohan",
+            "synonyms": [
+                "kalokohan"
+            ]
+        },
+        {
+            "keyword": "kalokohan!",
+            "synonyms": [
+                "kalokohan!"
+            ]
+        },
+        {
+            "keyword": "kamo",
+            "synonyms": [
+                "kamo"
+            ]
+        },
+        {
+            "keyword": "kasalanan",
+            "synonyms": [
+                "kasalanan"
+            ]
+        },
+        {
+            "keyword": "kaugmaon",
+            "synonyms": [
+                "kaugmaon"
+            ]
+        },
+        {
+            "keyword": "kingina",
+            "synonyms": [
+                "kingina"
+            ]
+        },
+        {
+            "keyword": "kinginanyo",
+            "synonyms": [
+                "kinginanyo"
+            ]
+        },
+        {
+            "keyword": "knock",
+            "synonyms": [
+                "knock"
+            ]
+        },
+        {
+            "keyword": "krazyyyy?",
+            "synonyms": [
+                "krazyyyy?"
+            ]
+        },
+        {
+            "keyword": "kung saan ka comfortable",
+            "synonyms": [
+                "kung saan ka comfortable"
+            ]
+        },
+        {
+            "keyword": "kupal",
+            "synonyms": [
+                "kupal"
+            ]
+        },
+        {
+            "keyword": "kuwenta",
+            "synonyms": [
+                "kuwenta"
+            ]
+        },
+        {
+            "keyword": "kwenta",
+            "synonyms": [
+                "kwenta"
+            ]
+        },
+        {
+            "keyword": "leche",
+            "synonyms": [
+                "leche"
+            ]
+        },
+        {
+            "keyword": "lip sync battle",
+            "synonyms": [
+                "lip sync battle"
+            ]
+        },
+        {
+            "keyword": "lokbuz",
+            "synonyms": [
+                "lokbuz"
+            ]
+        },
+        {
+            "keyword": "ma'am abbey ajakaye",
+            "synonyms": [
+                "ma'am abbey ajakaye"
+            ]
+        },
+        {
+            "keyword": "mabubudol",
+            "synonyms": [
+                "mabubudol"
+            ]
+        },
+        {
+            "keyword": "maduagas",
+            "synonyms": [
+                "maduagas"
+            ]
+        },
+        {
+            "keyword": "mag nanakaw kau",
+            "synonyms": [
+                "mag nanakaw kau"
+            ]
+        },
+        {
+            "keyword": "mag switch ng converge",
+            "synonyms": [
+                "mag switch ng converge"
+            ]
+        },
+        {
+            "keyword": "magnanakaw",
+            "synonyms": [
+                "magnanakaw"
+            ]
+        },
+        {
+            "keyword": "magsara",
+            "synonyms": [
+                "magsara"
+            ]
+        },
+        {
+            "keyword": "magsarado",
+            "synonyms": [
+                "magsarado"
+            ]
+        },
+        {
+            "keyword": "magsilipat",
+            "synonyms": [
+                "magsilipat"
+            ]
+        },
+        {
+            "keyword": "magsirado",
+            "synonyms": [
+                "magsirado"
+            ]
+        },
+        {
+            "keyword": "makacomment",
+            "synonyms": [
+                "makacomment"
+            ]
+        },
+        {
+            "keyword": "makapagtext nga",
+            "synonyms": [
+                "makapagtext nga"
+            ]
+        },
+        {
+            "keyword": "making more money",
+            "synonyms": [
+                "making more money"
+            ]
+        },
+        {
+            "keyword": "makisama",
+            "synonyms": [
+                "makisama"
+            ]
+        },
+        {
+            "keyword": "malakas",
+            "synonyms": [
+                "malakas"
+            ]
+        },
+        {
+            "keyword": "mamatay",
+            "synonyms": [
+                "mamatay"
+            ]
+        },
+        {
+            "keyword": "mangagamit",
+            "synonyms": [
+                "mangagamit"
+            ]
+        },
+        {
+            "keyword": "mas bet ko tong ICE - In Case of Emergency",
+            "synonyms": [
+                "mas bet ko tong ice - in case of emergency"
+            ]
+        },
+        {
+            "keyword": "masmaganda po pagsafee",
+            "synonyms": [
+                "masmaganda po pagsafee"
+            ]
+        },
+        {
+            "keyword": "matalaking tulong yan lalo na kung may pwede ka nmn magawa pag emergency",
+            "synonyms": [
+                "matalaking tulong yan lalo na kung may pwede ka nmn magawa pag emergency"
+            ]
+        },
+        {
+            "keyword": "matay",
+            "synonyms": [
+                "matay"
+            ]
+        },
+        {
+            "keyword": "movement is just getting started",
+            "synonyms": [
+                "movement is just getting started"
+            ]
+        },
+        {
+            "keyword": "mumurahin",
+            "synonyms": [
+                "mumurahin"
+            ]
+        },
+        {
+            "keyword": "murahin",
+            "synonyms": [
+                "murahin"
+            ]
+        },
+        {
+            "keyword": "na kakagulo ng isip",
+            "synonyms": [
+                "na kakagulo ng isip"
+            ]
+        },
+        {
+            "keyword": "naboboryo",
+            "synonyms": [
+                "naboboryo"
+            ]
+        },
+        {
+            "keyword": "nagcontact",
+            "synonyms": [
+                "nagcontact"
+            ]
+        },
+        {
+            "keyword": "nagkabuang",
+            "synonyms": [
+                "nagkabuang"
+            ]
+        },
+        {
+            "keyword": "nagkukupal",
+            "synonyms": [
+                "nagkukupal"
+            ]
+        },
+        {
+            "keyword": "naglalaro through online",
+            "synonyms": [
+                "naglalaro through online"
+            ]
+        },
+        {
+            "keyword": "nagtetext back",
+            "synonyms": [
+                "nagtetext back"
+            ]
+        },
+        {
+            "keyword": "nahiya",
+            "synonyms": [
+                "nahiya"
+            ]
+        },
+        {
+            "keyword": "nancybarbara19",
+            "synonyms": [
+                "nancybarbara19"
+            ]
+        },
+        {
+            "keyword": "napakabulok",
+            "synonyms": [
+                "napakabulok"
+            ]
+        },
+        {
+            "keyword": "natalo",
+            "synonyms": [
+                "natalo"
+            ]
+        },
+        {
+            "keyword": "natapos nyo to panoorin",
+            "synonyms": [
+                "natapos nyo to panoorin"
+            ]
+        },
+        {
+            "keyword": "natry niyo na ba sa sky",
+            "synonyms": [
+                "natry niyo na ba sa sky"
+            ]
+        },
+        {
+            "keyword": "negative",
+            "synonyms": [
+                "negative"
+            ]
+        },
+        {
+            "keyword": "new collaboration",
+            "synonyms": [
+                "new collaboration"
+            ]
+        },
+        {
+            "keyword": "nfr",
+            "synonyms": [
+                "nfr"
+            ]
+        },
+        {
+            "keyword": "nice??",
+            "synonyms": [
+                "nice??"
+            ]
+        },
+        {
+            "keyword": "niloloko",
+            "synonyms": [
+                "niloloko"
+            ]
+        },
+        {
+            "keyword": "no need sa app nag seseminar nmn ako",
+            "synonyms": [
+                "no need sa app nag seseminar nmn ako"
+            ]
+        },
+        {
+            "keyword": "np ka kupad nyong serbisyo",
+            "synonyms": [
+                "np ka kupad nyong serbisyo"
+            ]
+        },
+        {
+            "keyword": "olul",
+            "synonyms": [
+                "olul"
+            ]
+        },
+        {
+            "keyword": "one the hardest is yung task management",
+            "synonyms": [
+                "one the hardest is yung task management"
+            ]
+        },
+        {
+            "keyword": "online casino",
+            "synonyms": [
+                "online casino"
+            ]
+        },
+        {
+            "keyword": "onsanamaneeee!?!?!?",
+            "synonyms": [
+                "onsanamaneeee!?!?!?"
+            ]
+        },
+        {
+            "keyword": "pH weather",
+            "synonyms": [
+                "ph weather"
+            ]
+        },
+        {
+            "keyword": "pag sa bayarin mabilis pa sa kabayo Ewan ko sa inyo dami nyong alam",
+            "synonyms": [
+                "pag sa bayarin mabilis pa sa kabayo ewan ko sa inyo dami nyong alam"
+            ]
+        },
+        {
+            "keyword": "pagod",
+            "synonyms": [
+                "pagod"
+            ]
+        },
+        {
+            "keyword": "pagsarado",
+            "synonyms": [
+                "pagsarado"
+            ]
+        },
+        {
+            "keyword": "pakadaya",
+            "synonyms": [
+                "pakadaya"
+            ]
+        },
+        {
+            "keyword": "pake!",
+            "synonyms": [
+                "pake!"
+            ]
+        },
+        {
+            "keyword": "pakeo",
+            "synonyms": [
+                "pakeo"
+            ]
+        },
+        {
+            "keyword": "pakyu",
+            "synonyms": [
+                "pakyu"
+            ]
+        },
+        {
+            "keyword": "palit",
+            "synonyms": [
+                "palit"
+            ]
+        },
+        {
+            "keyword": "palpak",
+            "synonyms": [
+                "palpak"
+            ]
+        },
+        {
+            "keyword": "pambobola",
+            "synonyms": [
+                "pambobola"
+            ]
+        },
+        {
+            "keyword": "panira",
+            "synonyms": [
+                "panira"
+            ]
+        },
+        {
+            "keyword": "panirado",
+            "synonyms": [
+                "panirado"
+            ]
+        },
+        {
+            "keyword": "papasabugin",
+            "synonyms": [
+                "papasabugin"
+            ]
+        },
+        {
+            "keyword": "pasabog",
+            "synonyms": [
+                "pasabog"
+            ]
+        },
+        {
+            "keyword": "pasukan",
+            "synonyms": [
+                "pasukan"
+            ]
+        },
+        {
+            "keyword": "patay",
+            "synonyms": [
+                "patay"
+            ]
+        },
+        {
+            "keyword": "pati reply nyo scripted we need someone to talk to and explain what is happening",
+            "synonyms": [
+                "pati reply nyo scripted we need someone to talk to and explain what is happening"
+            ]
+        },
+        {
+            "keyword": "peace of mind at payapa ba kapaliqiran",
+            "synonyms": [
+                "peace of mind at payapa ba kapaliqiran"
+            ]
+        },
+        {
+            "keyword": "pera",
+            "synonyms": [
+                "pera"
+            ]
+        },
+        {
+            "keyword": "pera-pera",
+            "synonyms": [
+                "pera-pera"
+            ]
+        },
+        {
+            "keyword": "pinuputangina",
+            "synonyms": [
+                "pinuputangina"
+            ]
+        },
+        {
+            "keyword": "pokingina",
+            "synonyms": [
+                "pokingina"
+            ]
+        },
+        {
+            "keyword": "post",
+            "synonyms": [
+                "post"
+            ]
+        },
+        {
+            "keyword": "pota",
+            "synonyms": [
+                "pota"
+            ]
+        },
+        {
+            "keyword": "potaena",
+            "synonyms": [
+                "potaena"
+            ]
+        },
+        {
+            "keyword": "potang",
+            "synonyms": [
+                "potang"
+            ]
+        },
+        {
+            "keyword": "potangina",
+            "synonyms": [
+                "potangina"
+            ]
+        },
+        {
+            "keyword": "potanginamo",
+            "synonyms": [
+                "potanginamo"
+            ]
+        },
+        {
+            "keyword": "potanginang",
+            "synonyms": [
+                "potanginang"
+            ]
+        },
+        {
+            "keyword": "potik",
+            "synonyms": [
+                "potik"
+            ]
+        },
+        {
+            "keyword": "pov",
+            "synonyms": [
+                "pov"
+            ]
+        },
+        {
+            "keyword": "praaaaaank!",
+            "synonyms": [
+                "praaaaaank!"
+            ]
+        },
+        {
+            "keyword": "proud",
+            "synonyms": [
+                "proud"
+            ]
+        },
+        {
+            "keyword": "pukeng ina nyo",
+            "synonyms": [
+                "pukeng ina nyo"
+            ]
+        },
+        {
+            "keyword": "pukingina",
+            "synonyms": [
+                "pukingina"
+            ]
+        },
+        {
+            "keyword": "pukyu",
+            "synonyms": [
+                "pukyu"
+            ]
+        },
+        {
+            "keyword": "pulos",
+            "synonyms": [
+                "pulos"
+            ]
+        },
+        {
+            "keyword": "punyawa",
+            "synonyms": [
+                "punyawa"
+            ]
+        },
+        {
+            "keyword": "punyawaaa",
+            "synonyms": [
+                "punyawaaa"
+            ]
+        },
+        {
+            "keyword": "puryagaba",
+            "synonyms": [
+                "puryagaba"
+            ]
+        },
+        {
+            "keyword": "puryagaba!!",
+            "synonyms": [
+                "puryagaba!!"
+            ]
+        },
+        {
+            "keyword": "puta",
+            "synonyms": [
+                "puta"
+            ]
+        },
+        {
+            "keyword": "putaang",
+            "synonyms": [
+                "putaang"
+            ]
+        },
+        {
+            "keyword": "putang",
+            "synonyms": [
+                "putang"
+            ]
+        },
+        {
+            "keyword": "putangina",
+            "synonyms": [
+                "putangina"
+            ]
+        },
+        {
+            "keyword": "putanginamo",
+            "synonyms": [
+                "putanginamo"
+            ]
+        },
+        {
+            "keyword": "putanginang",
+            "synonyms": [
+                "putanginang"
+            ]
+        },
+        {
+            "keyword": "putanginaniyo",
+            "synonyms": [
+                "putanginanio",
+                "putanginaniyo"
+            ]
+        },
+        {
+            "keyword": "putanginnyooo",
+            "synonyms": [
+                "putanginnyooo"
+            ]
+        },
+        {
+            "keyword": "putanginyo",
+            "synonyms": [
+                "putanginyo"
+            ]
+        },
+        {
+            "keyword": "putnginano",
+            "synonyms": [
+                "putnginano"
+            ]
+        },
+        {
+            "keyword": "pweee",
+            "synonyms": [
+                "pweee"
+            ]
+        },
+        {
+            "keyword": "queen",
+            "synonyms": [
+                "queen"
+            ]
+        },
+        {
+            "keyword": "quit",
+            "synonyms": [
+                "quit"
+            ]
+        },
+        {
+            "keyword": "reginabrown8o",
+            "synonyms": [
+                "reginabrown8o"
+            ]
+        },
+        {
+            "keyword": "restinpeace",
+            "synonyms": [
+                "restinpeace"
+            ]
+        },
+        {
+            "keyword": "retire",
+            "synonyms": [
+                "retire"
+            ]
+        },
+        {
+            "keyword": "ritero",
+            "synonyms": [
+                "ritero"
+            ]
+        },
+        {
+            "keyword": "sa fam ko lagi dapat safety uunahin ko",
+            "synonyms": [
+                "sa fam ko lagi dapat safety uunahin ko"
+            ]
+        },
+        {
+            "keyword": "sakit",
+            "synonyms": [
+                "sakit"
+            ]
+        },
+        {
+            "keyword": "sakitulo",
+            "synonyms": [
+                "sakitulo"
+            ]
+        },
+        {
+            "keyword": "sales agent",
+            "synonyms": [
+                "sales agent"
+            ]
+        },
+        {
+            "keyword": "sama",
+            "synonyms": [
+                "sama"
+            ]
+        },
+        {
+            "keyword": "sana ma gamit ko yung app kasi dinowload ko",
+            "synonyms": [
+                "sana ma gamit ko yung app kasi dinowload ko"
+            ]
+        },
+        {
+            "keyword": "sapak",
+            "synonyms": [
+                "sapak"
+            ]
+        },
+        {
+            "keyword": "sapakan",
+            "synonyms": [
+                "sapakan"
+            ]
+        },
+        {
+            "keyword": "sapol",
+            "synonyms": [
+                "sapol"
+            ]
+        },
+        {
+            "keyword": "sara",
+            "synonyms": [
+                "sara"
+            ]
+        },
+        {
+            "keyword": "sarado",
+            "synonyms": [
+                "sarado"
+            ]
+        },
+        {
+            "keyword": "sarap",
+            "synonyms": [
+                "sarap"
+            ]
+        },
+        {
+            "keyword": "sawa",
+            "synonyms": [
+                "sawa"
+            ]
+        },
+        {
+            "keyword": "scam",
+            "synonyms": [
+                "scam"
+            ]
+        },
+        {
+            "keyword": "scam!",
+            "synonyms": [
+                "scam!"
+            ]
+        },
+        {
+            "keyword": "scam.",
+            "synonyms": [
+                "scam."
+            ]
+        },
+        {
+            "keyword": "scam?",
+            "synonyms": [
+                "scam?"
+            ]
+        },
+        {
+            "keyword": "scammer",
+            "synonyms": [
+                "scammer"
+            ]
+        },
+        {
+            "keyword": "season",
+            "synonyms": [
+                "season"
+            ]
+        },
+        {
+            "keyword": "serbisan",
+            "synonyms": [
+                "serbisan"
+            ]
+        },
+        {
+            "keyword": "shame",
+            "synonyms": [
+                "shame"
+            ]
+        },
+        {
+            "keyword": "shitty",
+            "synonyms": [
+                "shitty"
+            ]
+        },
+        {
+            "keyword": "shot",
+            "synonyms": [
+                "shot"
+            ]
+        },
+        {
+            "keyword": "shuta",
+            "synonyms": [
+                "shuta"
+            ]
+        },
+        {
+            "keyword": "sila ate nga nagsabi sakin neto about sa sms na pwede magamit",
+            "synonyms": [
+                "sila ate nga nagsabi sakin neto about sa sms na pwede magamit"
+            ]
+        },
+        {
+            "keyword": "sinungaling",
+            "synonyms": [
+                "sinungaling"
+            ]
+        },
+        {
+            "keyword": "sinungaling!",
+            "synonyms": [
+                "sinungaling!"
+            ]
+        },
+        {
+            "keyword": "smart mirrors",
+            "synonyms": [
+                "smart mirrors"
+            ]
+        },
+        {
+            "keyword": "soyuin",
+            "synonyms": [
+                "soyuin"
+            ]
+        },
+        {
+            "keyword": "stress reliever",
+            "synonyms": [
+                "stress reliever"
+            ]
+        },
+        {
+            "keyword": "stylist pa",
+            "synonyms": [
+                "stylist pa"
+            ]
+        },
+        {
+            "keyword": "sucks",
+            "synonyms": [
+                "sucks"
+            ]
+        },
+        {
+            "keyword": "support is hilarious",
+            "synonyms": [
+                "support is hilarious"
+            ]
+        },
+        {
+            "keyword": "susuntukan",
+            "synonyms": [
+                "susuntukan"
+            ]
+        },
+        {
+            "keyword": "suyo mo ko",
+            "synonyms": [
+                "suyo mo ko"
+            ]
+        },
+        {
+            "keyword": "suyoin",
+            "synonyms": [
+                "suyoin"
+            ]
+        },
+        {
+            "keyword": "suyuin",
+            "synonyms": [
+                "suyuin"
+            ]
+        },
+        {
+            "keyword": "switch ng converge",
+            "synonyms": [
+                "switch ng converge"
+            ]
+        },
+        {
+            "keyword": "tae",
+            "synonyms": [
+                "tae"
+            ]
+        },
+        {
+            "keyword": "tae!!!",
+            "synonyms": [
+                "tae!!!"
+            ]
+        },
+        {
+            "keyword": "taena",
+            "synonyms": [
+                "taena"
+            ]
+        },
+        {
+            "keyword": "tagilid",
+            "synonyms": [
+                "tagilid"
+            ]
+        },
+        {
+            "keyword": "take risks",
+            "synonyms": [
+                "take risks"
+            ]
+        },
+        {
+            "keyword": "talented",
+            "synonyms": [
+                "talented"
+            ]
+        },
+        {
+            "keyword": "talo",
+            "synonyms": [
+                "talo"
+            ]
+        },
+        {
+            "keyword": "tang ina",
+            "synonyms": [
+                "tang ina"
+            ]
+        },
+        {
+            "keyword": "tanga",
+            "synonyms": [
+                "tanga"
+            ]
+        },
+        {
+            "keyword": "tangina",
+            "synonyms": [
+                "tangina"
+            ]
+        },
+        {
+            "keyword": "tangina?",
+            "synonyms": [
+                "tangina?"
+            ]
+        },
+        {
+            "keyword": "tanginaaa",
+            "synonyms": [
+                "tanginaaa"
+            ]
+        },
+        {
+            "keyword": "tanginaaaa",
+            "synonyms": [
+                "tanginaaaa"
+            ]
+        },
+        {
+            "keyword": "tanginamo",
+            "synonyms": [
+                "tanginamo"
+            ]
+        },
+        {
+            "keyword": "tanginang",
+            "synonyms": [
+                "tanginang"
+            ]
+        },
+        {
+            "keyword": "tanginanyo",
+            "synonyms": [
+                "tanginanyo"
+            ]
+        },
+        {
+            "keyword": "tangyna",
+            "synonyms": [
+                "tangyna"
+            ]
+        },
+        {
+            "keyword": "tarunga",
+            "synonyms": [
+                "tarunga"
+            ]
+        },
+        {
+            "keyword": "tawa",
+            "synonyms": [
+                "tawa"
+            ]
+        },
+        {
+            "keyword": "tawang",
+            "synonyms": [
+                "tawang"
+            ]
+        },
+        {
+            "keyword": "tektok",
+            "synonyms": [
+                "tektok"
+            ]
+        },
+        {
+            "keyword": "thanks to Mrs marrissa George",
+            "synonyms": [
+                "thanks to mrs marrissa george"
+            ]
+        },
+        {
+            "keyword": "time management",
+            "synonyms": [
+                "time management"
+            ]
+        },
+        {
+            "keyword": "top",
+            "synonyms": [
+                "top"
+            ]
+        },
+        {
+            "keyword": "trap",
+            "synonyms": [
+                "trap"
+            ]
+        },
+        {
+            "keyword": "trash",
+            "synonyms": [
+                "trash"
+            ]
+        },
+        {
+            "keyword": "trash!!!",
+            "synonyms": [
+                "trash!!!"
+            ]
+        },
+        {
+            "keyword": "trello",
+            "synonyms": [
+                "trello"
+            ]
+        },
+        {
+            "keyword": "trip",
+            "synonyms": [
+                "trip"
+            ]
+        },
+        {
+            "keyword": "tumba",
+            "synonyms": [
+                "tumba"
+            ]
+        },
+        {
+            "keyword": "ugok",
+            "synonyms": [
+                "ugok"
+            ]
+        },
+        {
+            "keyword": "ukinam",
+            "synonyms": [
+                "ukinam"
+            ]
+        },
+        {
+            "keyword": "ukinninam",
+            "synonyms": [
+                "ukinninam"
+            ]
+        },
+        {
+            "keyword": "ulo",
+            "synonyms": [
+                "ulo"
+            ]
+        },
+        {
+            "keyword": "ulol",
+            "synonyms": [
+                "ulol"
+            ]
+        },
+        {
+            "keyword": "ulol!",
+            "synonyms": [
+                "ulol!"
+            ]
+        },
+        {
+            "keyword": "ulol?",
+            "synonyms": [
+                "ulol?"
+            ]
+        },
+        {
+            "keyword": "ulugot",
+            "synonyms": [
+                "ulugot"
+            ]
+        },
+        {
+            "keyword": "ulul",
+            "synonyms": [
+                "ulul"
+            ]
+        },
+        {
+            "keyword": "umasa",
+            "synonyms": [
+                "umasa"
+            ]
+        },
+        {
+            "keyword": "umuulan",
+            "synonyms": [
+                "umuulan"
+            ]
+        },
+        {
+            "keyword": "unfair",
+            "synonyms": [
+                "unfair"
+            ]
+        },
+        {
+            "keyword": "ungas",
+            "synonyms": [
+                "ungas"
+            ]
+        },
+        {
+            "keyword": "useful smart mirror",
+            "synonyms": [
+                "useful smart mirror"
+            ]
+        },
+        {
+            "keyword": "useless!",
+            "synonyms": [
+                "useless",
+                "useless!"
+            ]
+        },
+        {
+            "keyword": "via link below",
+            "synonyms": [
+                "via link below"
+            ]
+        },
+        {
+            "keyword": "volok",
+            "synonyms": [
+                "volok"
+            ]
+        },
+        {
+            "keyword": "waaahhhhhh",
+            "synonyms": [
+                "waaahhhhhh"
+            ]
+        },
+        {
+            "keyword": "walakwenta",
+            "synonyms": [
+                "walakwenta"
+            ]
+        },
+        {
+            "keyword": "watching",
+            "synonyms": [
+                "watching"
+            ]
+        },
+        {
+            "keyword": "weee?",
+            "synonyms": [
+                "weee?"
+            ]
+        },
+        {
+            "keyword": "weeeeee??",
+            "synonyms": [
+                "weeeeee??"
+            ]
+        },
+        {
+            "keyword": "weeeehhhhh???",
+            "synonyms": [
+                "weeeehhhhh???"
+            ]
+        },
+        {
+            "keyword": "weeh...",
+            "synonyms": [
+                "weeh..."
+            ]
+        },
+        {
+            "keyword": "weh",
+            "synonyms": [
+                "weh"
+            ]
+        },
+        {
+            "keyword": "weh!?",
+            "synonyms": [
+                "weh!?"
+            ]
+        },
+        {
+            "keyword": "wehhh",
+            "synonyms": [
+                "wehhh"
+            ]
+        },
+        {
+            "keyword": "well",
+            "synonyms": [
+                "well"
+            ]
+        },
+        {
+            "keyword": "whahahaha",
+            "synonyms": [
+                "whahahaha"
+            ]
+        },
+        {
+            "keyword": "will",
+            "synonyms": [
+                "will"
+            ]
+        },
+        {
+            "keyword": "wohhh",
+            "synonyms": [
+                "wohhh"
+            ]
+        },
+        {
+            "keyword": "wooow",
+            "synonyms": [
+                "wooow"
+            ]
+        },
+        {
+            "keyword": "words of wisdom",
+            "synonyms": [
+                "words of wisdom"
+            ]
+        },
+        {
+            "keyword": "work hard",
+            "synonyms": [
+                "work hard"
+            ]
+        },
+        {
+            "keyword": "work smart",
+            "synonyms": [
+                "work smart"
+            ]
+        },
+        {
+            "keyword": "worth it ba yung clock",
+            "synonyms": [
+                "worth it ba yung clock"
+            ]
+        },
+        {
+            "keyword": "worthless",
+            "synonyms": [
+                "worthless"
+            ]
+        },
+        {
+            "keyword": "wtf",
+            "synonyms": [
+                "wtf"
+            ]
+        },
+        {
+            "keyword": "wtf!",
+            "synonyms": [
+                "wtf!"
+            ]
+        },
+        {
+            "keyword": "yabang",
+            "synonyms": [
+                "yabang"
+            ]
+        },
+        {
+            "keyword": "yawa",
+            "synonyms": [
+                "yawa"
+            ]
+        },
+        {
+            "keyword": "yawa!",
+            "synonyms": [
+                "yawa!"
+            ]
+        },
+        {
+            "keyword": "yawaa",
+            "synonyms": [
+                "yawaa"
+            ]
+        },
+        {
+            "keyword": "yawaaa",
+            "synonyms": [
+                "yawaaa"
+            ]
+        },
+        {
+            "keyword": "yawaaaaa",
+            "synonyms": [
+                "yawaaaaa"
+            ]
+        },
+        {
+            "keyword": "yawal",
+            "synonyms": [
+                "yawal"
+            ]
+        },
+        {
+            "keyword": "yoko",
+            "synonyms": [
+                "yoko"
+            ]
+        },
+        {
+            "keyword": "yowta",
+            "synonyms": [
+                "yowta"
+            ]
+        },
+        {
+            "keyword": "yucks",
+            "synonyms": [
+                "yucks"
+            ]
+        },
+        {
+            "keyword": "yumayaman",
+            "synonyms": [
+                "yumayaman"
+            ]
+        },
+        {
+            "keyword": "yung difference niya ay nakadepende yan sa kailangan mo or sa paggagamitan mo po",
+            "synonyms": [
+                "yung difference niya ay nakadepende yan sa kailangan mo or sa paggagamitan mo po"
+            ]
+        },
+        {
+            "keyword": "ywa",
+            "synonyms": [
+                "ywa"
+            ]
+        },
+        {
+            "keyword": "ywaaaaaa",
+            "synonyms": [
+                "ywaaaaaa"
+            ]
+        },
+        {
+            "keyword": "zara_healing",
+            "synonyms": [
+                "zara_healing"
+            ]
+        },
+        {
+            "keyword": "\u1d0d\u1d0f\u0274\u1d07\u028f",
+            "synonyms": [
+                "\u1d0d\u1d0f\u0274\u1d07\u028f"
+            ]
+        },
+        {
+            "keyword": "\ufffd\ufffd\ufffd\ufffd",
+            "synonyms": [
+                "\ufffd\ufffd\ufffd\ufffd"
+            ]
+        }
+    ]
+}

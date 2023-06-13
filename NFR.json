@@ -1,0 +1,11 @@
+{
+    "name": "NFR",
+    "entities": [
+        "HomeAftersalesEntity:HomeAftersalesEntity",
+        "HomeAppreciativeEntity:HomeAppreciativeEntity",
+        "HomeConnectivityEntity:HomeConnectivityEntity",
+        "HomeFollowupEntity:HomeFollowupEntity",
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity",
+        "NFREntity:NFREntity"
+    ]
+}

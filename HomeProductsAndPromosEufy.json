@@ -1,0 +1,7 @@
+{
+    "name": "HomeProductsAndPromosEufy",
+    "entities": [
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity",
+        "HomeProductsAndPromosEufyEntity:HomeProductsAndPromosEufyEntity"
+    ]
+}

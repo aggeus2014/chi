@@ -1,0 +1,5706 @@
+{
+    "name": "HomeConnectivityEntity",
+    "roles": [
+        "HomeConnectivityEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "400mbps but we get only 60mbps",
+            "synonyms": [
+                "400mbps but we get only 60mbps"
+            ]
+        },
+        {
+            "keyword": "600Mb\/s but you are only delivering 350mb\/s",
+            "synonyms": [
+                "600mb\/s but you are only delivering 350mb\/s"
+            ]
+        },
+        {
+            "keyword": "Ambagal kala ko ba fastest",
+            "synonyms": [
+                "ambagal kala ko ba fastest"
+            ]
+        },
+        {
+            "keyword": "Anong plano nyo sa network nyo",
+            "synonyms": [
+                "anong plano nyo sa network nyo"
+            ]
+        },
+        {
+            "keyword": "Bakit ang iba meron pa din connection bakit kami at ang iba wla tlga kahit konti",
+            "synonyms": [
+                "Bakit ang iba meron pa din connection bakit kami at ang iba wla tlga kahit konti"
+            ]
+        },
+        {
+            "keyword": "Fix your service",
+            "synonyms": [
+                "fix your service"
+            ]
+        },
+        {
+            "keyword": "Kailan magagawa ang Cignal",
+            "synonyms": [
+                "kailan magagawa ang cignal"
+            ]
+        },
+        {
+            "keyword": "LAN port",
+            "synonyms": [
+                "lan port"
+            ]
+        },
+        {
+            "keyword": "Lag",
+            "synonyms": [
+                "lag"
+            ]
+        },
+        {
+            "keyword": "MAS MALAKAS PA DATA KO KAYSA SA NET NAMIN PLDT",
+            "synonyms": [
+                "MAS MALAKAS PA DATA KO KAYSA SA NET NAMIN PLDT"
+            ]
+        },
+        {
+            "keyword": "Mahina interneeeeet",
+            "synonyms": [
+                "mahina interneeeeet",
+                "mahina internet"
+            ]
+        },
+        {
+            "keyword": "May issue ba",
+            "synonyms": [
+                "may issue ba"
+            ]
+        },
+        {
+            "keyword": "Napakabagal ng connection",
+            "synonyms": [
+                "napakabagal ng connection"
+            ]
+        },
+        {
+            "keyword": "No service",
+            "synonyms": [
+                "No service"
+            ]
+        },
+        {
+            "keyword": "PLDT pag bumalik connection nyu babalik naren ako sakanya pramis",
+            "synonyms": [
+                "pldt pag bumalik connection nyu babalik naren ako sakanya pramis"
+            ]
+        },
+        {
+            "keyword": "Pakiayus naman ng service",
+            "synonyms": [
+                "pakiayus naman ng service"
+            ]
+        },
+        {
+            "keyword": "Pinutol ang connection",
+            "synonyms": [
+                "pinutol ang connection"
+            ]
+        },
+        {
+            "keyword": "RedLOS",
+            "synonyms": [
+                "redlos"
+            ]
+        },
+        {
+            "keyword": "Where to report phone numbers",
+            "synonyms": [
+                "where to report phone numbers"
+            ]
+        },
+        {
+            "keyword": "Wla na namang net",
+            "synonyms": [
+                "wla na namang net"
+            ]
+        },
+        {
+            "keyword": "Wla na po intermet",
+            "synonyms": [
+                "wla na po intermet"
+            ]
+        },
+        {
+            "keyword": "Yung 400 mbs 280mbps lang inaabot",
+            "synonyms": [
+                "yung 400 mbs 280mbps lang inaabot"
+            ]
+        },
+        {
+            "keyword": "admin user",
+            "synonyms": [
+                "admin user"
+            ]
+        },
+        {
+            "keyword": "afk laro internet",
+            "synonyms": [
+                "afk laro internet"
+            ]
+        },
+        {
+            "keyword": "always disconnected",
+            "synonyms": [
+                "always disconnected"
+            ]
+        },
+        {
+            "keyword": "ambagal naman",
+            "synonyms": [
+                "ambagal naman"
+            ]
+        },
+        {
+            "keyword": "ampangit",
+            "synonyms": [
+                "ampangit"
+            ]
+        },
+        {
+            "keyword": "ang hina",
+            "synonyms": [
+                "ang hina"
+            ]
+        },
+        {
+            "keyword": "anyare connection",
+            "synonyms": [
+                "anyare connection"
+            ]
+        },
+        {
+            "keyword": "anyare internet",
+            "synonyms": [
+                "anyare internet"
+            ]
+        },
+        {
+            "keyword": "anyare pldt",
+            "synonyms": [
+                "anyare pldt"
+            ]
+        },
+        {
+            "keyword": "ayaw",
+            "synonyms": [
+                "ayaw",
+                "yaw"
+            ]
+        },
+        {
+            "keyword": "ayaw connection",
+            "synonyms": [
+                "ayaw connection"
+            ]
+        },
+        {
+            "keyword": "ayaw data",
+            "synonyms": [
+                "ayaw data"
+            ]
+        },
+        {
+            "keyword": "ayaw gamana google",
+            "synonyms": [
+                "ayaw gamana google"
+            ]
+        },
+        {
+            "keyword": "ayaw gumana fb",
+            "synonyms": [
+                "ayaw gumana fb"
+            ]
+        },
+        {
+            "keyword": "ayaw gumana instagram",
+            "synonyms": [
+                "ayaw gumana instagram"
+            ]
+        },
+        {
+            "keyword": "ayaw gumana twitter",
+            "synonyms": [
+                "ayaw gumana twitter"
+            ]
+        },
+        {
+            "keyword": "ayaw internet",
+            "synonyms": [
+                "ayaw internet"
+            ]
+        },
+        {
+            "keyword": "ayaw kumonek",
+            "synonyms": [
+                "ayaw kumonek"
+            ]
+        },
+        {
+            "keyword": "ayaw mag internet",
+            "synonyms": [
+                "ayaw mag internet"
+            ]
+        },
+        {
+            "keyword": "ayaw magconnect",
+            "synonyms": [
+                "ayaw magconnect"
+            ]
+        },
+        {
+            "keyword": "ayaw magconnek",
+            "synonyms": [
+                "ayaw magconnek"
+            ]
+        },
+        {
+            "keyword": "ayaw magkonek",
+            "synonyms": [
+                "ayaw magkonek"
+            ]
+        },
+        {
+            "keyword": "ayaw makaconnect",
+            "synonyms": [
+                "ayaw makaconnect"
+            ]
+        },
+        {
+            "keyword": "ayaw maload video",
+            "synonyms": [
+                "ayaw maload video"
+            ]
+        },
+        {
+            "keyword": "ayaw maview pics",
+            "synonyms": [
+                "ayaw maview pics"
+            ]
+        },
+        {
+            "keyword": "ayaw net",
+            "synonyms": [
+                "ayaw net"
+            ]
+        },
+        {
+            "keyword": "ayaw tumuloy data",
+            "synonyms": [
+                "ayaw tumuloy data"
+            ]
+        },
+        {
+            "keyword": "ayusin",
+            "synonyms": [
+                "ayusin",
+                "yusin"
+            ]
+        },
+        {
+            "keyword": "ayusin niyo network",
+            "synonyms": [
+                "ayusin niyo network"
+            ]
+        },
+        {
+            "keyword": "ayusin nyo",
+            "synonyms": [
+                "ayusin nyo"
+            ]
+        },
+        {
+            "keyword": "ayusin nyo connection",
+            "synonyms": [
+                "ayusin nyo connection"
+            ]
+        },
+        {
+            "keyword": "ayusin nyo data",
+            "synonyms": [
+                "ayusin nyo data"
+            ]
+        },
+        {
+            "keyword": "ayusin nyo lag",
+            "synonyms": [
+                "ayusin nyo lag"
+            ]
+        },
+        {
+            "keyword": "ayusin nyo network",
+            "synonyms": [
+                "ayusin nyo network"
+            ]
+        },
+        {
+            "keyword": "ayw kumonek",
+            "synonyms": [
+                "ayw kumonek"
+            ]
+        },
+        {
+            "keyword": "ayw makaconnect",
+            "synonyms": [
+                "ayw makaconnect"
+            ]
+        },
+        {
+            "keyword": "babagal bagal connection",
+            "synonyms": [
+                "babagal bagal connection"
+            ]
+        },
+        {
+            "keyword": "babagalan yung net",
+            "synonyms": [
+                "babagalan yung net"
+            ]
+        },
+        {
+            "keyword": "babayad kami ng maayos tas ganyan connection nyo",
+            "synonyms": [
+                "babayad kami ng maayos tas ganyan connection nyo"
+            ]
+        },
+        {
+            "keyword": "bad connection",
+            "synonyms": [
+                "bad connection"
+            ]
+        },
+        {
+            "keyword": "bad internet service",
+            "synonyms": [
+                "bad internet service"
+            ]
+        },
+        {
+            "keyword": "bad service",
+            "synonyms": [
+                "bad service"
+            ]
+        },
+        {
+            "keyword": "bagal",
+            "synonyms": [
+                "bagal"
+            ]
+        },
+        {
+            "keyword": "bagal connection",
+            "synonyms": [
+                "bagal connection"
+            ]
+        },
+        {
+            "keyword": "bagal data",
+            "synonyms": [
+                "bagal data"
+            ]
+        },
+        {
+            "keyword": "bagal games",
+            "synonyms": [
+                "bagal games"
+            ]
+        },
+        {
+            "keyword": "bagal gaming",
+            "synonyms": [
+                "bagal gaming"
+            ]
+        },
+        {
+            "keyword": "bagal internet",
+            "synonyms": [
+                "bagal internet"
+            ]
+        },
+        {
+            "keyword": "bagal loading",
+            "synonyms": [
+                "bagal loading"
+            ]
+        },
+        {
+            "keyword": "bagal loading ng game",
+            "synonyms": [
+                "bagal loading ng game"
+            ]
+        },
+        {
+            "keyword": "bagal net",
+            "synonyms": [
+                "bagal net"
+            ]
+        },
+        {
+            "keyword": "bagal ng connection",
+            "synonyms": [
+                "bagal ng connection"
+            ]
+        },
+        {
+            "keyword": "bagal po",
+            "synonyms": [
+                "bagal po"
+            ]
+        },
+        {
+            "keyword": "bagel",
+            "synonyms": [
+                "bagel"
+            ]
+        },
+        {
+            "keyword": "bagsak",
+            "synonyms": [
+                "bagsak"
+            ]
+        },
+        {
+            "keyword": "bagsak ang network",
+            "synonyms": [
+                "bagsak ang network"
+            ]
+        },
+        {
+            "keyword": "bakit ayaw magload",
+            "synonyms": [
+                "bakit ayaw magload"
+            ]
+        },
+        {
+            "keyword": "balik",
+            "synonyms": [
+                "balik"
+            ]
+        },
+        {
+            "keyword": "bandwidth",
+            "synonyms": [
+                "bandwidth"
+            ]
+        },
+        {
+            "keyword": "bat ang hina",
+            "synonyms": [
+                "bat ang hina"
+            ]
+        },
+        {
+            "keyword": "biglang kumupad network",
+            "synonyms": [
+                "biglang kumupad network"
+            ]
+        },
+        {
+            "keyword": "blinking",
+            "synonyms": [
+                "blinking"
+            ]
+        },
+        {
+            "keyword": "blinking light",
+            "synonyms": [
+                "blinking light"
+            ]
+        },
+        {
+            "keyword": "bobo ng connection",
+            "synonyms": [
+                "bobo ng connection"
+            ]
+        },
+        {
+            "keyword": "buffering",
+            "synonyms": [
+                "buffering"
+            ]
+        },
+        {
+            "keyword": "buffering connection",
+            "synonyms": [
+                "buffering connection"
+            ]
+        },
+        {
+            "keyword": "buffering lang data",
+            "synonyms": [
+                "buffering lang data"
+            ]
+        },
+        {
+            "keyword": "bulok",
+            "synonyms": [
+                "bulok"
+            ]
+        },
+        {
+            "keyword": "bulok connection",
+            "synonyms": [
+                "bulok connection"
+            ]
+        },
+        {
+            "keyword": "bulok internet smart",
+            "synonyms": [
+                "bulok internet smart"
+            ]
+        },
+        {
+            "keyword": "bulok net",
+            "synonyms": [
+                "bulok net"
+            ]
+        },
+        {
+            "keyword": "bulok net connection",
+            "synonyms": [
+                "bulok net connection"
+            ]
+        },
+        {
+            "keyword": "bulok network",
+            "synonyms": [
+                "bulok network"
+            ]
+        },
+        {
+            "keyword": "bulok signal",
+            "synonyms": [
+                "bulok signal"
+            ]
+        },
+        {
+            "keyword": "bumabagal net",
+            "synonyms": [
+                "bumabagal net"
+            ]
+        },
+        {
+            "keyword": "bumagal naman",
+            "synonyms": [
+                "bumagal naman"
+            ]
+        },
+        {
+            "keyword": "cable",
+            "synonyms": [
+                "cable",
+                "le ti"
+            ]
+        },
+        {
+            "keyword": "can t load video",
+            "synonyms": [
+                "can t load video"
+            ]
+        },
+        {
+            "keyword": "can t play game",
+            "synonyms": [
+                "can t play game"
+            ]
+        },
+        {
+            "keyword": "can t send",
+            "synonyms": [
+                "can t send"
+            ]
+        },
+        {
+            "keyword": "can't access",
+            "synonyms": [
+                "can't access"
+            ]
+        },
+        {
+            "keyword": "can't access specific site  data",
+            "synonyms": [
+                "can't access specific site  data"
+            ]
+        },
+        {
+            "keyword": "can't access specific site  internet",
+            "synonyms": [
+                "can't access specific site  internet"
+            ]
+        },
+        {
+            "keyword": "can't access specific site connection",
+            "synonyms": [
+                "can't access specific site connection"
+            ]
+        },
+        {
+            "keyword": "can't access specific site net",
+            "synonyms": [
+                "can't access specific site net"
+            ]
+        },
+        {
+            "keyword": "can't connect",
+            "synonyms": [
+                "can't connect"
+            ]
+        },
+        {
+            "keyword": "can't stream",
+            "synonyms": [
+                "can't stream"
+            ]
+        },
+        {
+            "keyword": "can't surf",
+            "synonyms": [
+                "can't surf"
+            ]
+        },
+        {
+            "keyword": "cannot access 3g",
+            "synonyms": [
+                "cannot access 3g"
+            ]
+        },
+        {
+            "keyword": "cannot access fb",
+            "synonyms": [
+                "cannot access fb"
+            ]
+        },
+        {
+            "keyword": "cannot access ig",
+            "synonyms": [
+                "cannot access ig"
+            ]
+        },
+        {
+            "keyword": "cannot access lte",
+            "synonyms": [
+                "cannot access lte"
+            ]
+        },
+        {
+            "keyword": "cannot access play store",
+            "synonyms": [
+                "cannot access play store"
+            ]
+        },
+        {
+            "keyword": "cannot access twitter",
+            "synonyms": [
+                "cannot access twitter"
+            ]
+        },
+        {
+            "keyword": "cannot be connected",
+            "synonyms": [
+                "cannot be connected"
+            ]
+        },
+        {
+            "keyword": "cant access",
+            "synonyms": [
+                "cant access"
+            ]
+        },
+        {
+            "keyword": "cant browse",
+            "synonyms": [
+                "cant browse"
+            ]
+        },
+        {
+            "keyword": "cant connect",
+            "synonyms": [
+                "cant connect"
+            ]
+        },
+        {
+            "keyword": "cant load video",
+            "synonyms": [
+                "cant load video"
+            ]
+        },
+        {
+            "keyword": "cant play game",
+            "synonyms": [
+                "cant play game"
+            ]
+        },
+        {
+            "keyword": "cant send",
+            "synonyms": [
+                "cant send"
+            ]
+        },
+        {
+            "keyword": "cant stream",
+            "synonyms": [
+                "cant stream"
+            ]
+        },
+        {
+            "keyword": "cant surf",
+            "synonyms": [
+                "cant surf"
+            ]
+        },
+        {
+            "keyword": "cant view pics",
+            "synonyms": [
+                "cant view pics"
+            ]
+        },
+        {
+            "keyword": "can\u2019t view pics",
+            "synonyms": [
+                "can\u2019t view pics"
+            ]
+        },
+        {
+            "keyword": "capping",
+            "synonyms": [
+                "capping"
+            ]
+        },
+        {
+            "keyword": "cge magbagal pa kayo",
+            "synonyms": [
+                "cge magbagal pa kayo"
+            ]
+        },
+        {
+            "keyword": "change my wifi password",
+            "synonyms": [
+                "change my wifi password"
+            ]
+        },
+        {
+            "keyword": "cignal ayaw",
+            "synonyms": [
+                "cignal ayaw"
+            ]
+        },
+        {
+            "keyword": "cignal concern",
+            "synonyms": [
+                "cignal concern"
+            ]
+        },
+        {
+            "keyword": "cignal down",
+            "synonyms": [
+                "cignal down"
+            ]
+        },
+        {
+            "keyword": "cignal downtime",
+            "synonyms": [
+                "cignal downtime"
+            ]
+        },
+        {
+            "keyword": "cignal gone",
+            "synonyms": [
+                "cignal gone"
+            ]
+        },
+        {
+            "keyword": "cignal issue",
+            "synonyms": [
+                "cignal issue"
+            ]
+        },
+        {
+            "keyword": "cignal lost",
+            "synonyms": [
+                "cignal lost"
+            ]
+        },
+        {
+            "keyword": "cignal missing channel",
+            "synonyms": [
+                "cignal missing channel"
+            ]
+        },
+        {
+            "keyword": "cignal nawala",
+            "synonyms": [
+                "cignal nawala"
+            ]
+        },
+        {
+            "keyword": "cignal no",
+            "synonyms": [
+                "cignal no"
+            ]
+        },
+        {
+            "keyword": "cignal not working",
+            "synonyms": [
+                "cignal not working"
+            ]
+        },
+        {
+            "keyword": "cignal panget",
+            "synonyms": [
+                "cignal panget"
+            ]
+        },
+        {
+            "keyword": "cignal pangit",
+            "synonyms": [
+                "cignal pangit"
+            ]
+        },
+        {
+            "keyword": "cignal pixel",
+            "synonyms": [
+                "cignal pixel"
+            ]
+        },
+        {
+            "keyword": "cignal pixelated",
+            "synonyms": [
+                "cignal pixelated"
+            ]
+        },
+        {
+            "keyword": "cignal poor",
+            "synonyms": [
+                "cignal poor"
+            ]
+        },
+        {
+            "keyword": "cignal problem",
+            "synonyms": [
+                "cignal problem"
+            ]
+        },
+        {
+            "keyword": "cignal wala",
+            "synonyms": [
+                "cignal wala"
+            ]
+        },
+        {
+            "keyword": "connection  no",
+            "synonyms": [
+                "connection  no"
+            ]
+        },
+        {
+            "keyword": "connection ayaw",
+            "synonyms": [
+                "connection ayaw"
+            ]
+        },
+        {
+            "keyword": "connection bagal",
+            "synonyms": [
+                "connection bagal"
+            ]
+        },
+        {
+            "keyword": "connection can't access specific site",
+            "synonyms": [
+                "connection can't access specific site"
+            ]
+        },
+        {
+            "keyword": "connection concern",
+            "synonyms": [
+                "connection concern"
+            ]
+        },
+        {
+            "keyword": "connection down",
+            "synonyms": [
+                "connection down"
+            ]
+        },
+        {
+            "keyword": "connection downtime",
+            "synonyms": [
+                "connection downtime"
+            ]
+        },
+        {
+            "keyword": "connection error",
+            "synonyms": [
+                "connection error"
+            ]
+        },
+        {
+            "keyword": "connection gone",
+            "synonyms": [
+                "connection gone"
+            ]
+        },
+        {
+            "keyword": "connection hina",
+            "synonyms": [
+                "connection hina"
+            ]
+        },
+        {
+            "keyword": "connection hirap",
+            "synonyms": [
+                "connection hirap"
+            ]
+        },
+        {
+            "keyword": "connection intermittent",
+            "synonyms": [
+                "connection intermittent"
+            ]
+        },
+        {
+            "keyword": "connection is always cut off",
+            "synonyms": [
+                "connection ia always cut off",
+                "connection is always cut off"
+            ]
+        },
+        {
+            "keyword": "connection issue",
+            "synonyms": [
+                "connection issue"
+            ]
+        },
+        {
+            "keyword": "connection lost",
+            "synonyms": [
+                "connection lost"
+            ]
+        },
+        {
+            "keyword": "connection low",
+            "synonyms": [
+                "connection low"
+            ]
+        },
+        {
+            "keyword": "connection mabagal",
+            "synonyms": [
+                "connection mabagal"
+            ]
+        },
+        {
+            "keyword": "connection mahina",
+            "synonyms": [
+                "connection mahina"
+            ]
+        },
+        {
+            "keyword": "connection nawala",
+            "synonyms": [
+                "connection nawala"
+            ]
+        },
+        {
+            "keyword": "connection no",
+            "synonyms": [
+                "connection no"
+            ]
+        },
+        {
+            "keyword": "connection not working",
+            "synonyms": [
+                "connection not working"
+            ]
+        },
+        {
+            "keyword": "connection pagong",
+            "synonyms": [
+                "connection pagong"
+            ]
+        },
+        {
+            "keyword": "connection panget",
+            "synonyms": [
+                "connection panget"
+            ]
+        },
+        {
+            "keyword": "connection pangit",
+            "synonyms": [
+                "connection pangit"
+            ]
+        },
+        {
+            "keyword": "connection pawala wala",
+            "synonyms": [
+                "connection pawala wala"
+            ]
+        },
+        {
+            "keyword": "connection poor",
+            "synonyms": [
+                "connection poor"
+            ]
+        },
+        {
+            "keyword": "connection problem",
+            "synonyms": [
+                "connection problem"
+            ]
+        },
+        {
+            "keyword": "connection putol",
+            "synonyms": [
+                "connection putol"
+            ]
+        },
+        {
+            "keyword": "connection putol putol",
+            "synonyms": [
+                "connection putol putol"
+            ]
+        },
+        {
+            "keyword": "connection sira",
+            "synonyms": [
+                "connection sira"
+            ]
+        },
+        {
+            "keyword": "connection slow",
+            "synonyms": [
+                "connection slow"
+            ]
+        },
+        {
+            "keyword": "connection snail",
+            "synonyms": [
+                "connection snail"
+            ]
+        },
+        {
+            "keyword": "connection turtle",
+            "synonyms": [
+                "connection turtle"
+            ]
+        },
+        {
+            "keyword": "connection unstable",
+            "synonyms": [
+                "connection unstable"
+            ]
+        },
+        {
+            "keyword": "connection wala",
+            "synonyms": [
+                "connection wala"
+            ]
+        },
+        {
+            "keyword": "connection wala wala",
+            "synonyms": [
+                "connection wala wala"
+            ]
+        },
+        {
+            "keyword": "connection was gone",
+            "synonyms": [
+                "connection was gone"
+            ]
+        },
+        {
+            "keyword": "connection weak",
+            "synonyms": [
+                "connection weak"
+            ]
+        },
+        {
+            "keyword": "contractor",
+            "synonyms": [
+                "contractor"
+            ]
+        },
+        {
+            "keyword": "converge",
+            "synonyms": [
+                "converge"
+            ]
+        },
+        {
+            "keyword": "d nga kayo makapag ayos ng net",
+            "synonyms": [
+                "d nga kayo makapag ayos ng net"
+            ]
+        },
+        {
+            "keyword": "daig pa pagong",
+            "synonyms": [
+                "daig pa pagong"
+            ]
+        },
+        {
+            "keyword": "data ayaw",
+            "synonyms": [
+                "data ayaw"
+            ]
+        },
+        {
+            "keyword": "data bagal",
+            "synonyms": [
+                "data bagal"
+            ]
+        },
+        {
+            "keyword": "data can't access specific site",
+            "synonyms": [
+                "data can't access specific site"
+            ]
+        },
+        {
+            "keyword": "data connectivity",
+            "synonyms": [
+                "data connectivity"
+            ]
+        },
+        {
+            "keyword": "data down",
+            "synonyms": [
+                "data down"
+            ]
+        },
+        {
+            "keyword": "data error",
+            "synonyms": [
+                "data error"
+            ]
+        },
+        {
+            "keyword": "data gone",
+            "synonyms": [
+                "data gone"
+            ]
+        },
+        {
+            "keyword": "data hina",
+            "synonyms": [
+                "data hina"
+            ]
+        },
+        {
+            "keyword": "data intermittent",
+            "synonyms": [
+                "data intermittent"
+            ]
+        },
+        {
+            "keyword": "data lost",
+            "synonyms": [
+                "data lost"
+            ]
+        },
+        {
+            "keyword": "data mabagal",
+            "synonyms": [
+                "data mabagal"
+            ]
+        },
+        {
+            "keyword": "data nawala",
+            "synonyms": [
+                "data nawala"
+            ]
+        },
+        {
+            "keyword": "data no",
+            "synonyms": [
+                "data no"
+            ]
+        },
+        {
+            "keyword": "data not working",
+            "synonyms": [
+                "data not working"
+            ]
+        },
+        {
+            "keyword": "data nyo bulok",
+            "synonyms": [
+                "data nyo bulok"
+            ]
+        },
+        {
+            "keyword": "data pagong",
+            "synonyms": [
+                "data pagong"
+            ]
+        },
+        {
+            "keyword": "data panget",
+            "synonyms": [
+                "data panget"
+            ]
+        },
+        {
+            "keyword": "data pangit",
+            "synonyms": [
+                "data pangit"
+            ]
+        },
+        {
+            "keyword": "data pawala wala",
+            "synonyms": [
+                "data pawala wala"
+            ]
+        },
+        {
+            "keyword": "data poor",
+            "synonyms": [
+                "data poor"
+            ]
+        },
+        {
+            "keyword": "data problem",
+            "synonyms": [
+                "data problem"
+            ]
+        },
+        {
+            "keyword": "data putol putol",
+            "synonyms": [
+                "data putol putol"
+            ]
+        },
+        {
+            "keyword": "data sira",
+            "synonyms": [
+                "data sira"
+            ]
+        },
+        {
+            "keyword": "data slow",
+            "synonyms": [
+                "data slow"
+            ]
+        },
+        {
+            "keyword": "data snail",
+            "synonyms": [
+                "data snail"
+            ]
+        },
+        {
+            "keyword": "data turtle",
+            "synonyms": [
+                "data turtle"
+            ]
+        },
+        {
+            "keyword": "data unstable",
+            "synonyms": [
+                "data unstable"
+            ]
+        },
+        {
+            "keyword": "data wala",
+            "synonyms": [
+                "data wala"
+            ]
+        },
+        {
+            "keyword": "data wala wala",
+            "synonyms": [
+                "data wala wala"
+            ]
+        },
+        {
+            "keyword": "data weak",
+            "synonyms": [
+                "data weak"
+            ]
+        },
+        {
+            "keyword": "defective",
+            "synonyms": [
+                "defective"
+            ]
+        },
+        {
+            "keyword": "device not working",
+            "synonyms": [
+                "device not working"
+            ]
+        },
+        {
+            "keyword": "di gumagana connection",
+            "synonyms": [
+                "di gumagana connection"
+            ]
+        },
+        {
+            "keyword": "di gumagana lte",
+            "synonyms": [
+                "di gumagana lte"
+            ]
+        },
+        {
+            "keyword": "di ko maaccess play store",
+            "synonyms": [
+                "di ko maaccess play store"
+            ]
+        },
+        {
+            "keyword": "di maaccess facebook",
+            "synonyms": [
+                "di maaccess facebook"
+            ]
+        },
+        {
+            "keyword": "di maaccess google",
+            "synonyms": [
+                "di maaccess google"
+            ]
+        },
+        {
+            "keyword": "di maaccess instagram",
+            "synonyms": [
+                "di maaccess instagram"
+            ]
+        },
+        {
+            "keyword": "di maaccess play store",
+            "synonyms": [
+                "di maaccess play store"
+            ]
+        },
+        {
+            "keyword": "di maaccess twitter",
+            "synonyms": [
+                "di maaccess twitter"
+            ]
+        },
+        {
+            "keyword": "di maacess fb",
+            "synonyms": [
+                "di maacess fb"
+            ]
+        },
+        {
+            "keyword": "di maacess ig",
+            "synonyms": [
+                "di maacess ig"
+            ]
+        },
+        {
+            "keyword": "di maka speedtest",
+            "synonyms": [
+                "di maka speedtest"
+            ]
+        },
+        {
+            "keyword": "di makapag fb",
+            "synonyms": [
+                "di makapag fb"
+            ]
+        },
+        {
+            "keyword": "di makasend",
+            "synonyms": [
+                "di makasend"
+            ]
+        },
+        {
+            "keyword": "di makaview fb pictures",
+            "synonyms": [
+                "di makaview fb pictures"
+            ]
+        },
+        {
+            "keyword": "di makita pictures",
+            "synonyms": [
+                "di makita pictures"
+            ]
+        },
+        {
+            "keyword": "di maview fb photos",
+            "synonyms": [
+                "di maview fb photos"
+            ]
+        },
+        {
+            "keyword": "di na po nagana ung telephone",
+            "synonyms": [
+                "di na po nagana ung telephone"
+            ]
+        },
+        {
+            "keyword": "di pa nabalik yung net",
+            "synonyms": [
+                "di pa nabalik yung net"
+            ]
+        },
+        {
+            "keyword": "di tanggap",
+            "synonyms": [
+                "di tanggap"
+            ]
+        },
+        {
+            "keyword": "dial tone",
+            "synonyms": [
+                "dial tone"
+            ]
+        },
+        {
+            "keyword": "did not receive",
+            "synonyms": [
+                "did not receive"
+            ]
+        },
+        {
+            "keyword": "did not send",
+            "synonyms": [
+                "did not send"
+            ]
+        },
+        {
+            "keyword": "didnt receive",
+            "synonyms": [
+                "didnt receive"
+            ]
+        },
+        {
+            "keyword": "didnt send",
+            "synonyms": [
+                "didnt send"
+            ]
+        },
+        {
+            "keyword": "didn\u2019t receive",
+            "synonyms": [
+                "didn\u2019t receive"
+            ]
+        },
+        {
+            "keyword": "didn\u2019t send",
+            "synonyms": [
+                "didn\u2019t send"
+            ]
+        },
+        {
+            "keyword": "disappointing internet speed",
+            "synonyms": [
+                "disappointing internet speed"
+            ]
+        },
+        {
+            "keyword": "disconnected internet",
+            "synonyms": [
+                "disconnected internet"
+            ]
+        },
+        {
+            "keyword": "down",
+            "synonyms": [
+                "down"
+            ]
+        },
+        {
+            "keyword": "down connection",
+            "synonyms": [
+                "down connection"
+            ]
+        },
+        {
+            "keyword": "down data",
+            "synonyms": [
+                "down data"
+            ]
+        },
+        {
+            "keyword": "down internet",
+            "synonyms": [
+                "down internet"
+            ]
+        },
+        {
+            "keyword": "down net",
+            "synonyms": [
+                "down net"
+            ]
+        },
+        {
+            "keyword": "down network",
+            "synonyms": [
+                "down network"
+            ]
+        },
+        {
+            "keyword": "down system",
+            "synonyms": [
+                "down system"
+            ]
+        },
+        {
+            "keyword": "download",
+            "synonyms": [
+                "download"
+            ]
+        },
+        {
+            "keyword": "downtime network",
+            "synonyms": [
+                "downtime network"
+            ]
+        },
+        {
+            "keyword": "dsl ayaw",
+            "synonyms": [
+                "dsl ayaw"
+            ]
+        },
+        {
+            "keyword": "dsl ayaw connect",
+            "synonyms": [
+                "dsl ayaw connect"
+            ]
+        },
+        {
+            "keyword": "dsl concern",
+            "synonyms": [
+                "dsl concern"
+            ]
+        },
+        {
+            "keyword": "dsl down",
+            "synonyms": [
+                "dsl down"
+            ]
+        },
+        {
+            "keyword": "dsl down network",
+            "synonyms": [
+                "dsl down network"
+            ]
+        },
+        {
+            "keyword": "dsl downtime",
+            "synonyms": [
+                "dsl downtime"
+            ]
+        },
+        {
+            "keyword": "dsl gone",
+            "synonyms": [
+                "dsl gone"
+            ]
+        },
+        {
+            "keyword": "dsl hina",
+            "synonyms": [
+                "dsl hina"
+            ]
+        },
+        {
+            "keyword": "dsl hirap",
+            "synonyms": [
+                "dsl hirap"
+            ]
+        },
+        {
+            "keyword": "dsl hirap net",
+            "synonyms": [
+                "dsl hirap net"
+            ]
+        },
+        {
+            "keyword": "dsl intermittent",
+            "synonyms": [
+                "dsl intermittent"
+            ]
+        },
+        {
+            "keyword": "dsl issue",
+            "synonyms": [
+                "dsl issue"
+            ]
+        },
+        {
+            "keyword": "dsl lost",
+            "synonyms": [
+                "dsl lost"
+            ]
+        },
+        {
+            "keyword": "dsl mabagal",
+            "synonyms": [
+                "dsl mabagal"
+            ]
+        },
+        {
+            "keyword": "dsl mahina",
+            "synonyms": [
+                "dsl mahina"
+            ]
+        },
+        {
+            "keyword": "dsl nawala",
+            "synonyms": [
+                "dsl nawala"
+            ]
+        },
+        {
+            "keyword": "dsl no",
+            "synonyms": [
+                "dsl no"
+            ]
+        },
+        {
+            "keyword": "dsl not working",
+            "synonyms": [
+                "dsl not working"
+            ]
+        },
+        {
+            "keyword": "dsl panget",
+            "synonyms": [
+                "dsl panget"
+            ]
+        },
+        {
+            "keyword": "dsl pangit",
+            "synonyms": [
+                "dsl pangit"
+            ]
+        },
+        {
+            "keyword": "dsl poor",
+            "synonyms": [
+                "dsl poor"
+            ]
+        },
+        {
+            "keyword": "dsl problem",
+            "synonyms": [
+                "dsl problem"
+            ]
+        },
+        {
+            "keyword": "dsl putol",
+            "synonyms": [
+                "dsl putol"
+            ]
+        },
+        {
+            "keyword": "dsl sira",
+            "synonyms": [
+                "dsl sira"
+            ]
+        },
+        {
+            "keyword": "dsl sira network",
+            "synonyms": [
+                "dsl sira network"
+            ]
+        },
+        {
+            "keyword": "dsl sira signal",
+            "synonyms": [
+                "dsl sira signal"
+            ]
+        },
+        {
+            "keyword": "dsl slow",
+            "synonyms": [
+                "dsl slow"
+            ]
+        },
+        {
+            "keyword": "dsl sobra bagal",
+            "synonyms": [
+                "dsl sobra bagal"
+            ]
+        },
+        {
+            "keyword": "dsl sobra mabagal",
+            "synonyms": [
+                "dsl sobra mabagal"
+            ]
+        },
+        {
+            "keyword": "dsl sobrang bagal",
+            "synonyms": [
+                "dsl sobrang bagal"
+            ]
+        },
+        {
+            "keyword": "dsl sucks",
+            "synonyms": [
+                "dsl sucks"
+            ]
+        },
+        {
+            "keyword": "dsl wala",
+            "synonyms": [
+                "dsl wala"
+            ]
+        },
+        {
+            "keyword": "emergency calls network",
+            "synonyms": [
+                "emergency calls network"
+            ]
+        },
+        {
+            "keyword": "error  internet",
+            "synonyms": [
+                "error  internet"
+            ]
+        },
+        {
+            "keyword": "error connection",
+            "synonyms": [
+                "error connection"
+            ]
+        },
+        {
+            "keyword": "error data",
+            "synonyms": [
+                "error data"
+            ]
+        },
+        {
+            "keyword": "error net",
+            "synonyms": [
+                "error net"
+            ]
+        },
+        {
+            "keyword": "experience connection problems",
+            "synonyms": [
+                "experience connection problems"
+            ]
+        },
+        {
+            "keyword": "facebook",
+            "synonyms": [
+                "facebook"
+            ]
+        },
+        {
+            "keyword": "failed",
+            "synonyms": [
+                "failed"
+            ]
+        },
+        {
+            "keyword": "fb acting up again",
+            "synonyms": [
+                "fb acting up again"
+            ]
+        },
+        {
+            "keyword": "fiber ayaw",
+            "synonyms": [
+                "fiber ayaw"
+            ]
+        },
+        {
+            "keyword": "fiber concern",
+            "synonyms": [
+                "fiber concern"
+            ]
+        },
+        {
+            "keyword": "fiber connection",
+            "synonyms": [
+                "fiber connection"
+            ]
+        },
+        {
+            "keyword": "fiber cut",
+            "synonyms": [
+                "fiber cut"
+            ]
+        },
+        {
+            "keyword": "fiber down",
+            "synonyms": [
+                "fiber down"
+            ]
+        },
+        {
+            "keyword": "fiber downtime",
+            "synonyms": [
+                "fiber downtime"
+            ]
+        },
+        {
+            "keyword": "fiber gone",
+            "synonyms": [
+                "fiber gone"
+            ]
+        },
+        {
+            "keyword": "fiber hina",
+            "synonyms": [
+                "fiber hina"
+            ]
+        },
+        {
+            "keyword": "fiber hirap",
+            "synonyms": [
+                "fiber hirap"
+            ]
+        },
+        {
+            "keyword": "fiber intermittent",
+            "synonyms": [
+                "fiber intermittent"
+            ]
+        },
+        {
+            "keyword": "fiber issue",
+            "synonyms": [
+                "fiber issue"
+            ]
+        },
+        {
+            "keyword": "fiber lost",
+            "synonyms": [
+                "fiber lost"
+            ]
+        },
+        {
+            "keyword": "fiber mabagal",
+            "synonyms": [
+                "fiber mabagal"
+            ]
+        },
+        {
+            "keyword": "fiber mahina",
+            "synonyms": [
+                "fiber mahina"
+            ]
+        },
+        {
+            "keyword": "fiber nawala",
+            "synonyms": [
+                "fiber nawala"
+            ]
+        },
+        {
+            "keyword": "fiber no",
+            "synonyms": [
+                "fiber no"
+            ]
+        },
+        {
+            "keyword": "fiber not working",
+            "synonyms": [
+                "fiber not working"
+            ]
+        },
+        {
+            "keyword": "fiber optic",
+            "synonyms": [
+                "fiber optic"
+            ]
+        },
+        {
+            "keyword": "fiber panget",
+            "synonyms": [
+                "fiber panget"
+            ]
+        },
+        {
+            "keyword": "fiber pangit",
+            "synonyms": [
+                "fiber pangit"
+            ]
+        },
+        {
+            "keyword": "fiber poor",
+            "synonyms": [
+                "fiber poor"
+            ]
+        },
+        {
+            "keyword": "fiber problem",
+            "synonyms": [
+                "fiber problem"
+            ]
+        },
+        {
+            "keyword": "fiber putol",
+            "synonyms": [
+                "fiber putol"
+            ]
+        },
+        {
+            "keyword": "fiber sira",
+            "synonyms": [
+                "fiber sira"
+            ]
+        },
+        {
+            "keyword": "fiber slow",
+            "synonyms": [
+                "fiber slow"
+            ]
+        },
+        {
+            "keyword": "fiber wala",
+            "synonyms": [
+                "fiber wala"
+            ]
+        },
+        {
+            "keyword": "fibr ayaw",
+            "synonyms": [
+                "fibr ayaw"
+            ]
+        },
+        {
+            "keyword": "fibr ayaw connect",
+            "synonyms": [
+                "fibr ayaw connect"
+            ]
+        },
+        {
+            "keyword": "fibr concern",
+            "synonyms": [
+                "fibr concern"
+            ]
+        },
+        {
+            "keyword": "fibr connection",
+            "synonyms": [
+                "fibr connection"
+            ]
+        },
+        {
+            "keyword": "fibr down",
+            "synonyms": [
+                "fibr down"
+            ]
+        },
+        {
+            "keyword": "fibr down network",
+            "synonyms": [
+                "fibr down network"
+            ]
+        },
+        {
+            "keyword": "fibr downtime",
+            "synonyms": [
+                "fibr downtime"
+            ]
+        },
+        {
+            "keyword": "fibr gone",
+            "synonyms": [
+                "fibr gone"
+            ]
+        },
+        {
+            "keyword": "fibr hina",
+            "synonyms": [
+                "fibr hina"
+            ]
+        },
+        {
+            "keyword": "fibr hirap",
+            "synonyms": [
+                "fibr hirap"
+            ]
+        },
+        {
+            "keyword": "fibr hirap net",
+            "synonyms": [
+                "fibr hirap net"
+            ]
+        },
+        {
+            "keyword": "fibr intermittent",
+            "synonyms": [
+                "fibr intermittent"
+            ]
+        },
+        {
+            "keyword": "fibr issue",
+            "synonyms": [
+                "fibr issue"
+            ]
+        },
+        {
+            "keyword": "fibr lost",
+            "synonyms": [
+                "fibr lost"
+            ]
+        },
+        {
+            "keyword": "fibr mabagal",
+            "synonyms": [
+                "fibr mabagal"
+            ]
+        },
+        {
+            "keyword": "fibr mahina",
+            "synonyms": [
+                "fibr mahina"
+            ]
+        },
+        {
+            "keyword": "fibr nawala",
+            "synonyms": [
+                "fibr nawala"
+            ]
+        },
+        {
+            "keyword": "fibr no",
+            "synonyms": [
+                "fibr no"
+            ]
+        },
+        {
+            "keyword": "fibr not working",
+            "synonyms": [
+                "fibr not working"
+            ]
+        },
+        {
+            "keyword": "fibr panget",
+            "synonyms": [
+                "fibr panget"
+            ]
+        },
+        {
+            "keyword": "fibr pangit",
+            "synonyms": [
+                "fibr pangit"
+            ]
+        },
+        {
+            "keyword": "fibr poor",
+            "synonyms": [
+                "fibr poor"
+            ]
+        },
+        {
+            "keyword": "fibr poor connection",
+            "synonyms": [
+                "fibr poor connection"
+            ]
+        },
+        {
+            "keyword": "fibr problem",
+            "synonyms": [
+                "fibr problem"
+            ]
+        },
+        {
+            "keyword": "fibr putol",
+            "synonyms": [
+                "fibr putol"
+            ]
+        },
+        {
+            "keyword": "fibr sira",
+            "synonyms": [
+                "fibr sira"
+            ]
+        },
+        {
+            "keyword": "fibr sira network",
+            "synonyms": [
+                "fibr sira network"
+            ]
+        },
+        {
+            "keyword": "fibr sira signal",
+            "synonyms": [
+                "fibr sira signal"
+            ]
+        },
+        {
+            "keyword": "fibr slow",
+            "synonyms": [
+                "fibr slow"
+            ]
+        },
+        {
+            "keyword": "fibr sobra bagal",
+            "synonyms": [
+                "fibr sobra bagal"
+            ]
+        },
+        {
+            "keyword": "fibr sobra mabagal",
+            "synonyms": [
+                "fibr sobra mabagal"
+            ]
+        },
+        {
+            "keyword": "fibr sobrang bagal",
+            "synonyms": [
+                "fibr sobrang bagal"
+            ]
+        },
+        {
+            "keyword": "fibr sucks",
+            "synonyms": [
+                "fibr sucks"
+            ]
+        },
+        {
+            "keyword": "fibr wala",
+            "synonyms": [
+                "fibr wala"
+            ]
+        },
+        {
+            "keyword": "fibr weak",
+            "synonyms": [
+                "fibr weak"
+            ]
+        },
+        {
+            "keyword": "fix network issue",
+            "synonyms": [
+                "fix network issue"
+            ]
+        },
+        {
+            "keyword": "fix the connection",
+            "synonyms": [
+                "fix the connection"
+            ]
+        },
+        {
+            "keyword": "fix this internet",
+            "synonyms": [
+                "fix this internet"
+            ]
+        },
+        {
+            "keyword": "fix ung issue",
+            "synonyms": [
+                "fix ung issue"
+            ]
+        },
+        {
+            "keyword": "fix your PLDT service",
+            "synonyms": [
+                "fix your pldt service"
+            ]
+        },
+        {
+            "keyword": "fix your connection",
+            "synonyms": [
+                "fix your connection"
+            ]
+        },
+        {
+            "keyword": "fix your internet",
+            "synonyms": [
+                "fix your internet"
+            ]
+        },
+        {
+            "keyword": "forever loading",
+            "synonyms": [
+                "forever loading"
+            ]
+        },
+        {
+            "keyword": "full admin access",
+            "synonyms": [
+                "full admin access"
+            ]
+        },
+        {
+            "keyword": "gaming connection slow",
+            "synonyms": [
+                "gaming connection slow"
+            ]
+        },
+        {
+            "keyword": "gone connection",
+            "synonyms": [
+                "gone connection"
+            ]
+        },
+        {
+            "keyword": "gone data",
+            "synonyms": [
+                "gone data"
+            ]
+        },
+        {
+            "keyword": "gone internet",
+            "synonyms": [
+                "gone internet"
+            ]
+        },
+        {
+            "keyword": "gone net",
+            "synonyms": [
+                "gone net"
+            ]
+        },
+        {
+            "keyword": "hina connection",
+            "synonyms": [
+                "hina connection"
+            ]
+        },
+        {
+            "keyword": "hina data",
+            "synonyms": [
+                "hina data"
+            ]
+        },
+        {
+            "keyword": "hina internet",
+            "synonyms": [
+                "hina internet"
+            ]
+        },
+        {
+            "keyword": "hina naman ng net",
+            "synonyms": [
+                "hina naman ng net"
+            ]
+        },
+        {
+            "keyword": "hina net",
+            "synonyms": [
+                "hina net"
+            ]
+        },
+        {
+            "keyword": "hina network",
+            "synonyms": [
+                "hina network"
+            ]
+        },
+        {
+            "keyword": "hina ng net",
+            "synonyms": [
+                "hina ng net"
+            ]
+        },
+        {
+            "keyword": "hina ngaun ng koneksyon",
+            "synonyms": [
+                "hina ngaun ng koneksyon"
+            ]
+        },
+        {
+            "keyword": "hina signal",
+            "synonyms": [
+                "hina signal"
+            ]
+        },
+        {
+            "keyword": "hindi bumalik",
+            "synonyms": [
+                "hindi bumalik"
+            ]
+        },
+        {
+            "keyword": "hindi magamit",
+            "synonyms": [
+                "hindi magamit"
+            ]
+        },
+        {
+            "keyword": "hindi magamit internet",
+            "synonyms": [
+                "hindi magamit internet"
+            ]
+        },
+        {
+            "keyword": "hindi magamit lte",
+            "synonyms": [
+                "hindi magamit lte"
+            ]
+        },
+        {
+            "keyword": "hindi maganda internet",
+            "synonyms": [
+                "hindi maganda internet"
+            ]
+        },
+        {
+            "keyword": "hindi makaconnect data",
+            "synonyms": [
+                "hindi makaconnect data"
+            ]
+        },
+        {
+            "keyword": "hindi makaconnect internet",
+            "synonyms": [
+                "hindi makaconnect internet"
+            ]
+        },
+        {
+            "keyword": "hindi makapanuod videos",
+            "synonyms": [
+                "hindi makapanuod videos"
+            ]
+        },
+        {
+            "keyword": "hindi makasend",
+            "synonyms": [
+                "hindi makasend"
+            ]
+        },
+        {
+            "keyword": "hindi nagloload",
+            "synonyms": [
+                "hindi nagloload"
+            ]
+        },
+        {
+            "keyword": "hindi nareresolve connection",
+            "synonyms": [
+                "hindi nareresolve connection"
+            ]
+        },
+        {
+            "keyword": "hindi tanggap",
+            "synonyms": [
+                "hindi tanggap"
+            ]
+        },
+        {
+            "keyword": "hirap magconnect",
+            "synonyms": [
+                "hirap magconnect"
+            ]
+        },
+        {
+            "keyword": "hirap maka fb",
+            "synonyms": [
+                "hirap maka fb"
+            ]
+        },
+        {
+            "keyword": "hirap makaconnect",
+            "synonyms": [
+                "hirap makaconnect"
+            ]
+        },
+        {
+            "keyword": "hirap makaconnek",
+            "synonyms": [
+                "hirap makaconnek"
+            ]
+        },
+        {
+            "keyword": "hirap maview photos fb",
+            "synonyms": [
+                "hirap maview photos fb"
+            ]
+        },
+        {
+            "keyword": "hndi makaconnect data",
+            "synonyms": [
+                "hndi makaconnect data"
+            ]
+        },
+        {
+            "keyword": "hndi makaconnect internet",
+            "synonyms": [
+                "hndi makaconnect internet"
+            ]
+        },
+        {
+            "keyword": "how many hours po ba para mareconnect",
+            "synonyms": [
+                "how many hours po ba para mareconnect"
+            ]
+        },
+        {
+            "keyword": "humihina",
+            "synonyms": [
+                "humihina"
+            ]
+        },
+        {
+            "keyword": "humina ang cgnal",
+            "synonyms": [
+                "humina ang cgnal"
+            ]
+        },
+        {
+            "keyword": "ibalik connection",
+            "synonyms": [
+                "ibalik connection",
+                "ibalik nyo connection"
+            ]
+        },
+        {
+            "keyword": "ibalik niyo na net",
+            "synonyms": [
+                "ibalik net",
+                "ibalik niyo na net"
+            ]
+        },
+        {
+            "keyword": "intermittent",
+            "synonyms": [
+                "intermittent"
+            ]
+        },
+        {
+            "keyword": "intermittent  internet",
+            "synonyms": [
+                "intermittent  internet"
+            ]
+        },
+        {
+            "keyword": "intermittent connection",
+            "synonyms": [
+                "intermittent connection"
+            ]
+        },
+        {
+            "keyword": "intermittent data",
+            "synonyms": [
+                "intermittent data"
+            ]
+        },
+        {
+            "keyword": "intermittent net",
+            "synonyms": [
+                "intermittent net"
+            ]
+        },
+        {
+            "keyword": "internet",
+            "synonyms": [
+                "internet",
+                "ternet-r"
+            ]
+        },
+        {
+            "keyword": "internet  went down",
+            "synonyms": [
+                "internet  went down"
+            ]
+        },
+        {
+            "keyword": "internet ayaw",
+            "synonyms": [
+                "internet ayaw"
+            ]
+        },
+        {
+            "keyword": "internet bagal",
+            "synonyms": [
+                "internet bagal"
+            ]
+        },
+        {
+            "keyword": "internet can't access specific site",
+            "synonyms": [
+                "internet can't access specific site"
+            ]
+        },
+        {
+            "keyword": "internet concern",
+            "synonyms": [
+                "internet concern"
+            ]
+        },
+        {
+            "keyword": "internet connection",
+            "synonyms": [
+                "internet connection"
+            ]
+        },
+        {
+            "keyword": "internet down",
+            "synonyms": [
+                "internet down"
+            ]
+        },
+        {
+            "keyword": "internet downtime",
+            "synonyms": [
+                "internet downtime"
+            ]
+        },
+        {
+            "keyword": "internet error",
+            "synonyms": [
+                "internet error"
+            ]
+        },
+        {
+            "keyword": "internet gone",
+            "synonyms": [
+                "internet gone"
+            ]
+        },
+        {
+            "keyword": "internet hina",
+            "synonyms": [
+                "internet hina"
+            ]
+        },
+        {
+            "keyword": "internet hirap",
+            "synonyms": [
+                "internet hirap"
+            ]
+        },
+        {
+            "keyword": "internet intermittent",
+            "synonyms": [
+                "internet intermittent"
+            ]
+        },
+        {
+            "keyword": "internet issue",
+            "synonyms": [
+                "internet issue"
+            ]
+        },
+        {
+            "keyword": "internet lost",
+            "synonyms": [
+                "internet lost"
+            ]
+        },
+        {
+            "keyword": "internet low",
+            "synonyms": [
+                "internet low"
+            ]
+        },
+        {
+            "keyword": "internet mabagal",
+            "synonyms": [
+                "internet mabagal"
+            ]
+        },
+        {
+            "keyword": "internet mahina",
+            "synonyms": [
+                "internet mahina"
+            ]
+        },
+        {
+            "keyword": "internet nawala",
+            "synonyms": [
+                "internet nawala"
+            ]
+        },
+        {
+            "keyword": "internet no",
+            "synonyms": [
+                "internet",
+                "internet n",
+                "internet no"
+            ]
+        },
+        {
+            "keyword": "internet not working",
+            "synonyms": [
+                "internet not working"
+            ]
+        },
+        {
+            "keyword": "internet pagong",
+            "synonyms": [
+                "internet pagong"
+            ]
+        },
+        {
+            "keyword": "internet panget",
+            "synonyms": [
+                "internet panget"
+            ]
+        },
+        {
+            "keyword": "internet pangit",
+            "synonyms": [
+                "internet pangit"
+            ]
+        },
+        {
+            "keyword": "internet pawala wala",
+            "synonyms": [
+                "internet pawala wala"
+            ]
+        },
+        {
+            "keyword": "internet poor",
+            "synonyms": [
+                "internet poor"
+            ]
+        },
+        {
+            "keyword": "internet problem",
+            "synonyms": [
+                "internet problem"
+            ]
+        },
+        {
+            "keyword": "internet putol",
+            "synonyms": [
+                "internet putol"
+            ]
+        },
+        {
+            "keyword": "internet putol putol",
+            "synonyms": [
+                "internet putol putol"
+            ]
+        },
+        {
+            "keyword": "internet sira",
+            "synonyms": [
+                "internet sira"
+            ]
+        },
+        {
+            "keyword": "internet slow",
+            "synonyms": [
+                "internet slow"
+            ]
+        },
+        {
+            "keyword": "internet snail",
+            "synonyms": [
+                "internet snail"
+            ]
+        },
+        {
+            "keyword": "internet sobra bagal",
+            "synonyms": [
+                "internet sobra bagal"
+            ]
+        },
+        {
+            "keyword": "internet sobra mabagal",
+            "synonyms": [
+                "internet sobra mabagal"
+            ]
+        },
+        {
+            "keyword": "internet turtle",
+            "synonyms": [
+                "internet turtle"
+            ]
+        },
+        {
+            "keyword": "internet unstable",
+            "synonyms": [
+                "internet unstable"
+            ]
+        },
+        {
+            "keyword": "internet wala",
+            "synonyms": [
+                "internet wala"
+            ]
+        },
+        {
+            "keyword": "internet wala na naman",
+            "synonyms": [
+                "internet wala na naman"
+            ]
+        },
+        {
+            "keyword": "internet wala wala",
+            "synonyms": [
+                "internet wala wala"
+            ]
+        },
+        {
+            "keyword": "internet weak",
+            "synonyms": [
+                "internet weak"
+            ]
+        },
+        {
+            "keyword": "interrupted",
+            "synonyms": [
+                "interrupted"
+            ]
+        },
+        {
+            "keyword": "interruption service",
+            "synonyms": [
+                "interruption service"
+            ]
+        },
+        {
+            "keyword": "ip",
+            "synonyms": [
+                "ip"
+            ]
+        },
+        {
+            "keyword": "issues with pldt connection",
+            "synonyms": [
+                "issues with pldt connection"
+            ]
+        },
+        {
+            "keyword": "kabagal",
+            "synonyms": [
+                "kabagal",
+                "kabagalan ng net"
+            ]
+        },
+        {
+            "keyword": "kable",
+            "synonyms": [
+                "kable"
+            ]
+        },
+        {
+            "keyword": "kailan kaya magagawa ang Cignal",
+            "synonyms": [
+                "kailan kaya magagawa ang cignal"
+            ]
+        },
+        {
+            "keyword": "kapangit",
+            "synonyms": [
+                "kapangit"
+            ]
+        },
+        {
+            "keyword": "kelan kaya magagawa ang Cignal",
+            "synonyms": [
+                "kelan kaya magagawa ang cignal"
+            ]
+        },
+        {
+            "keyword": "kelan makakaconnect",
+            "synonyms": [
+                "kelan makakaconnect"
+            ]
+        },
+        {
+            "keyword": "kelan matatapos lag",
+            "synonyms": [
+                "kelan matatapos lag"
+            ]
+        },
+        {
+            "keyword": "la kwenta connection",
+            "synonyms": [
+                "la kwenta connection"
+            ]
+        },
+        {
+            "keyword": "la kwenta data",
+            "synonyms": [
+                "la kwenta data"
+            ]
+        },
+        {
+            "keyword": "lag ang ml",
+            "synonyms": [
+                "lag ang ml"
+            ]
+        },
+        {
+            "keyword": "lag connection",
+            "synonyms": [
+                "lag connection"
+            ]
+        },
+        {
+            "keyword": "lag internet nyo",
+            "synonyms": [
+                "lag internet nyo"
+            ]
+        },
+        {
+            "keyword": "lag ml ulit",
+            "synonyms": [
+                "lag ml ulit"
+            ]
+        },
+        {
+            "keyword": "lag nanaman smart",
+            "synonyms": [
+                "lag nanaman smart"
+            ]
+        },
+        {
+            "keyword": "lag pa ba",
+            "synonyms": [
+                "lag pa ba"
+            ]
+        },
+        {
+            "keyword": "lag pa more",
+            "synonyms": [
+                "lag pa more"
+            ]
+        },
+        {
+            "keyword": "lag playing game",
+            "synonyms": [
+                "lag playing game"
+            ]
+        },
+        {
+            "keyword": "lagging data",
+            "synonyms": [
+                "lagging data"
+            ]
+        },
+        {
+            "keyword": "lan post",
+            "synonyms": [
+                "lan post"
+            ]
+        },
+        {
+            "keyword": "landline",
+            "synonyms": [
+                "landline"
+            ]
+        },
+        {
+            "keyword": "landline ayaw",
+            "synonyms": [
+                "landline ayaw"
+            ]
+        },
+        {
+            "keyword": "landline concern",
+            "synonyms": [
+                "landline concern"
+            ]
+        },
+        {
+            "keyword": "landline down",
+            "synonyms": [
+                "landline down"
+            ]
+        },
+        {
+            "keyword": "landline downtime",
+            "synonyms": [
+                "landline downtime"
+            ]
+        },
+        {
+            "keyword": "landline gone",
+            "synonyms": [
+                "landline gone"
+            ]
+        },
+        {
+            "keyword": "landline hina",
+            "synonyms": [
+                "landline hina"
+            ]
+        },
+        {
+            "keyword": "landline hirap",
+            "synonyms": [
+                "landline hirap"
+            ]
+        },
+        {
+            "keyword": "landline issue",
+            "synonyms": [
+                "landline issue"
+            ]
+        },
+        {
+            "keyword": "landline mahina",
+            "synonyms": [
+                "landline mahina"
+            ]
+        },
+        {
+            "keyword": "landline maingay",
+            "synonyms": [
+                "landline maingay"
+            ]
+        },
+        {
+            "keyword": "landline nawala",
+            "synonyms": [
+                "landline nawala"
+            ]
+        },
+        {
+            "keyword": "landline no",
+            "synonyms": [
+                "land line no",
+                "landline no"
+            ]
+        },
+        {
+            "keyword": "landline not working",
+            "synonyms": [
+                "landline not working"
+            ]
+        },
+        {
+            "keyword": "landline panget",
+            "synonyms": [
+                "landline panget"
+            ]
+        },
+        {
+            "keyword": "landline pangit",
+            "synonyms": [
+                "landline pangit"
+            ]
+        },
+        {
+            "keyword": "landline poor",
+            "synonyms": [
+                "landline poor"
+            ]
+        },
+        {
+            "keyword": "landline problem",
+            "synonyms": [
+                "landline problem"
+            ]
+        },
+        {
+            "keyword": "landline slow",
+            "synonyms": [
+                "landline slow"
+            ]
+        },
+        {
+            "keyword": "landline wala",
+            "synonyms": [
+                "landline wala"
+            ]
+        },
+        {
+            "keyword": "laro connection",
+            "synonyms": [
+                "laro connection"
+            ]
+        },
+        {
+            "keyword": "led no light",
+            "synonyms": [
+                "led no light"
+            ]
+        },
+        {
+            "keyword": "linemen",
+            "synonyms": [
+                "linemen"
+            ]
+        },
+        {
+            "keyword": "linya",
+            "synonyms": [
+                "linya"
+            ]
+        },
+        {
+            "keyword": "loading",
+            "synonyms": [
+                "loading"
+            ]
+        },
+        {
+            "keyword": "loading connection",
+            "synonyms": [
+                "loading connection"
+            ]
+        },
+        {
+            "keyword": "loading internet",
+            "synonyms": [
+                "loading internet"
+            ]
+        },
+        {
+            "keyword": "loading lang data",
+            "synonyms": [
+                "loading lang data"
+            ]
+        },
+        {
+            "keyword": "loading lang facebook",
+            "synonyms": [
+                "loading lang facebook"
+            ]
+        },
+        {
+            "keyword": "loading lang fb",
+            "synonyms": [
+                "loading lang fb"
+            ]
+        },
+        {
+            "keyword": "loading lang internet",
+            "synonyms": [
+                "loading lang internet"
+            ]
+        },
+        {
+            "keyword": "loading lang twitter",
+            "synonyms": [
+                "loading lang twitter"
+            ]
+        },
+        {
+            "keyword": "los",
+            "synonyms": [
+                "los",
+                "loslos"
+            ]
+        },
+        {
+            "keyword": "los2",
+            "synonyms": [
+                "los2"
+            ]
+        },
+        {
+            "keyword": "lost ang connection",
+            "synonyms": [
+                "lost ang connection"
+            ]
+        },
+        {
+            "keyword": "lost connection",
+            "synonyms": [
+                "lost connection"
+            ]
+        },
+        {
+            "keyword": "lost connection again",
+            "synonyms": [
+                "lost connection again"
+            ]
+        },
+        {
+            "keyword": "lost data",
+            "synonyms": [
+                "lost data"
+            ]
+        },
+        {
+            "keyword": "lost internet",
+            "synonyms": [
+                "lost internet"
+            ]
+        },
+        {
+            "keyword": "lost net",
+            "synonyms": [
+                "lost net"
+            ]
+        },
+        {
+            "keyword": "lost our connection",
+            "synonyms": [
+                "lost our connection"
+            ]
+        },
+        {
+            "keyword": "low  internet",
+            "synonyms": [
+                "low  internet"
+            ]
+        },
+        {
+            "keyword": "low bandwidth",
+            "synonyms": [
+                "low bandwidth"
+            ]
+        },
+        {
+            "keyword": "low connection",
+            "synonyms": [
+                "low connection"
+            ]
+        },
+        {
+            "keyword": "low data",
+            "synonyms": [
+                "low data"
+            ]
+        },
+        {
+            "keyword": "low net",
+            "synonyms": [
+                "low net"
+            ]
+        },
+        {
+            "keyword": "mabagal 3g nyo",
+            "synonyms": [
+                "mabagal 3g nyo"
+            ]
+        },
+        {
+            "keyword": "mabagal ang data",
+            "synonyms": [
+                "mabagal ang data"
+            ]
+        },
+        {
+            "keyword": "mabagal connection",
+            "synonyms": [
+                "mabagal connection"
+            ]
+        },
+        {
+            "keyword": "mabagal data",
+            "synonyms": [
+                "mabagal data"
+            ]
+        },
+        {
+            "keyword": "mabagal internet",
+            "synonyms": [
+                "mabagal internet"
+            ]
+        },
+        {
+            "keyword": "mabagal lte nyo",
+            "synonyms": [
+                "mabagal lte nyo"
+            ]
+        },
+        {
+            "keyword": "mabagal magconnect",
+            "synonyms": [
+                "mabagal magconnect"
+            ]
+        },
+        {
+            "keyword": "mabagal net",
+            "synonyms": [
+                "mabagal net"
+            ]
+        },
+        {
+            "keyword": "mabagal network",
+            "synonyms": [
+                "mabagal network"
+            ]
+        },
+        {
+            "keyword": "mahina nanaman connection",
+            "synonyms": [
+                "mahina nanaman connection"
+            ]
+        },
+        {
+            "keyword": "mahina nanaman data",
+            "synonyms": [
+                "mahina nanaman data"
+            ]
+        },
+        {
+            "keyword": "mahina pa din",
+            "synonyms": [
+                "mahina pa din"
+            ]
+        },
+        {
+            "keyword": "mahina ulit ddata",
+            "synonyms": [
+                "mahina ulit ddata"
+            ]
+        },
+        {
+            "keyword": "maintenance",
+            "synonyms": [
+                "maintenance"
+            ]
+        },
+        {
+            "keyword": "makaconnect",
+            "synonyms": [
+                "makaconnect"
+            ]
+        },
+        {
+            "keyword": "makupad internet",
+            "synonyms": [
+                "makupad internet"
+            ]
+        },
+        {
+            "keyword": "mas bumagal",
+            "synonyms": [
+                "mas bumagal"
+            ]
+        },
+        {
+            "keyword": "mas malala pa service nyo",
+            "synonyms": [
+                "mas malala pa service nyo"
+            ]
+        },
+        {
+            "keyword": "may downtime ba",
+            "synonyms": [
+                "may downtime ba"
+            ]
+        },
+        {
+            "keyword": "may maintenance ba",
+            "synonyms": [
+                "may maintenance ba"
+            ]
+        },
+        {
+            "keyword": "may network issue",
+            "synonyms": [
+                "may network issue"
+            ]
+        },
+        {
+            "keyword": "may service downtime",
+            "synonyms": [
+                "may service downtime"
+            ]
+        },
+        {
+            "keyword": "may service interruption",
+            "synonyms": [
+                "may service interruption"
+            ]
+        },
+        {
+            "keyword": "may system enhancement",
+            "synonyms": [
+                "may system enhancement"
+            ]
+        },
+        {
+            "keyword": "may system maintenance",
+            "synonyms": [
+                "may system maintenance"
+            ]
+        },
+        {
+            "keyword": "mbgal ang data",
+            "synonyms": [
+                "mbgal ang data"
+            ]
+        },
+        {
+            "keyword": "mhina nanaman connection",
+            "synonyms": [
+                "mhina nanaman connection"
+            ]
+        },
+        {
+            "keyword": "mhina net",
+            "synonyms": [
+                "mhina net"
+            ]
+        },
+        {
+            "keyword": "ml",
+            "synonyms": [
+                "ml"
+            ]
+        },
+        {
+            "keyword": "mobile legends",
+            "synonyms": [
+                "mobile legends"
+            ]
+        },
+        {
+            "keyword": "modem",
+            "synonyms": [
+                "dem o",
+                "modem"
+            ]
+        },
+        {
+            "keyword": "multiple",
+            "synonyms": [
+                "multiple"
+            ]
+        },
+        {
+            "keyword": "naaayos",
+            "synonyms": [
+                "naaayos"
+            ]
+        },
+        {
+            "keyword": "nadidisconnect internet",
+            "synonyms": [
+                "nadidisconnect internet"
+            ]
+        },
+        {
+            "keyword": "nag 1bar",
+            "synonyms": [
+                "nag 1bar"
+            ]
+        },
+        {
+            "keyword": "nag holiday na rin yung connection nyo",
+            "synonyms": [
+                "nag holiday na rin yung connection nyo"
+            ]
+        },
+        {
+            "keyword": "nag lalag",
+            "synonyms": [
+                "nag lalag"
+            ]
+        },
+        {
+            "keyword": "nagloloko connection",
+            "synonyms": [
+                "nagloloko connection"
+            ]
+        },
+        {
+            "keyword": "nagloloko internet",
+            "synonyms": [
+                "nagloloko internet"
+            ]
+        },
+        {
+            "keyword": "nagloloko nanaman data",
+            "synonyms": [
+                "nagloloko nanaman data"
+            ]
+        },
+        {
+            "keyword": "nakakahiya speed",
+            "synonyms": [
+                "nakakahiya speed"
+            ]
+        },
+        {
+            "keyword": "namerwisyo",
+            "synonyms": [
+                "namerwisyo"
+            ]
+        },
+        {
+            "keyword": "nap",
+            "synonyms": [
+                "nap"
+            ]
+        },
+        {
+            "keyword": "napaka bulok ng internet",
+            "synonyms": [
+                "napaka bulok ng internet"
+            ]
+        },
+        {
+            "keyword": "napaka lag",
+            "synonyms": [
+                "napaka lag"
+            ]
+        },
+        {
+            "keyword": "napakahina ng net",
+            "synonyms": [
+                "napakahina ng net"
+            ]
+        },
+        {
+            "keyword": "napakahinang internet",
+            "synonyms": [
+                "napakahinang internet"
+            ]
+        },
+        {
+            "keyword": "napakalag",
+            "synonyms": [
+                "napakalag"
+            ]
+        },
+        {
+            "keyword": "nawala connection",
+            "synonyms": []
+        },
+        {
+            "keyword": "nawala data",
+            "synonyms": [
+                "nawala data"
+            ]
+        },
+        {
+            "keyword": "nawala internet",
+            "synonyms": [
+                "nawala internet"
+            ]
+        },
+        {
+            "keyword": "nawala net",
+            "synonyms": [
+                "nawala net"
+            ]
+        },
+        {
+            "keyword": "nawala yung connection",
+            "synonyms": [
+                "nawala yung connection"
+            ]
+        },
+        {
+            "keyword": "nawalan kami internet",
+            "synonyms": [
+                "nawalan kami internet"
+            ]
+        },
+        {
+            "keyword": "nawalan net",
+            "synonyms": [
+                "nawalan net"
+            ]
+        },
+        {
+            "keyword": "nawalan ng service",
+            "synonyms": [
+                "nawalan ng service"
+            ]
+        },
+        {
+            "keyword": "nawawala",
+            "synonyms": [
+                "nawawala"
+            ]
+        },
+        {
+            "keyword": "nawawala pag umuulan",
+            "synonyms": [
+                "nawawala pag umuulan"
+            ]
+        },
+        {
+            "keyword": "need mag data",
+            "synonyms": [
+                "need mag data"
+            ]
+        },
+        {
+            "keyword": "need ng internet",
+            "synonyms": [
+                "need ng internet"
+            ]
+        },
+        {
+            "keyword": "net ayaw",
+            "synonyms": [
+                "net ayaw"
+            ]
+        },
+        {
+            "keyword": "net bagal",
+            "synonyms": [
+                "net bagal"
+            ]
+        },
+        {
+            "keyword": "net can't access specific site",
+            "synonyms": [
+                "net can't access specific site"
+            ]
+        },
+        {
+            "keyword": "net concern",
+            "synonyms": [
+                "net concern"
+            ]
+        },
+        {
+            "keyword": "net down",
+            "synonyms": [
+                "net down"
+            ]
+        },
+        {
+            "keyword": "net downtime",
+            "synonyms": [
+                "net downtime"
+            ]
+        },
+        {
+            "keyword": "net error",
+            "synonyms": [
+                "net error"
+            ]
+        },
+        {
+            "keyword": "net gone",
+            "synonyms": [
+                "net gone"
+            ]
+        },
+        {
+            "keyword": "net hina",
+            "synonyms": [
+                "net hina"
+            ]
+        },
+        {
+            "keyword": "net hirap",
+            "synonyms": [
+                "net hirap"
+            ]
+        },
+        {
+            "keyword": "net ibalik",
+            "synonyms": [
+                "net ibalik"
+            ]
+        },
+        {
+            "keyword": "net intermittent",
+            "synonyms": [
+                "net intermittent"
+            ]
+        },
+        {
+            "keyword": "net issue",
+            "synonyms": [
+                "net issue"
+            ]
+        },
+        {
+            "keyword": "net lost",
+            "synonyms": [
+                "net lost"
+            ]
+        },
+        {
+            "keyword": "net low",
+            "synonyms": [
+                "net low"
+            ]
+        },
+        {
+            "keyword": "net mabagal",
+            "synonyms": [
+                "net mabagal"
+            ]
+        },
+        {
+            "keyword": "net mahina",
+            "synonyms": [
+                "net mahina"
+            ]
+        },
+        {
+            "keyword": "net nawala",
+            "synonyms": [
+                "net nawala"
+            ]
+        },
+        {
+            "keyword": "net no",
+            "synonyms": [
+                "net no"
+            ]
+        },
+        {
+            "keyword": "net not working",
+            "synonyms": [
+                "net not working"
+            ]
+        },
+        {
+            "keyword": "net pagong",
+            "synonyms": [
+                "net pagong"
+            ]
+        },
+        {
+            "keyword": "net panget",
+            "synonyms": [
+                "net panget"
+            ]
+        },
+        {
+            "keyword": "net pangit",
+            "synonyms": [
+                "net pangit"
+            ]
+        },
+        {
+            "keyword": "net pawala wala",
+            "synonyms": [
+                "net pawala wala"
+            ]
+        },
+        {
+            "keyword": "net poor",
+            "synonyms": [
+                "net poor"
+            ]
+        },
+        {
+            "keyword": "net problem",
+            "synonyms": [
+                "net problem"
+            ]
+        },
+        {
+            "keyword": "net putol",
+            "synonyms": [
+                "net putol"
+            ]
+        },
+        {
+            "keyword": "net putol putol",
+            "synonyms": [
+                "net putol putol"
+            ]
+        },
+        {
+            "keyword": "net sira",
+            "synonyms": [
+                "net sira"
+            ]
+        },
+        {
+            "keyword": "net slow",
+            "synonyms": [
+                "net slow"
+            ]
+        },
+        {
+            "keyword": "net snail",
+            "synonyms": [
+                "net snail"
+            ]
+        },
+        {
+            "keyword": "net turtle",
+            "synonyms": [
+                "net turtle"
+            ]
+        },
+        {
+            "keyword": "net unstable",
+            "synonyms": [
+                "net unstable"
+            ]
+        },
+        {
+            "keyword": "net wala",
+            "synonyms": [
+                "net wala"
+            ]
+        },
+        {
+            "keyword": "net wala wala",
+            "synonyms": [
+                "net wala wala"
+            ]
+        },
+        {
+            "keyword": "net weak",
+            "synonyms": [
+                "net weak"
+            ]
+        },
+        {
+            "keyword": "no connection",
+            "synonyms": [
+                "no connection"
+            ]
+        },
+        {
+            "keyword": "no connection again",
+            "synonyms": [
+                "no connection again"
+            ]
+        },
+        {
+            "keyword": "no connectivity",
+            "synonyms": [
+                "no connectivity"
+            ]
+        },
+        {
+            "keyword": "no data",
+            "synonyms": [
+                "no data"
+            ]
+        },
+        {
+            "keyword": "no data again",
+            "synonyms": [
+                "no data again"
+            ]
+        },
+        {
+            "keyword": "no dial tone",
+            "synonyms": [
+                "no dial tone"
+            ]
+        },
+        {
+            "keyword": "no incoming",
+            "synonyms": [
+                "no incoming"
+            ]
+        },
+        {
+            "keyword": "no internet",
+            "synonyms": [
+                "no internet"
+            ]
+        },
+        {
+            "keyword": "no landline",
+            "synonyms": [
+                "no landline"
+            ]
+        },
+        {
+            "keyword": "no net",
+            "synonyms": [
+                "no net"
+            ]
+        },
+        {
+            "keyword": "no outgoing",
+            "synonyms": [
+                "no outgoing"
+            ]
+        },
+        {
+            "keyword": "no power",
+            "synonyms": [
+                "no power"
+            ]
+        },
+        {
+            "keyword": "no power light",
+            "synonyms": [
+                "no power light"
+            ]
+        },
+        {
+            "keyword": "no signal",
+            "synonyms": [
+                "no signal"
+            ]
+        },
+        {
+            "keyword": "noisy line",
+            "synonyms": [
+                "noisy line"
+            ]
+        },
+        {
+            "keyword": "not sent",
+            "synonyms": [
+                "not sent"
+            ]
+        },
+        {
+            "keyword": "not working",
+            "synonyms": [
+                "not working"
+            ]
+        },
+        {
+            "keyword": "not working connection",
+            "synonyms": [
+                "not working connection"
+            ]
+        },
+        {
+            "keyword": "not working data",
+            "synonyms": [
+                "not working data"
+            ]
+        },
+        {
+            "keyword": "not working internet",
+            "synonyms": [
+                "not working internet"
+            ]
+        },
+        {
+            "keyword": "not working net",
+            "synonyms": [
+                "not working net"
+            ]
+        },
+        {
+            "keyword": "nwawalan ng connection",
+            "synonyms": [
+                "nwawalan ng connection"
+            ]
+        },
+        {
+            "keyword": "on and off",
+            "synonyms": [
+                "on and off"
+            ]
+        },
+        {
+            "keyword": "on-off",
+            "synonyms": [
+                "on-off"
+            ]
+        },
+        {
+            "keyword": "online gaming slow",
+            "synonyms": [
+                "online gaming slow"
+            ]
+        },
+        {
+            "keyword": "outage",
+            "synonyms": [
+                "outage"
+            ]
+        },
+        {
+            "keyword": "pa FIX",
+            "synonyms": [
+                "pa fix"
+            ]
+        },
+        {
+            "keyword": "pa putol",
+            "synonyms": [
+                "pa putol"
+            ]
+        },
+        {
+            "keyword": "paano mababalik wifi",
+            "synonyms": [
+                "paano mababalik wifi"
+            ]
+        },
+        {
+            "keyword": "paayos",
+            "synonyms": [
+                "paayos"
+            ]
+        },
+        {
+            "keyword": "paayos naman po ng connection",
+            "synonyms": [
+                "paayos naman po ng connection"
+            ]
+        },
+        {
+            "keyword": "paayos net",
+            "synonyms": [
+                "paayos net"
+            ]
+        },
+        {
+            "keyword": "pabagal ng pabagal",
+            "synonyms": [
+                "pabagal ng pabagal"
+            ]
+        },
+        {
+            "keyword": "packet loss",
+            "synonyms": [
+                "packet loss"
+            ]
+        },
+        {
+            "keyword": "pagong",
+            "synonyms": [
+                "pagong"
+            ]
+        },
+        {
+            "keyword": "pagong connection",
+            "synonyms": [
+                "pagong connection"
+            ]
+        },
+        {
+            "keyword": "pagong data",
+            "synonyms": [
+                "pagong data"
+            ]
+        },
+        {
+            "keyword": "pagong internet",
+            "synonyms": [
+                "pagong internet"
+            ]
+        },
+        {
+            "keyword": "pagong net",
+            "synonyms": [
+                "pagong net"
+            ]
+        },
+        {
+            "keyword": "pakiayos",
+            "synonyms": [
+                "paki ayos",
+                "pakiayos"
+            ]
+        },
+        {
+            "keyword": "pakiayos internet",
+            "synonyms": [
+                "pakiayos internet"
+            ]
+        },
+        {
+            "keyword": "panget connection",
+            "synonyms": [
+                "panget connection"
+            ]
+        },
+        {
+            "keyword": "panget data",
+            "synonyms": [
+                "panget data"
+            ]
+        },
+        {
+            "keyword": "panget internet",
+            "synonyms": [
+                "panget internet"
+            ]
+        },
+        {
+            "keyword": "panget net",
+            "synonyms": [
+                "panget net"
+            ]
+        },
+        {
+            "keyword": "panget net connection",
+            "synonyms": [
+                "panget net connection"
+            ]
+        },
+        {
+            "keyword": "pangit ang connection",
+            "synonyms": [
+                "pangit ang connection"
+            ]
+        },
+        {
+            "keyword": "pangit connection",
+            "synonyms": [
+                "pangit connection"
+            ]
+        },
+        {
+            "keyword": "pangit data",
+            "synonyms": [
+                "pangit data"
+            ]
+        },
+        {
+            "keyword": "pangit internet",
+            "synonyms": [
+                "pangit internet"
+            ]
+        },
+        {
+            "keyword": "pangit net",
+            "synonyms": [
+                "pangit net"
+            ]
+        },
+        {
+            "keyword": "pangit net connection",
+            "synonyms": [
+                "pangit net connection"
+            ]
+        },
+        {
+            "keyword": "pangit ng connection",
+            "synonyms": [
+                "pangit ng connection"
+            ]
+        },
+        {
+            "keyword": "pangit ng lte",
+            "synonyms": [
+                "pangit ng lte"
+            ]
+        },
+        {
+            "keyword": "panirang connection",
+            "synonyms": [
+                "panirang connection"
+            ]
+        },
+        {
+            "keyword": "paputol putol",
+            "synonyms": [
+                "paputol putol"
+            ]
+        },
+        {
+            "keyword": "password",
+            "synonyms": [
+                "password"
+            ]
+        },
+        {
+            "keyword": "patay signal",
+            "synonyms": [
+                "patay signal"
+            ]
+        },
+        {
+            "keyword": "paulit ulit",
+            "synonyms": [
+                "paulit ulit"
+            ]
+        },
+        {
+            "keyword": "paulit ulit na lang",
+            "synonyms": [
+                "paulit ulit na lang",
+                "paulit ulit nalang"
+            ]
+        },
+        {
+            "keyword": "pawala wala",
+            "synonyms": [
+                "pawala wala"
+            ]
+        },
+        {
+            "keyword": "pawala wala  internet",
+            "synonyms": [
+                "pawala wala  internet"
+            ]
+        },
+        {
+            "keyword": "pawala wala connection",
+            "synonyms": [
+                "pawala wala connection"
+            ]
+        },
+        {
+            "keyword": "pawala wala data",
+            "synonyms": [
+                "pawala wala data"
+            ]
+        },
+        {
+            "keyword": "pawala wala internet",
+            "synonyms": [
+                "pawala wala internet"
+            ]
+        },
+        {
+            "keyword": "pawala wala net",
+            "synonyms": [
+                "pawala wala net"
+            ]
+        },
+        {
+            "keyword": "pinakamabagal na internet",
+            "synonyms": [
+                "pinakamabagal na internet"
+            ]
+        },
+        {
+            "keyword": "ping",
+            "synonyms": [
+                "ping"
+            ]
+        },
+        {
+            "keyword": "ping connection",
+            "synonyms": [
+                "ping connection"
+            ]
+        },
+        {
+            "keyword": "pldt ayaw connect",
+            "synonyms": [
+                "pldt ayaw connect"
+            ]
+        },
+        {
+            "keyword": "pldt ayaw kumonek",
+            "synonyms": [
+                "pldt ayaw kumonek"
+            ]
+        },
+        {
+            "keyword": "pldt bulok connection",
+            "synonyms": [
+                "pldt bulok connection"
+            ]
+        },
+        {
+            "keyword": "pldt bulok internet",
+            "synonyms": [
+                "pldt bulok internet"
+            ]
+        },
+        {
+            "keyword": "pldt bulok net",
+            "synonyms": [
+                "pldt bulok net"
+            ]
+        },
+        {
+            "keyword": "pldt bulok network",
+            "synonyms": [
+                "pldt bulok network"
+            ]
+        },
+        {
+            "keyword": "pldt bulok service",
+            "synonyms": [
+                "pldt bulok service"
+            ]
+        },
+        {
+            "keyword": "pldt bulok signal",
+            "synonyms": [
+                "pldt bulok signal"
+            ]
+        },
+        {
+            "keyword": "pldt can't access",
+            "synonyms": [
+                "pldt can't access"
+            ]
+        },
+        {
+            "keyword": "pldt cant access",
+            "synonyms": [
+                "pldt cant access"
+            ]
+        },
+        {
+            "keyword": "pldt connection issue",
+            "synonyms": [
+                "pldt connection issue"
+            ]
+        },
+        {
+            "keyword": "pldt connection mahina",
+            "synonyms": [
+                "pldt connection mahina"
+            ]
+        },
+        {
+            "keyword": "pldt connection putol",
+            "synonyms": [
+                "pldt connection putol"
+            ]
+        },
+        {
+            "keyword": "pldt connection wala",
+            "synonyms": [
+                "pldt connection wala"
+            ]
+        },
+        {
+            "keyword": "pldt down service",
+            "synonyms": [
+                "pldt down service"
+            ]
+        },
+        {
+            "keyword": "pldt hirap connection",
+            "synonyms": [
+                "pldt hirap connection"
+            ]
+        },
+        {
+            "keyword": "pldt hirap kumonek",
+            "synonyms": [
+                "pldt hirap kumonek"
+            ]
+        },
+        {
+            "keyword": "pldt hirap net",
+            "synonyms": [
+                "pldt hirap net"
+            ]
+        },
+        {
+            "keyword": "pldt hirap signal",
+            "synonyms": [
+                "pldt hirap signal"
+            ]
+        },
+        {
+            "keyword": "pldt intermittent connnection",
+            "synonyms": [
+                "pldt intermittent connnection"
+            ]
+        },
+        {
+            "keyword": "pldt intermittent network",
+            "synonyms": [
+                "pldt intermittent network"
+            ]
+        },
+        {
+            "keyword": "pldt laging bagsak",
+            "synonyms": [
+                "pldt laging bagsak"
+            ]
+        },
+        {
+            "keyword": "pldt laging down",
+            "synonyms": [
+                "pldt laging down"
+            ]
+        },
+        {
+            "keyword": "pldt laging mahina",
+            "synonyms": [
+                "pldt laging mahina"
+            ]
+        },
+        {
+            "keyword": "pldt laging slow",
+            "synonyms": [
+                "pldt laging slow"
+            ]
+        },
+        {
+            "keyword": "pldt landline bagsak",
+            "synonyms": [
+                "pldt landline bagsak"
+            ]
+        },
+        {
+            "keyword": "pldt landline bulok",
+            "synonyms": [
+                "pldt landline bulok"
+            ]
+        },
+        {
+            "keyword": "pldt landline down",
+            "synonyms": [
+                "pldt landline down"
+            ]
+        },
+        {
+            "keyword": "pldt landline poor",
+            "synonyms": [
+                "pldt landline poor"
+            ]
+        },
+        {
+            "keyword": "pldt landline problem",
+            "synonyms": [
+                "pldt landline problem"
+            ]
+        },
+        {
+            "keyword": "pldt landline sira",
+            "synonyms": [
+                "pldt landline sira"
+            ]
+        },
+        {
+            "keyword": "pldt network down",
+            "synonyms": [
+                "pldt network down"
+            ]
+        },
+        {
+            "keyword": "pldt network sira",
+            "synonyms": [
+                "pldt network sira"
+            ]
+        },
+        {
+            "keyword": "pldt not work",
+            "synonyms": [
+                "pldt not work"
+            ]
+        },
+        {
+            "keyword": "pldt not working",
+            "synonyms": [
+                "pldt not working"
+            ]
+        },
+        {
+            "keyword": "pldt panget connection",
+            "synonyms": [
+                "pldt panget connection"
+            ]
+        },
+        {
+            "keyword": "pldt panget network",
+            "synonyms": [
+                "pldt panget network"
+            ]
+        },
+        {
+            "keyword": "pldt pangit connection",
+            "synonyms": [
+                "pldt pangit connection"
+            ]
+        },
+        {
+            "keyword": "pldt pangit net",
+            "synonyms": [
+                "pldt pangit net"
+            ]
+        },
+        {
+            "keyword": "pldt pangit network",
+            "synonyms": [
+                "pldt pangit network"
+            ]
+        },
+        {
+            "keyword": "pldt poor connection",
+            "synonyms": [
+                "pldt poor connection"
+            ]
+        },
+        {
+            "keyword": "pldt poor net",
+            "synonyms": [
+                "pldt poor net"
+            ]
+        },
+        {
+            "keyword": "pldt poor network",
+            "synonyms": [
+                "pldt poor network"
+            ]
+        },
+        {
+            "keyword": "pldt poor signal",
+            "synonyms": [
+                "pldt poor signal"
+            ]
+        },
+        {
+            "keyword": "pldt service sucks",
+            "synonyms": [
+                "pldt service sucks"
+            ]
+        },
+        {
+            "keyword": "pldt signal sira",
+            "synonyms": [
+                "pldt signal sira"
+            ]
+        },
+        {
+            "keyword": "pldt sira connection",
+            "synonyms": [
+                "pldt sira connection"
+            ]
+        },
+        {
+            "keyword": "pldt slow connection",
+            "synonyms": [
+                "pldt slow connection"
+            ]
+        },
+        {
+            "keyword": "pldt slow network",
+            "synonyms": [
+                "pldt slow network"
+            ]
+        },
+        {
+            "keyword": "pldt specific site",
+            "synonyms": [
+                "pldt specific site"
+            ]
+        },
+        {
+            "keyword": "pldt unable connect",
+            "synonyms": [
+                "pldt unable connect"
+            ]
+        },
+        {
+            "keyword": "pldt walang connection",
+            "synonyms": [
+                "pldt walang connection"
+            ]
+        },
+        {
+            "keyword": "pldt weak connection",
+            "synonyms": [
+                "pldt weak connection"
+            ]
+        },
+        {
+            "keyword": "pldt weak net",
+            "synonyms": [
+                "pldt weak net"
+            ]
+        },
+        {
+            "keyword": "pldt weak network",
+            "synonyms": [
+                "pldt weak network"
+            ]
+        },
+        {
+            "keyword": "pldt weak signal",
+            "synonyms": [
+                "pldt weak signal"
+            ]
+        },
+        {
+            "keyword": "please do something",
+            "synonyms": [
+                "please do something"
+            ]
+        },
+        {
+            "keyword": "please fix internet",
+            "synonyms": [
+                "please fix internet"
+            ]
+        },
+        {
+            "keyword": "pon",
+            "synonyms": [
+                "pon"
+            ]
+        },
+        {
+            "keyword": "poor cignal",
+            "synonyms": [
+                "poor cignal"
+            ]
+        },
+        {
+            "keyword": "poor connectiom",
+            "synonyms": [
+                "poor connectiom"
+            ]
+        },
+        {
+            "keyword": "poor connection",
+            "synonyms": [
+                "poor connection"
+            ]
+        },
+        {
+            "keyword": "poor data",
+            "synonyms": [
+                "poor data"
+            ]
+        },
+        {
+            "keyword": "poor internet",
+            "synonyms": [
+                "poor internet"
+            ]
+        },
+        {
+            "keyword": "poor net",
+            "synonyms": [
+                "poor net"
+            ]
+        },
+        {
+            "keyword": "poor network",
+            "synonyms": [
+                "poor network"
+            ]
+        },
+        {
+            "keyword": "poor signal",
+            "synonyms": [
+                "poor signal"
+            ]
+        },
+        {
+            "keyword": "port available",
+            "synonyms": [
+                "port available"
+            ]
+        },
+        {
+            "keyword": "pputulan",
+            "synonyms": [
+                "pputulan"
+            ]
+        },
+        {
+            "keyword": "prepaid wifi lag",
+            "synonyms": [
+                "prepaid wifi lag"
+            ]
+        },
+        {
+            "keyword": "prepaid wifi mabagal",
+            "synonyms": [
+                "prepaid wifi mabagal"
+            ]
+        },
+        {
+            "keyword": "prepaid wifi slow",
+            "synonyms": [
+                "prepaid wifi slow"
+            ]
+        },
+        {
+            "keyword": "problem",
+            "synonyms": [
+                "problem"
+            ]
+        },
+        {
+            "keyword": "problem  data",
+            "synonyms": [
+                "problem  data"
+            ]
+        },
+        {
+            "keyword": "problem connection",
+            "synonyms": [
+                "problem connection"
+            ]
+        },
+        {
+            "keyword": "problem internet",
+            "synonyms": [
+                "problem internet"
+            ]
+        },
+        {
+            "keyword": "problem net",
+            "synonyms": [
+                "problem net"
+            ]
+        },
+        {
+            "keyword": "puro lag",
+            "synonyms": [
+                "puro lag"
+            ]
+        },
+        {
+            "keyword": "puro loading lang",
+            "synonyms": [
+                "puro loading lang"
+            ]
+        },
+        {
+            "keyword": "putol putol",
+            "synonyms": [
+                "putol putol"
+            ]
+        },
+        {
+            "keyword": "putol putol connection",
+            "synonyms": [
+                "putol putol connection"
+            ]
+        },
+        {
+            "keyword": "putol putol data",
+            "synonyms": [
+                "putol putol data"
+            ]
+        },
+        {
+            "keyword": "putol putol internet",
+            "synonyms": [
+                "putol internet",
+                "putol putol internet"
+            ]
+        },
+        {
+            "keyword": "putol putol net",
+            "synonyms": [
+                "putol putol net"
+            ]
+        },
+        {
+            "keyword": "reconfigure",
+            "synonyms": [
+                "reconfigure"
+            ]
+        },
+        {
+            "keyword": "red los",
+            "synonyms": [
+                "red los"
+            ]
+        },
+        {
+            "keyword": "red los light",
+            "synonyms": [
+                "red los light"
+            ]
+        },
+        {
+            "keyword": "repair",
+            "synonyms": [
+                "repair"
+            ]
+        },
+        {
+            "keyword": "repair your connection",
+            "synonyms": [
+                "repair your connection"
+            ]
+        },
+        {
+            "keyword": "resolution",
+            "synonyms": [
+                "resolution"
+            ]
+        },
+        {
+            "keyword": "restoration",
+            "synonyms": [
+                "restoration"
+            ]
+        },
+        {
+            "keyword": "restore connection",
+            "synonyms": [
+                "restore connection"
+            ]
+        },
+        {
+            "keyword": "router",
+            "synonyms": [
+                "router"
+            ]
+        },
+        {
+            "keyword": "sana all mabilis ang net",
+            "synonyms": [
+                "sana all mabilis ang net"
+            ]
+        },
+        {
+            "keyword": "sayang stars lag",
+            "synonyms": [
+                "sayang stars lag"
+            ]
+        },
+        {
+            "keyword": "send",
+            "synonyms": [
+                "send"
+            ]
+        },
+        {
+            "keyword": "serbisyo",
+            "synonyms": [
+                "serbisyo"
+            ]
+        },
+        {
+            "keyword": "signal",
+            "synonyms": [
+                "signal"
+            ]
+        },
+        {
+            "keyword": "signal is weak",
+            "synonyms": [
+                "signal is weak"
+            ]
+        },
+        {
+            "keyword": "sira",
+            "synonyms": [
+                "sira"
+            ]
+        },
+        {
+            "keyword": "sira  internet",
+            "synonyms": [
+                "sira  internet"
+            ]
+        },
+        {
+            "keyword": "sira connection",
+            "synonyms": [
+                "sira connection"
+            ]
+        },
+        {
+            "keyword": "sira data",
+            "synonyms": [
+                "sira data"
+            ]
+        },
+        {
+            "keyword": "sira net",
+            "synonyms": [
+                "sira net"
+            ]
+        },
+        {
+            "keyword": "site connection",
+            "synonyms": [
+                "site connection"
+            ]
+        },
+        {
+            "keyword": "slot",
+            "synonyms": [
+                "slot"
+            ]
+        },
+        {
+            "keyword": "slow",
+            "synonyms": [
+                "slow"
+            ]
+        },
+        {
+            "keyword": "slow connection",
+            "synonyms": [
+                "slow connection"
+            ]
+        },
+        {
+            "keyword": "slow data",
+            "synonyms": [
+                "slow data"
+            ]
+        },
+        {
+            "keyword": "slow data connection",
+            "synonyms": [
+                "slow data connection"
+            ]
+        },
+        {
+            "keyword": "slow download",
+            "synonyms": [
+                "slow download"
+            ]
+        },
+        {
+            "keyword": "slow games",
+            "synonyms": [
+                "slow games"
+            ]
+        },
+        {
+            "keyword": "slow gaming",
+            "synonyms": [
+                "slow gaming"
+            ]
+        },
+        {
+            "keyword": "slow internet",
+            "synonyms": [
+                "slow internet"
+            ]
+        },
+        {
+            "keyword": "slow internet again",
+            "synonyms": [
+                "slow internet again"
+            ]
+        },
+        {
+            "keyword": "slow loading",
+            "synonyms": [
+                "slow loading"
+            ]
+        },
+        {
+            "keyword": "slow net",
+            "synonyms": [
+                "slow net"
+            ]
+        },
+        {
+            "keyword": "slow network",
+            "synonyms": [
+                "slow network"
+            ]
+        },
+        {
+            "keyword": "slow online gaming",
+            "synonyms": [
+                "slow online gaming"
+            ]
+        },
+        {
+            "keyword": "slow speed",
+            "synonyms": [
+                "slow speed"
+            ]
+        },
+        {
+            "keyword": "slow video streaming",
+            "synonyms": [
+                "slow video streaming"
+            ]
+        },
+        {
+            "keyword": "slowest",
+            "synonyms": [
+                "slowest"
+            ]
+        },
+        {
+            "keyword": "smart bulok connection",
+            "synonyms": [
+                "smart bulok connection"
+            ]
+        },
+        {
+            "keyword": "smart bulok data",
+            "synonyms": [
+                "smart bulok data"
+            ]
+        },
+        {
+            "keyword": "smart mabagal data",
+            "synonyms": [
+                "smart mabagal data"
+            ]
+        },
+        {
+            "keyword": "snail",
+            "synonyms": [
+                "snail"
+            ]
+        },
+        {
+            "keyword": "snail connection",
+            "synonyms": [
+                "snail connection"
+            ]
+        },
+        {
+            "keyword": "snail data",
+            "synonyms": [
+                "snail data"
+            ]
+        },
+        {
+            "keyword": "snail internet",
+            "synonyms": [
+                "snail internet"
+            ]
+        },
+        {
+            "keyword": "snail net",
+            "synonyms": [
+                "snail net"
+            ]
+        },
+        {
+            "keyword": "sobrang bagal",
+            "synonyms": [
+                "sobrang bagal"
+            ]
+        },
+        {
+            "keyword": "sobrang bagal internet",
+            "synonyms": [
+                "sobrang bagal internet"
+            ]
+        },
+        {
+            "keyword": "software",
+            "synonyms": [
+                "software"
+            ]
+        },
+        {
+            "keyword": "specific site",
+            "synonyms": [
+                "specific site"
+            ]
+        },
+        {
+            "keyword": "specific website",
+            "synonyms": [
+                "specific website"
+            ]
+        },
+        {
+            "keyword": "speed",
+            "synonyms": [
+                "speed"
+            ]
+        },
+        {
+            "keyword": "speed boost",
+            "synonyms": [
+                "speed boost"
+            ]
+        },
+        {
+            "keyword": "speedboost",
+            "synonyms": [
+                "speedboost"
+            ]
+        },
+        {
+            "keyword": "speedtest",
+            "synonyms": [
+                "speedtest"
+            ]
+        },
+        {
+            "keyword": "steaming",
+            "synonyms": [
+                "steaming"
+            ]
+        },
+        {
+            "keyword": "super bagal facebook",
+            "synonyms": [
+                "super bagal facebook"
+            ]
+        },
+        {
+            "keyword": "super bagal instagram",
+            "synonyms": [
+                "super bagal instagram"
+            ]
+        },
+        {
+            "keyword": "super bagal twitter",
+            "synonyms": [
+                "super bagal twitter"
+            ]
+        },
+        {
+            "keyword": "super bagel",
+            "synonyms": [
+                "super bagel"
+            ]
+        },
+        {
+            "keyword": "super slow",
+            "synonyms": [
+                "super slow"
+            ]
+        },
+        {
+            "keyword": "taas ng ping",
+            "synonyms": [
+                "taas ng ping"
+            ]
+        },
+        {
+            "keyword": "tang ina mabagal net",
+            "synonyms": [
+                "tang ina mabagal net"
+            ]
+        },
+        {
+            "keyword": "tangina taas ping",
+            "synonyms": [
+                "tangina taas ping"
+            ]
+        },
+        {
+            "keyword": "tanginang data yan",
+            "synonyms": [
+                "tanginang data yan"
+            ]
+        },
+        {
+            "keyword": "tanginang lag yan",
+            "synonyms": [
+                "tanginang lag yan"
+            ]
+        },
+        {
+            "keyword": "technical error",
+            "synonyms": [
+                "technical error"
+            ]
+        },
+        {
+            "keyword": "technical issue",
+            "synonyms": [
+                "chnical issue i",
+                "technical issue"
+            ]
+        },
+        {
+            "keyword": "technical team",
+            "synonyms": [
+                "technical team"
+            ]
+        },
+        {
+            "keyword": "technician",
+            "synonyms": [
+                "technician"
+            ]
+        },
+        {
+            "keyword": "terible connection",
+            "synonyms": [
+                "terible connection"
+            ]
+        },
+        {
+            "keyword": "tinanggal nyo internet",
+            "synonyms": [
+                "tinanggal nyo internet"
+            ]
+        },
+        {
+            "keyword": "trouble connection",
+            "synonyms": [
+                "trouble connection"
+            ]
+        },
+        {
+            "keyword": "turtle connection",
+            "synonyms": [
+                "turtle connection"
+            ]
+        },
+        {
+            "keyword": "turtle data",
+            "synonyms": [
+                "turtle data"
+            ]
+        },
+        {
+            "keyword": "turtle internet",
+            "synonyms": [
+                "turtle internet"
+            ]
+        },
+        {
+            "keyword": "turtle net",
+            "synonyms": [
+                "turtle net"
+            ]
+        },
+        {
+            "keyword": "ultera ayaw connect",
+            "synonyms": [
+                "ultera ayaw connect"
+            ]
+        },
+        {
+            "keyword": "ultera down network",
+            "synonyms": [
+                "ultera down network"
+            ]
+        },
+        {
+            "keyword": "ultera downtime",
+            "synonyms": [
+                "ultera downtime"
+            ]
+        },
+        {
+            "keyword": "ultera hirap net",
+            "synonyms": [
+                "ultera hirap net"
+            ]
+        },
+        {
+            "keyword": "ultera mabagal",
+            "synonyms": [
+                "ultera mabagal"
+            ]
+        },
+        {
+            "keyword": "ultera sira network",
+            "synonyms": [
+                "ultera sira network"
+            ]
+        },
+        {
+            "keyword": "ultera sira signal",
+            "synonyms": [
+                "ultera sira signal"
+            ]
+        },
+        {
+            "keyword": "ultera slow",
+            "synonyms": [
+                "ultera slow"
+            ]
+        },
+        {
+            "keyword": "ultera sobra bagal",
+            "synonyms": [
+                "ultera sobra bagal"
+            ]
+        },
+        {
+            "keyword": "ultera sobra mabagal",
+            "synonyms": [
+                "ultera sobra mabagal"
+            ]
+        },
+        {
+            "keyword": "ultera sobrang bagal",
+            "synonyms": [
+                "ultera sobrang bagal"
+            ]
+        },
+        {
+            "keyword": "ultera sucks",
+            "synonyms": [
+                "ultera sucks"
+            ]
+        },
+        {
+            "keyword": "ultera walang signal",
+            "synonyms": [
+                "ultera walang signal"
+            ]
+        },
+        {
+            "keyword": "ultera wifi lag",
+            "synonyms": [
+                "ultera wifi lag"
+            ]
+        },
+        {
+            "keyword": "unable browse",
+            "synonyms": [
+                "unable browse"
+            ]
+        },
+        {
+            "keyword": "unable connect",
+            "synonyms": [
+                "unable connect"
+            ]
+        },
+        {
+            "keyword": "unable send",
+            "synonyms": [
+                "unable send"
+            ]
+        },
+        {
+            "keyword": "unable to access internet",
+            "synonyms": [
+                "unable to access internet"
+            ]
+        },
+        {
+            "keyword": "unsatisfied poor connection",
+            "synonyms": [
+                "unsatisfied poor connection"
+            ]
+        },
+        {
+            "keyword": "unstable",
+            "synonyms": [
+                "unstable"
+            ]
+        },
+        {
+            "keyword": "unstable  internet",
+            "synonyms": [
+                "unstable  internet"
+            ]
+        },
+        {
+            "keyword": "unstable connection",
+            "synonyms": [
+                "unstable connection"
+            ]
+        },
+        {
+            "keyword": "unstable data",
+            "synonyms": [
+                "unstable data"
+            ]
+        },
+        {
+            "keyword": "unstable internet",
+            "synonyms": [
+                "unstable internet"
+            ]
+        },
+        {
+            "keyword": "unstable mobile data",
+            "synonyms": [
+                "unstable mobile data"
+            ]
+        },
+        {
+            "keyword": "unstable net",
+            "synonyms": [
+                "unstable net"
+            ]
+        },
+        {
+            "keyword": "upload",
+            "synonyms": [
+                "upload"
+            ]
+        },
+        {
+            "keyword": "upset connection weak",
+            "synonyms": [
+                "upset connection weak"
+            ]
+        },
+        {
+            "keyword": "useless connection",
+            "synonyms": [
+                "useless connection"
+            ]
+        },
+        {
+            "keyword": "very slow",
+            "synonyms": [
+                "very slow"
+            ]
+        },
+        {
+            "keyword": "very slow connection",
+            "synonyms": [
+                "very slow connection"
+            ]
+        },
+        {
+            "keyword": "wala",
+            "synonyms": [
+                "la k",
+                "wala"
+            ]
+        },
+        {
+            "keyword": "wala connection",
+            "synonyms": [
+                "wala connection"
+            ]
+        },
+        {
+            "keyword": "wala data",
+            "synonyms": [
+                "wala data"
+            ]
+        },
+        {
+            "keyword": "wala internet",
+            "synonyms": [
+                "wala internet"
+            ]
+        },
+        {
+            "keyword": "wala kwenta connection",
+            "synonyms": [
+                "wala kwenta connection"
+            ]
+        },
+        {
+            "keyword": "wala kwentang data",
+            "synonyms": [
+                "wala kwentang data"
+            ]
+        },
+        {
+            "keyword": "wala makita internet",
+            "synonyms": [
+                "wala makita internet"
+            ]
+        },
+        {
+            "keyword": "wala makitang photos",
+            "synonyms": [
+                "wala makitang photos"
+            ]
+        },
+        {
+            "keyword": "wala manlang advisory",
+            "synonyms": [
+                "wala manlang advisory"
+            ]
+        },
+        {
+            "keyword": "wala naman internet",
+            "synonyms": [
+                "wala naman internet"
+            ]
+        },
+        {
+            "keyword": "wala net",
+            "synonyms": [
+                "wala net"
+            ]
+        },
+        {
+            "keyword": "wala pa din",
+            "synonyms": [
+                "wala pa din",
+                "wala padin",
+                "wala pdn",
+                "wla pa din",
+                "wla pdn"
+            ]
+        },
+        {
+            "keyword": "wala pa ring connection",
+            "synonyms": [
+                "wala pa ring connection"
+            ]
+        },
+        {
+            "keyword": "wala pang data",
+            "synonyms": [
+                "wala pang data"
+            ]
+        },
+        {
+            "keyword": "wala wala  internet",
+            "synonyms": [
+                "wala wala  internet"
+            ]
+        },
+        {
+            "keyword": "wala wala connection",
+            "synonyms": [
+                "wala wala connection"
+            ]
+        },
+        {
+            "keyword": "wala wala data",
+            "synonyms": [
+                "wala wala data"
+            ]
+        },
+        {
+            "keyword": "wala wala net",
+            "synonyms": [
+                "wala wala net"
+            ]
+        },
+        {
+            "keyword": "walang 3g",
+            "synonyms": [
+                "walang 3g"
+            ]
+        },
+        {
+            "keyword": "walang connection",
+            "synonyms": [
+                "walang connection",
+                "wlang c0nnecti0n",
+                "wlang connection"
+            ]
+        },
+        {
+            "keyword": "walang data",
+            "synonyms": [
+                "walang data"
+            ]
+        },
+        {
+            "keyword": "walang dial tone",
+            "synonyms": [
+                "walang dial tone"
+            ]
+        },
+        {
+            "keyword": "walang internet",
+            "synonyms": [
+                "walang internet"
+            ]
+        },
+        {
+            "keyword": "walang kwenta",
+            "synonyms": [
+                "walang kwenta"
+            ]
+        },
+        {
+            "keyword": "walang kwenta connection",
+            "synonyms": [
+                "walang kwenta connection"
+            ]
+        },
+        {
+            "keyword": "walang kwenta lte",
+            "synonyms": [
+                "walang kwenta lte"
+            ]
+        },
+        {
+            "keyword": "walang kwentang connection",
+            "synonyms": [
+                "walang kwentang connection"
+            ]
+        },
+        {
+            "keyword": "walang landline",
+            "synonyms": [
+                "walang landline"
+            ]
+        },
+        {
+            "keyword": "walang lte",
+            "synonyms": [
+                "walang lte"
+            ]
+        },
+        {
+            "keyword": "walang maayos connection",
+            "synonyms": [
+                "walang maayos connection"
+            ]
+        },
+        {
+            "keyword": "walang mas babagal",
+            "synonyms": [
+                "walang mas babagal"
+            ]
+        },
+        {
+            "keyword": "walang net",
+            "synonyms": [
+                "walang net",
+                "wlaang net"
+            ]
+        },
+        {
+            "keyword": "walang signal",
+            "synonyms": [
+                "walang signal"
+            ]
+        },
+        {
+            "keyword": "walang silbing internet",
+            "synonyms": [
+                "walang silbing internet"
+            ]
+        },
+        {
+            "keyword": "walang stable connection",
+            "synonyms": [
+                "walang stable connection"
+            ]
+        },
+        {
+            "keyword": "walang wifi",
+            "synonyms": [
+                "walang wifi"
+            ]
+        },
+        {
+            "keyword": "walang wifi connection",
+            "synonyms": [
+                "walang wifi connection"
+            ]
+        },
+        {
+            "keyword": "walng kwenta connection",
+            "synonyms": [
+                "walng kwenta connection"
+            ]
+        },
+        {
+            "keyword": "warzone",
+            "synonyms": [
+                "warzone"
+            ]
+        },
+        {
+            "keyword": "weak",
+            "synonyms": [
+                "weak"
+            ]
+        },
+        {
+            "keyword": "weak  internet",
+            "synonyms": [
+                "weak  internet"
+            ]
+        },
+        {
+            "keyword": "weak connection",
+            "synonyms": [
+                "weak connection"
+            ]
+        },
+        {
+            "keyword": "weak data",
+            "synonyms": [
+                "weak data"
+            ]
+        },
+        {
+            "keyword": "weak fb connectivity",
+            "synonyms": [
+                "weak fb connectivity"
+            ]
+        },
+        {
+            "keyword": "weak h signal",
+            "synonyms": [
+                "weak h signal"
+            ]
+        },
+        {
+            "keyword": "weak internet",
+            "synonyms": [
+                "weak internet"
+            ]
+        },
+        {
+            "keyword": "weak net",
+            "synonyms": [
+                "weak net"
+            ]
+        },
+        {
+            "keyword": "weak twitter connectivity",
+            "synonyms": [
+                "weak twitter connectivity"
+            ]
+        },
+        {
+            "keyword": "wfm",
+            "synonyms": [
+                "wfm"
+            ]
+        },
+        {
+            "keyword": "wifi",
+            "synonyms": [
+                "wifi"
+            ]
+        },
+        {
+            "keyword": "wifi mabagal connection",
+            "synonyms": [
+                "wifi mabagal connection"
+            ]
+        },
+        {
+            "keyword": "wifi mabagal kumonek",
+            "synonyms": [
+                "wifi mabagal kumonek"
+            ]
+        },
+        {
+            "keyword": "wifi walang signal",
+            "synonyms": [
+                "wifi walang signal"
+            ]
+        },
+        {
+            "keyword": "wires",
+            "synonyms": [
+                "wires"
+            ]
+        },
+        {
+            "keyword": "wiring",
+            "synonyms": [
+                "wiring"
+            ]
+        },
+        {
+            "keyword": "without good connection",
+            "synonyms": [
+                "without good connection"
+            ]
+        },
+        {
+            "keyword": "wla na agad connection",
+            "synonyms": [
+                "wla na agad connection"
+            ]
+        },
+        {
+            "keyword": "wla nmn connection",
+            "synonyms": [
+                "wla nmn connection"
+            ]
+        },
+        {
+            "keyword": "work from home",
+            "synonyms": [
+                "work from home"
+            ]
+        },
+        {
+            "keyword": "worst",
+            "synonyms": [
+                "rst a",
+                "worst"
+            ]
+        },
+        {
+            "keyword": "worst connection",
+            "synonyms": [
+                "worst connection"
+            ]
+        },
+        {
+            "keyword": "worst internet",
+            "synonyms": [
+                "worst internet"
+            ]
+        },
+        {
+            "keyword": "worst internet provider",
+            "synonyms": [
+                "worst internet provider"
+            ]
+        },
+        {
+            "keyword": "worthless connection",
+            "synonyms": [
+                "worthless connection"
+            ]
+        },
+        {
+            "keyword": "wtf connection",
+            "synonyms": [
+                "wtf connection"
+            ]
+        }
+    ]
+}

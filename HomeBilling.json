@@ -1,0 +1,9 @@
+{
+    "name": "HomeBilling",
+    "entities": [
+        "HomeBillingEntity:HomeBillingEntity",
+        "HomeConnectivityEntity:HomeConnectivityEntity",
+        "HomeFollowupEntity:HomeFollowupEntity",
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity"
+    ]
+}

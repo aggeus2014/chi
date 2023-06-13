@@ -1,0 +1,633 @@
+{
+    "name": "HomeBillingEntity",
+    "roles": [
+        "HomeBillingEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "GCash",
+            "synonyms": [
+                "GCash"
+            ]
+        },
+        {
+            "keyword": "IBALIK NIYO MUNA YUNG REFUNNNDDD",
+            "synonyms": [
+                "IBALIK NIYO MUNA YUNG REFUNNNDDD",
+                "ibalik niyo muna yung refund",
+                "ibalik niyo muna yung refunnnddd!!!!!!"
+            ]
+        },
+        {
+            "keyword": "Ibawas nyo un araw n pinutulan nyo kami",
+            "synonyms": [
+                "ibawas nyo un araw n pinutulan nyo kami"
+            ]
+        },
+        {
+            "keyword": "Maya",
+            "synonyms": [
+                "maya"
+            ]
+        },
+        {
+            "keyword": "PAANO MAGREFUND",
+            "synonyms": [
+                "paano magrefund"
+            ]
+        },
+        {
+            "keyword": "PayExpress",
+            "synonyms": [
+                "payexpress"
+            ]
+        },
+        {
+            "keyword": "REDEEM NG VOUCHER",
+            "synonyms": [
+                "redeem ng voucher"
+            ]
+        },
+        {
+            "keyword": "Sa coinsph pala pwede",
+            "synonyms": [
+                "sa coinsph pala pwede"
+            ]
+        },
+        {
+            "keyword": "Update sana namin yung address",
+            "synonyms": [
+                "update sana namin yung address"
+            ]
+        },
+        {
+            "keyword": "Wala pa kami ngaun pambayad",
+            "synonyms": [
+                "wala pa kami ngaun pambayad"
+            ]
+        },
+        {
+            "keyword": "Yung binayad ko Anu na",
+            "synonyms": [
+                "yung binayad ko anu na"
+            ]
+        },
+        {
+            "keyword": "accnt",
+            "synonyms": [
+                "accnt"
+            ]
+        },
+        {
+            "keyword": "account",
+            "synonyms": [
+                "account"
+            ]
+        },
+        {
+            "keyword": "activate",
+            "synonyms": [
+                "activate"
+            ]
+        },
+        {
+            "keyword": "adjustment",
+            "synonyms": [
+                "adjustment"
+            ]
+        },
+        {
+            "keyword": "babayad",
+            "synonyms": [
+                "babayad"
+            ]
+        },
+        {
+            "keyword": "babayaran",
+            "synonyms": [
+                "babayaran"
+            ]
+        },
+        {
+            "keyword": "balance",
+            "synonyms": [
+                "balance"
+            ]
+        },
+        {
+            "keyword": "barred",
+            "synonyms": [
+                "barred"
+            ]
+        },
+        {
+            "keyword": "bayad",
+            "synonyms": [
+                "bayad"
+            ]
+        },
+        {
+            "keyword": "bayad center",
+            "synonyms": [
+                "bayad center"
+            ]
+        },
+        {
+            "keyword": "bayaran",
+            "synonyms": [
+                "bayaran"
+            ]
+        },
+        {
+            "keyword": "bill",
+            "synonyms": [
+                "bill",
+                "ill"
+            ]
+        },
+        {
+            "keyword": "billed",
+            "synonyms": [
+                "billed"
+            ]
+        },
+        {
+            "keyword": "billing",
+            "synonyms": [
+                "billing"
+            ]
+        },
+        {
+            "keyword": "billing period",
+            "synonyms": [
+                "billing period"
+            ]
+        },
+        {
+            "keyword": "billing statement",
+            "synonyms": [
+                "billing statement"
+            ]
+        },
+        {
+            "keyword": "binabayaran",
+            "synonyms": [
+                "binabayaran"
+            ]
+        },
+        {
+            "keyword": "binayaran",
+            "synonyms": [
+                "binayaran"
+            ]
+        },
+        {
+            "keyword": "cash back",
+            "synonyms": [
+                "cash back"
+            ]
+        },
+        {
+            "keyword": "charge",
+            "synonyms": [
+                "charge"
+            ]
+        },
+        {
+            "keyword": "charges",
+            "synonyms": [
+                "charges"
+            ]
+        },
+        {
+            "keyword": "collect",
+            "synonyms": [
+                "collect"
+            ]
+        },
+        {
+            "keyword": "collection",
+            "synonyms": [
+                "collection"
+            ]
+        },
+        {
+            "keyword": "contract",
+            "synonyms": [
+                "contract"
+            ]
+        },
+        {
+            "keyword": "credit",
+            "synonyms": [
+                "credit"
+            ]
+        },
+        {
+            "keyword": "cut off",
+            "synonyms": [
+                "cut off"
+            ]
+        },
+        {
+            "keyword": "cutoff",
+            "synonyms": [
+                "cutoff"
+            ]
+        },
+        {
+            "keyword": "delay delivery",
+            "synonyms": [
+                "delay delivery"
+            ]
+        },
+        {
+            "keyword": "delivery",
+            "synonyms": [
+                "delivery"
+            ]
+        },
+        {
+            "keyword": "disconnect",
+            "synonyms": [
+                "disconnect"
+            ]
+        },
+        {
+            "keyword": "dispute",
+            "synonyms": [
+                "dispute"
+            ]
+        },
+        {
+            "keyword": "double bill",
+            "synonyms": [
+                "double bill"
+            ]
+        },
+        {
+            "keyword": "double billed",
+            "synonyms": [
+                "double billed"
+            ]
+        },
+        {
+            "keyword": "double charge",
+            "synonyms": [
+                "double charge"
+            ]
+        },
+        {
+            "keyword": "due",
+            "synonyms": [
+                "due"
+            ]
+        },
+        {
+            "keyword": "due date",
+            "synonyms": [
+                "due date"
+            ]
+        },
+        {
+            "keyword": "fee",
+            "synonyms": [
+                "fee"
+            ]
+        },
+        {
+            "keyword": "hindi nag post",
+            "synonyms": [
+                "hindi nag post"
+            ]
+        },
+        {
+            "keyword": "how much",
+            "synonyms": [
+                "how much"
+            ]
+        },
+        {
+            "keyword": "kakabayad",
+            "synonyms": [
+                "akabayad",
+                "kakabayad"
+            ]
+        },
+        {
+            "keyword": "kulang",
+            "synonyms": [
+                "kulang"
+            ]
+        },
+        {
+            "keyword": "lock in",
+            "synonyms": [
+                "lock in"
+            ]
+        },
+        {
+            "keyword": "magbayad",
+            "synonyms": [
+                "magbayad"
+            ]
+        },
+        {
+            "keyword": "magbibill",
+            "synonyms": [
+                "magbibill"
+            ]
+        },
+        {
+            "keyword": "maningil",
+            "synonyms": [
+                "maningil"
+            ]
+        },
+        {
+            "keyword": "monthly",
+            "synonyms": [
+                "monthly"
+            ]
+        },
+        {
+            "keyword": "monthly bill",
+            "synonyms": [
+                "monthly bill"
+            ]
+        },
+        {
+            "keyword": "msf",
+            "synonyms": [
+                "msf"
+            ]
+        },
+        {
+            "keyword": "nagbabayad",
+            "synonyms": [
+                "nagbabayad"
+            ]
+        },
+        {
+            "keyword": "non payment",
+            "synonyms": [
+                "non payment"
+            ]
+        },
+        {
+            "keyword": "nonpayment",
+            "synonyms": [
+                "nonpayment"
+            ]
+        },
+        {
+            "keyword": "official receipt",
+            "synonyms": [
+                "official receipt"
+            ]
+        },
+        {
+            "keyword": "online payment",
+            "synonyms": [
+                "online payment"
+            ]
+        },
+        {
+            "keyword": "outstanding balance",
+            "synonyms": [
+                "outstanding balance"
+            ]
+        },
+        {
+            "keyword": "over charge",
+            "synonyms": [
+                "over charge"
+            ]
+        },
+        {
+            "keyword": "overcharge",
+            "synonyms": [
+                "overcharge"
+            ]
+        },
+        {
+            "keyword": "overdue",
+            "synonyms": [
+                "overdue"
+            ]
+        },
+        {
+            "keyword": "paid",
+            "synonyms": [
+                "paid"
+            ]
+        },
+        {
+            "keyword": "pakirefund",
+            "synonyms": [
+                "pakirefund"
+            ]
+        },
+        {
+            "keyword": "pay",
+            "synonyms": [
+                "pay"
+            ]
+        },
+        {
+            "keyword": "paying",
+            "synonyms": [
+                "paying"
+            ]
+        },
+        {
+            "keyword": "paymaya",
+            "synonyms": [
+                "paymaya"
+            ]
+        },
+        {
+            "keyword": "payment",
+            "synonyms": [
+                "payment"
+            ]
+        },
+        {
+            "keyword": "payment center",
+            "synonyms": [
+                "payment center"
+            ]
+        },
+        {
+            "keyword": "pre term",
+            "synonyms": [
+                "pre term"
+            ]
+        },
+        {
+            "keyword": "prorated",
+            "synonyms": [
+                "prorated"
+            ]
+        },
+        {
+            "keyword": "ptf",
+            "synonyms": [
+                "ptf"
+            ]
+        },
+        {
+            "keyword": "rate",
+            "synonyms": [
+                "rate"
+            ]
+        },
+        {
+            "keyword": "rates",
+            "synonyms": [
+                "rates"
+            ]
+        },
+        {
+            "keyword": "rebate",
+            "synonyms": [
+                "rebate"
+            ]
+        },
+        {
+            "keyword": "reconnect",
+            "synonyms": [
+                "reconnect"
+            ]
+        },
+        {
+            "keyword": "reconnection",
+            "synonyms": [
+                "reconnection"
+            ]
+        },
+        {
+            "keyword": "refund",
+            "synonyms": [
+                "refund"
+            ]
+        },
+        {
+            "keyword": "request for a refund",
+            "synonyms": [
+                "request for a refund"
+            ]
+        },
+        {
+            "keyword": "request reconnection",
+            "synonyms": [
+                "request reconnection"
+            ]
+        },
+        {
+            "keyword": "restrict",
+            "synonyms": [
+                "restrict"
+            ]
+        },
+        {
+            "keyword": "restriction",
+            "synonyms": [
+                "restriction"
+            ]
+        },
+        {
+            "keyword": "reversal",
+            "synonyms": [
+                "reversal"
+            ]
+        },
+        {
+            "keyword": "reverse",
+            "synonyms": [
+                "reverse"
+            ]
+        },
+        {
+            "keyword": "settle",
+            "synonyms": [
+                "settle"
+            ]
+        },
+        {
+            "keyword": "singil",
+            "synonyms": [
+                "singil"
+            ]
+        },
+        {
+            "keyword": "soa",
+            "synonyms": [
+                "soa"
+            ]
+        },
+        {
+            "keyword": "statement",
+            "synonyms": [
+                "statement"
+            ]
+        },
+        {
+            "keyword": "statement of account",
+            "synonyms": [
+                "statement of account"
+            ]
+        },
+        {
+            "keyword": "tolls",
+            "synonyms": [
+                "tolls"
+            ]
+        },
+        {
+            "keyword": "transaction",
+            "synonyms": [
+                "transaction"
+            ]
+        },
+        {
+            "keyword": "transfer of payment",
+            "synonyms": [
+                "transfer of payment"
+            ]
+        },
+        {
+            "keyword": "unposted",
+            "synonyms": [
+                "unposted"
+            ]
+        },
+        {
+            "keyword": "unposted payment",
+            "synonyms": [
+                "unposted payment"
+            ]
+        },
+        {
+            "keyword": "utang",
+            "synonyms": [
+                "utang"
+            ]
+        },
+        {
+            "keyword": "waive",
+            "synonyms": [
+                "waive"
+            ]
+        },
+        {
+            "keyword": "where po makakabayad",
+            "synonyms": [
+                "where po makakabayad"
+            ]
+        }
+    ]
+}

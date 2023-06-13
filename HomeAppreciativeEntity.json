@@ -1,0 +1,1396 @@
+{
+    "name": "HomeAppreciativeEntity",
+    "roles": [
+        "HomeAppreciativeEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "10\/10 ang rate",
+            "synonyms": [
+                "10\/10 ang rate"
+            ]
+        },
+        {
+            "keyword": "3 mesh naman agad makukuha kaya sulit din pag avail",
+            "synonyms": [
+                "3 mesh naman agad makukuha kaya sulit din pag avail"
+            ]
+        },
+        {
+            "keyword": "5 po kami nakatira sa bahay pero mabilis pa rin kaya sulit din talaga ti",
+            "synonyms": [
+                "5 po kami nakatira sa bahay pero mabilis pa rin kaya sulit din talaga ti"
+            ]
+        },
+        {
+            "keyword": "5 star",
+            "synonyms": [
+                "5 star"
+            ]
+        },
+        {
+            "keyword": "Actually nakakatulong talaga sa pagpapabilis ng pagsagap mg signal ang mesh eh kaya nga naglagay dito ako sa kwarto ko eh",
+            "synonyms": [
+                "actually nakakatulong talaga sa pagpapabilis ng pagsagap mg signal ang mesh eh kaya nga naglagay dito ako sa kwarto ko eh"
+            ]
+        },
+        {
+            "keyword": "Actually okay Naman talaga Ang PLDT",
+            "synonyms": [
+                "actually okay naman talaga ang pldt"
+            ]
+        },
+        {
+            "keyword": "Actually pldt lang nagsheshare ng mga ganito",
+            "synonyms": [
+                "actually pldt lang nagsheshare ng mga ganito"
+            ]
+        },
+        {
+            "keyword": "Actually tagal ko na naka subscribe dito sulit talaga",
+            "synonyms": [
+                "actually tagal ko na naka subscribe dito sulit talaga"
+            ]
+        },
+        {
+            "keyword": "Afford naman ang unli wifi plan sa pldt",
+            "synonyms": [
+                "afford naman ang unli wifi plan sa pldt"
+            ]
+        },
+        {
+            "keyword": "Agree Pldt ang mas maganda sa lahat actually",
+            "synonyms": [
+                "agree pldt ang mas maganda sa lahat actually"
+            ]
+        },
+        {
+            "keyword": "Akala ko kasi dati mahal dito sakto lang pala ang presyo nya",
+            "synonyms": [
+                "akala ko kasi dati mahal dito sakto lang pala ang presyo nya"
+            ]
+        },
+        {
+            "keyword": "Akala ko talaga more on malakas lang na signla si Pldt yun pla ang dami nyang mga programs",
+            "synonyms": [
+                "akala ko talaga more on malakas lang na signla si pldt yun pla ang dami nyang mga programs"
+            ]
+        },
+        {
+            "keyword": "Ang Dami Kong kakilala na lumipat sa PLDT",
+            "synonyms": [
+                "ang dami kong kakilala na lumipat sa pldt"
+            ]
+        },
+        {
+            "keyword": "Ang bilis lang pala sa website mag apply po",
+            "synonyms": [
+                "ang bilis lang pala sa website mag apply po"
+            ]
+        },
+        {
+            "keyword": "Ang dami kong naging libangan dahil sa PLDT",
+            "synonyms": [
+                "ang dami kong naging libangan dahil sa pldt"
+            ]
+        },
+        {
+            "keyword": "Ang worth it ng Plan ko hehe mabilis po eh",
+            "synonyms": [
+                "ang worth it ng plan ko hehe mabilis po eh"
+            ]
+        },
+        {
+            "keyword": "Ayos din talaga sulit ang payment",
+            "synonyms": [
+                "ayos din talaga sulit ang payment"
+            ]
+        },
+        {
+            "keyword": "Ayos na din na 1699 unli plan",
+            "synonyms": [
+                "Ayos na din na 1699 unli plan"
+            ]
+        },
+        {
+            "keyword": "Ayos na din na 1699 unli plan namn sa pldt",
+            "synonyms": [
+                "ayos na din na 1699 unli plan namn sa pldt"
+            ]
+        },
+        {
+            "keyword": "Buti naayos agad",
+            "synonyms": [
+                "buti naayos agad"
+            ]
+        },
+        {
+            "keyword": "Di ko na naexperience sa pldt ang lag connection",
+            "synonyms": [
+                "di ko na naexperience sa pldt ang lag connection"
+            ]
+        },
+        {
+            "keyword": "Enjoying our stable connection",
+            "synonyms": [
+                "enjoying our stable connection"
+            ]
+        },
+        {
+            "keyword": "Even promos magaganda din naman po",
+            "synonyms": [
+                "even promos magaganda din naman po"
+            ]
+        },
+        {
+            "keyword": "Free naman talaga yan parang sa Pldt lang ata meron nan",
+            "synonyms": [
+                "free naman talaga yan parang sa pldt lang ata meron nan"
+            ]
+        },
+        {
+            "keyword": "Ganda nga ng pldt",
+            "synonyms": [
+                "Ganda nga ng pldt"
+            ]
+        },
+        {
+            "keyword": "Goodjob ka ngayon sakin PLDT",
+            "synonyms": [
+                "goodjob ka ngayon sakin pldt"
+            ]
+        },
+        {
+            "keyword": "Goods ang 50 mbps",
+            "synonyms": [
+                "goods ang 50 mbps"
+            ]
+        },
+        {
+            "keyword": "Goods naman po kung sa pang business eh",
+            "synonyms": [
+                "goods naman po kung sa pang business eh"
+            ]
+        },
+        {
+            "keyword": "Haha kaya nga nag Pldt nalang ako madali pang mag apply",
+            "synonyms": [
+                "haha kaya nga nag pldt nalang ako madali pang mag apply"
+            ]
+        },
+        {
+            "keyword": "Happy na ako",
+            "synonyms": [
+                "happy na ako"
+            ]
+        },
+        {
+            "keyword": "Highly recommended ang mesh kase affordable naman tapos 3 mesh agad makukuha",
+            "synonyms": [
+                "highly recommended ang mesh kase affordable naman tapos 3 mesh agad makukuha"
+            ]
+        },
+        {
+            "keyword": "Hindi ako nagsisisi na nagswitch ako sa plan ng pldt",
+            "synonyms": [
+                "hindi ako nagsisisi na nagswitch ako sa plan ng pldt"
+            ]
+        },
+        {
+            "keyword": "Hindi ako nanghhnayang sa bill ko worth it eh",
+            "synonyms": [
+                "hindi ako nanghhnayang sa bill ko worth it eh"
+            ]
+        },
+        {
+            "keyword": "Hindi ko na nga naexperience mawalan ng net",
+            "synonyms": [
+                "hindi ko na nga naexperience mawalan ng net"
+            ]
+        },
+        {
+            "keyword": "Hindi na kami nawawalan ng net",
+            "synonyms": [
+                "hindi na kami nawawalan ng net"
+            ]
+        },
+        {
+            "keyword": "Hindi nakakadismaya yung internet namin kay pldt",
+            "synonyms": [
+                "hindi nakakadismaya yung internet namin kay pldt"
+            ]
+        },
+        {
+            "keyword": "Hindi nakakadismaya yung internet namin kay pldt simula nung nag pa upgrade",
+            "synonyms": [
+                "Hindi nakakadismaya yung internet namin kay pldt simula nung nag pa upgrade"
+            ]
+        },
+        {
+            "keyword": "Hindi naman kami nawawalan",
+            "synonyms": [
+                "hindi naman kami nawawalan"
+            ]
+        },
+        {
+            "keyword": "Hindi naman kami nawawalan lalo na naka wifi mesh na ako",
+            "synonyms": [
+                "hindi naman kami nawawalan lalo na naka wifi mesh na ako"
+            ]
+        },
+        {
+            "keyword": "Hindi naman lag sa PLDT maayos ang service",
+            "synonyms": [
+                "hindi naman lag sa pldt maayos ang service"
+            ]
+        },
+        {
+            "keyword": "Hindi naman nawawalan ng net kay pldt",
+            "synonyms": [
+                "hindi naman nawawalan ng net kay pldt"
+            ]
+        },
+        {
+            "keyword": "Hindi siya mahina kahit madaming nakakonek",
+            "synonyms": [
+                "hindi siya mahina kahit madaming nakakonek"
+            ]
+        },
+        {
+            "keyword": "I am amazed kasi may ginagawa ang pldt",
+            "synonyms": [
+                "i am amazed kasi may ginagawa ang pldt"
+            ]
+        },
+        {
+            "keyword": "Iba din ang PLDT mag bigay ng rewards",
+            "synonyms": [
+                "iba din ang pldt mag bigay ng rewards"
+            ]
+        },
+        {
+            "keyword": "Isa sa maganda sa Pldt yung may magandang promos and rewards",
+            "synonyms": [
+                "isa sa maganda sa pldt yung may magandang promos and rewards"
+            ]
+        },
+        {
+            "keyword": "Kaka upgrade ko lang naman ng Plan hehehe",
+            "synonyms": [
+                "kaka upgrade ko lang naman ng plan hehehe"
+            ]
+        },
+        {
+            "keyword": "Kaya sa Maya na ako nag babayad eh",
+            "synonyms": [
+                "kaya sa maya na ako nag babayad eh"
+            ]
+        },
+        {
+            "keyword": "Keep it up",
+            "synonyms": [
+                "keep it up"
+            ]
+        },
+        {
+            "keyword": "Keeping up ako lagi sa latest updates",
+            "synonyms": [
+                "keeping up ako lagi sa latest updates"
+            ]
+        },
+        {
+            "keyword": "Kinuha ko yung plan 1299 nila Okay naman samen",
+            "synonyms": [
+                "kinuha ko yung plan 1299 nila okay naman samen"
+            ]
+        },
+        {
+            "keyword": "Kung ano ano na din nasstream ko online sa lakas ng net namin",
+            "synonyms": [
+                "kung ano ano na din nasstream ko online sa lakas ng net namin"
+            ]
+        },
+        {
+            "keyword": "Lahat ng crystal good in cash pa  na try ko na makaipon dito eh",
+            "synonyms": [
+                "lahat ng crystal good in cash pa  na try ko na makaipon dito eh"
+            ]
+        },
+        {
+            "keyword": "Lakas pa Ang 50 na load",
+            "synonyms": [
+                "lakas pa ang 50 na load"
+            ]
+        },
+        {
+            "keyword": "Loving this kind of promos",
+            "synonyms": [
+                "loving this kind of promos"
+            ]
+        },
+        {
+            "keyword": "MAHAL NA MAHAL KO KAYO PLDT",
+            "synonyms": [
+                "mahal na mahal ko kayo pldt"
+            ]
+        },
+        {
+            "keyword": "Mabilis lang ang payment",
+            "synonyms": [
+                "mabilis lang ang payment"
+            ]
+        },
+        {
+            "keyword": "Mabilis lang din silang magsend ng confirmation",
+            "synonyms": [
+                "mabilis lang din silang magsend ng confirmation"
+            ]
+        },
+        {
+            "keyword": "Mabilis naayos yung concern ko",
+            "synonyms": [
+                "mabilis naayos yung concern ko"
+            ]
+        },
+        {
+            "keyword": "Madami ang magbebenefits nito kaya madami kayong natutulungan",
+            "synonyms": [
+                "madami ang magbebenefits nito kaya madami kayong natutulungan"
+            ]
+        },
+        {
+            "keyword": "Mag kakaroon ako ng 2 entry pala lagi akong on time mag bayad eh hehe",
+            "synonyms": [
+                "mag kakaroon ako ng 2 entry pala lagi akong on time mag bayad eh hehe"
+            ]
+        },
+        {
+            "keyword": "Maganda ang signal ng 100 mbps na Plan try nyo din po",
+            "synonyms": [
+                "maganda ang signal ng 100 mbps na plan try nyo din po"
+            ]
+        },
+        {
+            "keyword": "Maganda naman ang connection namin",
+            "synonyms": [
+                "Maganda naman ang connection namin"
+            ]
+        },
+        {
+            "keyword": "Maganda naman ang signal sa PLDT e",
+            "synonyms": [
+                "maganda naman ang signal sa pldt e"
+            ]
+        },
+        {
+            "keyword": "Maganda naman yung PLDT dito sa Bulacan area po",
+            "synonyms": [
+                "maganda naman yung pldt dito sa bulacan area po"
+            ]
+        },
+        {
+            "keyword": "Maganda yung mga plans at nasusuportahan yung mga devices namin sa bahay",
+            "synonyms": [
+                "maganda yung mga plans at nasusuportahan yung mga devices namin sa bahay"
+            ]
+        },
+        {
+            "keyword": "Magandang pang Event ang Pldt kaya recommended ko to",
+            "synonyms": [
+                "magandang pang event ang pldt kaya recommended ko to"
+            ]
+        },
+        {
+            "keyword": "Marami na silang natulungan hinabaan pa nila lalo yungpagtulong diba maraming salamat talaga",
+            "synonyms": [
+                "marami na silang natulungan hinabaan pa nila lalo yungpagtulong diba maraming salamat talaga"
+            ]
+        },
+        {
+            "keyword": "Mas better na ngayon hindi lag sa pldt",
+            "synonyms": [
+                "mas better na ngayon hindi lag sa pldt"
+            ]
+        },
+        {
+            "keyword": "Mas gusto ko sa PLDT madami ng promos eh",
+            "synonyms": [
+                "mas gusto ko sa pldt madami ng promos eh"
+            ]
+        },
+        {
+            "keyword": "Mas lalo pang pinabilis nung nag upgrade ako",
+            "synonyms": [
+                "mas lalo pang pinabilis nung nag upgrade ako"
+            ]
+        },
+        {
+            "keyword": "Mas lalo yang 1000 mbps ang sulit po nan hehhe",
+            "synonyms": [
+                "mas lalo yang 1000 mbps ang sulit po nan hehhe"
+            ]
+        },
+        {
+            "keyword": "Mas maayos pa din ang connection ko kay pldt",
+            "synonyms": [
+                "mas maayos pa din ang connection ko kay pldt"
+            ]
+        },
+        {
+            "keyword": "Mas madali",
+            "synonyms": [
+                "mas madali"
+            ]
+        },
+        {
+            "keyword": "Mas maganda padin naka mesh for me lang ha",
+            "synonyms": [
+                "mas maganda padin naka mesh for me lang ha"
+            ]
+        },
+        {
+            "keyword": "Mas magiging madali na lang ang pagtrack",
+            "synonyms": [
+                "mas magiging madali na lang ang pagtrack"
+            ]
+        },
+        {
+            "keyword": "Mas masaya ng maginternet surfing",
+            "synonyms": [
+                "mas masaya ng maginternet surfing"
+            ]
+        },
+        {
+            "keyword": "Mas naging maayos connection ko",
+            "synonyms": [
+                "mas naging maayos connection ko"
+            ]
+        },
+        {
+            "keyword": "Mas ok naman na yung Plans ko ngayon mas nagiging stable na thanks pldt",
+            "synonyms": [
+                "mas ok naman na yung plans ko ngayon mas nagiging stable na thanks pldt"
+            ]
+        },
+        {
+            "keyword": "Mas ok nga na nagplan na kami sa pldt",
+            "synonyms": [
+                "mas ok nga na nagplan na kami sa pldt"
+            ]
+        },
+        {
+            "keyword": "Mas okey pala ngayon mag apply nuh hehe",
+            "synonyms": [
+                "mas okey pala ngayon mag apply nuh hehe"
+            ]
+        },
+        {
+            "keyword": "Mas sulit kapag nag add ng mesh",
+            "synonyms": [
+                "mas sulit kapag nag add ng mesh"
+            ]
+        },
+        {
+            "keyword": "Mas sulit po na naka PLDT ang dami pang promos hehe",
+            "synonyms": [
+                "mas sulit po na naka pldt ang dami pang promos hehe"
+            ]
+        },
+        {
+            "keyword": "Mas worth it ang bayad dito compare sa gamit namin before",
+            "synonyms": [
+                "mas worth it ang bayad dito compare sa gamit namin before"
+            ]
+        },
+        {
+            "keyword": "More innovative ideas to come",
+            "synonyms": [
+                "more innovative ideas to come"
+            ]
+        },
+        {
+            "keyword": "Mura na ang 25 mbps afford din namin",
+            "synonyms": [
+                "mura na ang 25 mbps afford din namin"
+            ]
+        },
+        {
+            "keyword": "Na avail ko na lahat ng promos nila mganda kase lahat eh",
+            "synonyms": [
+                "na avail ko na lahat ng promos nila mganda kase lahat eh"
+            ]
+        },
+        {
+            "keyword": "Naappreciate ko naman yung services nila kaya wala na akong plan mag switch pa sa iba",
+            "synonyms": [
+                "naappreciate ko naman yung services nila kaya wala na akong plan mag switch pa sa iba"
+            ]
+        },
+        {
+            "keyword": "Nag eenjoy ko sa promos ni Pldt nakakatuwa pla sa Pldt daming pwdeng gawin",
+            "synonyms": [
+                "nag eenjoy ko sa promos ni pldt nakakatuwa pla sa pldt daming pwdeng gawin"
+            ]
+        },
+        {
+            "keyword": "Nag renew na po ako hehe",
+            "synonyms": [
+                "nag renew na po ako hehe"
+            ]
+        },
+        {
+            "keyword": "Naka PLDT na ako heheh kaya wish me luck para sa unang rewards na sasalihan ko at thanks din cash back",
+            "synonyms": [
+                "naka pldt na ako heheh kaya wish me luck para sa unang rewards na sasalihan ko at thanks din cash back"
+            ]
+        },
+        {
+            "keyword": "Naka register na ako yehey Sana mapili",
+            "synonyms": [
+                "naka register na ako yehey sana mapili"
+            ]
+        },
+        {
+            "keyword": "Nakakagaan",
+            "synonyms": [
+                "nakakagaan"
+            ]
+        },
+        {
+            "keyword": "Nakakatuwa lang pldt plan namin kasi stable",
+            "synonyms": [
+                "nakakatuwa lang pldt plan namin kasi stable"
+            ]
+        },
+        {
+            "keyword": "Nakapag apply na ako ng wifi mesh hehehe",
+            "synonyms": [
+                "nakapag apply na ako ng wifi mesh hehehe"
+            ]
+        },
+        {
+            "keyword": "Next step",
+            "synonyms": [
+                "Next step"
+            ]
+        },
+        {
+            "keyword": "Nice",
+            "synonyms": [
+                "nice"
+            ]
+        },
+        {
+            "keyword": "Nice maganda po ang signal ng Pldt",
+            "synonyms": [
+                "nice maganda po ang signal ng pldt"
+            ]
+        },
+        {
+            "keyword": "No hassle",
+            "synonyms": [
+                "no hassle"
+            ]
+        },
+        {
+            "keyword": "No lags experience",
+            "synonyms": [
+                "No lags experience"
+            ]
+        },
+        {
+            "keyword": "Ok ang wifi mesh nila",
+            "synonyms": [
+                "ok ang wifi mesh nila"
+            ]
+        },
+        {
+            "keyword": "Ok din naman ang CS nila",
+            "synonyms": [
+                "ok din naman ang cs nila"
+            ]
+        },
+        {
+            "keyword": "Ok naman kase sa dami ng crystal nila may pa rewards agad",
+            "synonyms": [
+                "ok naman kase sa dami ng crystal nila may pa rewards agad"
+            ]
+        },
+        {
+            "keyword": "Ok nga din sa area namin maganda sya",
+            "synonyms": [
+                "ok nga din sa area namin maganda sya"
+            ]
+        },
+        {
+            "keyword": "Okay yung mesh pang pamilya lalo na kung madami kayo sa bahay na nagamit",
+            "synonyms": [
+                "okay yung mesh pang pamilya lalo na kung madami kayo sa bahay na nagamit"
+            ]
+        },
+        {
+            "keyword": "Okey din ang wifi mesh nila",
+            "synonyms": [
+                "okey din ang wifi mesh nila"
+            ]
+        },
+        {
+            "keyword": "Okey na nga ngayon eh kase mas upgraded pa ang mga Plans",
+            "synonyms": [
+                "okey na nga ngayon eh kase mas upgraded pa ang mga plans"
+            ]
+        },
+        {
+            "keyword": "Okey naman lahat ng plans magaganda po ang offer lalo na ngayon",
+            "synonyms": [
+                "okey naman lahat ng plans magaganda po ang offer lalo na ngayon"
+            ]
+        },
+        {
+            "keyword": "Okey naman po ang Plan kase mag upgraded na po nila eh",
+            "synonyms": [
+                "okey naman po ang plan kase mag upgraded na po nila eh"
+            ]
+        },
+        {
+            "keyword": "Okey nga ang daming promos e",
+            "synonyms": [
+                "okey nga ang daming promos e"
+            ]
+        },
+        {
+            "keyword": "On time ang payment ko kaya lagi akong may crystal eh",
+            "synonyms": [
+                "on time ang payment ko kaya lagi akong may crystal eh"
+            ]
+        },
+        {
+            "keyword": "Oo nga po eh dapat din talaga madami pa silamg offers na ilabas kase magaganda naman lahat",
+            "synonyms": [
+                "oo nga po eh dapat din talaga madami pa silamg offers na ilabas kase magaganda naman lahat"
+            ]
+        },
+        {
+            "keyword": "Opo na enjoy ko na yung Plan sa PLDT",
+            "synonyms": [
+                "opo na enjoy ko na yung plan sa pldt"
+            ]
+        },
+        {
+            "keyword": "Panong d lalakas eh gaganda ng mga Plan na offer",
+            "synonyms": [
+                "panong d lalakas eh gaganda ng mga plan na offer"
+            ]
+        },
+        {
+            "keyword": "Pero okey din naman mag pay on time hehehe",
+            "synonyms": [
+                "pero okey din naman mag pay on time hehehe"
+            ]
+        },
+        {
+            "keyword": "Sa Chatbot lang ako nag message nung nag apply ako eh nakuha ko naman agad yung instructions",
+            "synonyms": [
+                "sa chatbot lang ako nag message nung nag apply ako eh nakuha ko naman agad yung instructions"
+            ]
+        },
+        {
+            "keyword": "Sa mga nagtatanong jan sa na taga Magliman mabilis dito samin",
+            "synonyms": [
+                "sa mga nagtatanong jan sa na taga magliman mabilis dito samin"
+            ]
+        },
+        {
+            "keyword": "Sa pldt maayos ang connection namin",
+            "synonyms": [
+                "sa pldt maayos ang connection namin"
+            ]
+        },
+        {
+            "keyword": "Salamat pldt sa maayos na serbisyo",
+            "synonyms": [
+                "salamat pldt sa maayos na serbisyo"
+            ]
+        },
+        {
+            "keyword": "Samin ok si pldt",
+            "synonyms": [
+                "samin ok si pldt"
+            ]
+        },
+        {
+            "keyword": "Save the nature and provide quaity of service",
+            "synonyms": [
+                "save the nature and provide quaity of service"
+            ]
+        },
+        {
+            "keyword": "Secure talaga datas mo sa PLDT",
+            "synonyms": [
+                "secure talaga datas mo sa pldt"
+            ]
+        },
+        {
+            "keyword": "Siguro maganda ang magiging com up ng Hyperscale Plan na to",
+            "synonyms": [
+                "siguro maganda ang magiging com up ng hyperscale plan na to"
+            ]
+        },
+        {
+            "keyword": "Smart po talaga kaya nag upgrade na ako",
+            "synonyms": [
+                "smart po talaga kaya nag upgrade na ako"
+            ]
+        },
+        {
+            "keyword": "So far hind pa namn kami nagpapatawag ng mag aayos ng pldt line",
+            "synonyms": [
+                "so far hind pa namn kami nagpapatawag ng mag aayos ng pldt line",
+                "so far hindi pa naman kami nagpapatawag ng mag aayos ng pldt line",
+                "so far hindi pa namn kami nagpapatawag ng mag aayos ng pldt line"
+            ]
+        },
+        {
+            "keyword": "Sobrang sulit talaga dito Avail niyo din promos nila",
+            "synonyms": [
+                "sobrang sulit talaga dito avail niyo din promos nila"
+            ]
+        },
+        {
+            "keyword": "Sobrang worth it lang ng avail ko sa Pldt hehehe",
+            "synonyms": [
+                "sobrang worth it lang ng avail ko sa pldt hehehe"
+            ]
+        },
+        {
+            "keyword": "Solid din talaga yung mga offers dito eh noh",
+            "synonyms": [
+                "solid din talaga yung mga offers dito eh noh"
+            ]
+        },
+        {
+            "keyword": "Sulit offers nila pampamilya at pambarkada",
+            "synonyms": [
+                "sulit offers nila pampamilya at pambarkada"
+            ]
+        },
+        {
+            "keyword": "Sulit talaga pang pamilya Ang mesh",
+            "synonyms": [
+                "sulit talaga pang pamilya ang mesh"
+            ]
+        },
+        {
+            "keyword": "Super easy lang din ng method of payment",
+            "synonyms": [
+                "super easy lang din ng method of payment"
+            ]
+        },
+        {
+            "keyword": "Super gaan nga din ng internet surfing namin",
+            "synonyms": [
+                "Super gaan nga din ng internet surfing namin"
+            ]
+        },
+        {
+            "keyword": "Syempre interested din ako sa mga offers ng pldt kya tumutingin tingin ako dito",
+            "synonyms": [
+                "syempre interested din ako sa mga offers ng pldt kya tumutingin tingin ako dito"
+            ]
+        },
+        {
+            "keyword": "Taas na ng offer sa PLDT ng plan ngayon ko lang napansin hehe",
+            "synonyms": [
+                "taas na ng offer sa pldt ng plan ngayon ko lang napansin hehe"
+            ]
+        },
+        {
+            "keyword": "Tama naman at nag transfer na ako kaya nakapag upgrade ako ng mga smart devices",
+            "synonyms": [
+                "tama naman at nag transfer na ako kaya nakapag upgrade ako ng mga smart devices"
+            ]
+        },
+        {
+            "keyword": "Taus pusong pasasalamat",
+            "synonyms": [
+                "taus pusong pasasalamat"
+            ]
+        },
+        {
+            "keyword": "Thank u PLDT",
+            "synonyms": [
+                "thank u pldt"
+            ]
+        },
+        {
+            "keyword": "Thank you",
+            "synonyms": [
+                "marameng salamat",
+                "maraming salamat",
+                "salamat",
+                "salamat pldt",
+                "thank you",
+                "thank you very much",
+                "thank you very much pldt",
+                "thanks",
+                "thanks pldt"
+            ]
+        },
+        {
+            "keyword": "Thanks PLDT na installan na po ako kaya makaka sali ako sa pa reward mo na to",
+            "synonyms": [
+                "thanks pldt na installan na po ako kaya makaka sali ako sa pa reward mo na to"
+            ]
+        },
+        {
+            "keyword": "Thanks PLDT nakita ko na ayung status nung complain ko",
+            "synonyms": [
+                "thanks pldt nakita ko na ayung status nung complain ko"
+            ]
+        },
+        {
+            "keyword": "Thanks may idea na ako buti naka subscribe na ako sa Next Upgrade Channel",
+            "synonyms": [
+                "thanks may idea na ako buti naka subscribe na ako sa next upgrade channel"
+            ]
+        },
+        {
+            "keyword": "They give the best offers",
+            "synonyms": [
+                "they give the best offers"
+            ]
+        },
+        {
+            "keyword": "This is the way to go Pldt",
+            "synonyms": [
+                "this is the way to go pldt"
+            ]
+        },
+        {
+            "keyword": "Upgrade na yung account ko Thanks PLDT",
+            "synonyms": [
+                "upgrade na yung account ko thanks pldt"
+            ]
+        },
+        {
+            "keyword": "Wala ng lag kapag naglalaro kami",
+            "synonyms": [
+                "Wala ng lag kapag naglalaro kami"
+            ]
+        },
+        {
+            "keyword": "Walang nagiging prob sa koneksyon",
+            "synonyms": [
+                "walang nagiging prob sa koneksyon"
+            ]
+        },
+        {
+            "keyword": "Well that's Pldt salamat padin sa free charging",
+            "synonyms": [
+                "well that's pldt salamat padin sa free charging"
+            ]
+        },
+        {
+            "keyword": "Worth it ang bayad ko kasi nagagamit ko ng maayos",
+            "synonyms": [
+                "Worth it ang bayad ko kasi nagagamit ko ng maayos",
+                "worth it ang bayad ko kasi nagagamit ko ng ayos"
+            ]
+        },
+        {
+            "keyword": "Worth it monthly payment",
+            "synonyms": [
+                "worth it monthly payment"
+            ]
+        },
+        {
+            "keyword": "Wow bago ba to laki narin ng cashback ha",
+            "synonyms": [
+                "wow bago ba to laki narin ng cashback ha"
+            ]
+        },
+        {
+            "keyword": "Wow may pa cashback na naman si PLDT",
+            "synonyms": [
+                "wow may pa cashback na naman si pldt"
+            ]
+        },
+        {
+            "keyword": "Wow sa Maya Credits pala ang pasok ng prize nun",
+            "synonyms": [
+                "wow sa maya credits pala ang pasok ng prize nun"
+            ]
+        },
+        {
+            "keyword": "Yan ang maganda sa PLDT hindi sayang ang pagbabayad on time meron din naman pwde eh",
+            "synonyms": [
+                "yan ang maganda sa pldt hindi sayang ang pagbabayad on time meron din naman pwde eh"
+            ]
+        },
+        {
+            "keyword": "Yan ang reward na gusto ko hehehe",
+            "synonyms": [
+                "yan ang reward na gusto ko hehehe"
+            ]
+        },
+        {
+            "keyword": "Yan na pala yung mega rewards nila",
+            "synonyms": [
+                "yan na pala yung mega rewards nila"
+            ]
+        },
+        {
+            "keyword": "Yes hindi nila binababa ng ang call ng hindi nila na sesettle yung concern",
+            "synonyms": [
+                "yes hindi nila binababa ng ang call ng hindi nila na sesettle yung concern"
+            ]
+        },
+        {
+            "keyword": "Yes naka PLDT na kmi hehe thanks sa mabilis na installation",
+            "synonyms": [
+                "yes naka pldt na kmi hehe thanks sa mabilis na installation"
+            ]
+        },
+        {
+            "keyword": "Yes po nakapag avail na din po kami sulit nga siya",
+            "synonyms": [
+                "yes po nakapag avail na din po kami sulit nga siya"
+            ]
+        },
+        {
+            "keyword": "Yup yung Mega Rewards abot pa ako kaka install lang sa amin",
+            "synonyms": [
+                "yup yung mega rewards abot pa ako kaka install lang sa amin"
+            ]
+        },
+        {
+            "keyword": "accurate pa din service ng pldt",
+            "synonyms": [
+                "accurate pa din service ng pldt"
+            ]
+        },
+        {
+            "keyword": "actually tagal ko na sa PLDT kase okay naman talaga connection nila",
+            "synonyms": [
+                "actually tagal ko na sa pldt kase okay naman talaga connection nila"
+            ]
+        },
+        {
+            "keyword": "ako po always ko nicheck yung acc ko sa pldt para updated ako",
+            "synonyms": [
+                "ako po always ko nicheck yung acc ko sa pldt para updated ako"
+            ]
+        },
+        {
+            "keyword": "ang dami nmn palang pag pipiliiang payment method",
+            "synonyms": [
+                "ang dami nmn palang pag pipiliiang payment method"
+            ]
+        },
+        {
+            "keyword": "ang ganda nga po nung mga ganitong plan sa pldt",
+            "synonyms": [
+                "ang ganda nga po nung mga ganitong plan sa pldt"
+            ]
+        },
+        {
+            "keyword": "better website",
+            "synonyms": [
+                "better website"
+            ]
+        },
+        {
+            "keyword": "bilis",
+            "synonyms": [
+                "bilis"
+            ]
+        },
+        {
+            "keyword": "easy surfing na nga din ako online",
+            "synonyms": [
+                "easy surfing na nga din ako online"
+            ]
+        },
+        {
+            "keyword": "fastest internet for this year sa pldt kami mag aapply",
+            "synonyms": [
+                "fastest internet for this year sa pldt kami mag aapply"
+            ]
+        },
+        {
+            "keyword": "ganda nung fiber",
+            "synonyms": [
+                "ganda nung fiber"
+            ]
+        },
+        {
+            "keyword": "good news",
+            "synonyms": [
+                "good news"
+            ]
+        },
+        {
+            "keyword": "good work",
+            "synonyms": [
+                "good work"
+            ]
+        },
+        {
+            "keyword": "good yung speed boost",
+            "synonyms": [
+                "good yung speed boost"
+            ]
+        },
+        {
+            "keyword": "goods naman ang connection",
+            "synonyms": [
+                "goods naman ang connection"
+            ]
+        },
+        {
+            "keyword": "goods nmn po yung mga ganyang sa pldt",
+            "synonyms": [
+                "goods nmn po yung mga ganyang sa pldt"
+            ]
+        },
+        {
+            "keyword": "goods po yan",
+            "synonyms": [
+                "goods po yan"
+            ]
+        },
+        {
+            "keyword": "gumanda connection dito samin",
+            "synonyms": [
+                "gumanda connection dito samin"
+            ]
+        },
+        {
+            "keyword": "helpful",
+            "synonyms": [
+                "helpful"
+            ]
+        },
+        {
+            "keyword": "hindi nagkakaroon ng lost connection",
+            "synonyms": [
+                "hindi nagkakaroon ng lost connection"
+            ]
+        },
+        {
+            "keyword": "hindi talaga nagkakaroon ng interruption",
+            "synonyms": [
+                "hindi talaga nagkakaroon ng interruption"
+            ]
+        },
+        {
+            "keyword": "kaya naman goods na din ako here",
+            "synonyms": [
+                "kaya naman goods na din ako here"
+            ]
+        },
+        {
+            "keyword": "lalong bumilis net",
+            "synonyms": [
+                "lalong bumilis net"
+            ]
+        },
+        {
+            "keyword": "maayos ang net namin kay pldt",
+            "synonyms": [
+                "maayos ang net namin kay pldt"
+            ]
+        },
+        {
+            "keyword": "mabilis ang connection",
+            "synonyms": [
+                "mabilis ang connection"
+            ]
+        },
+        {
+            "keyword": "mabilis lang ma solve",
+            "synonyms": [
+                "mabilis lang ma solve"
+            ]
+        },
+        {
+            "keyword": "mabilis na aksyon nagawa agad ung naputol na wire",
+            "synonyms": [
+                "mabilis na aksyon nagawa agad ung naputol na wire"
+            ]
+        },
+        {
+            "keyword": "mabilis na din naman ang connection namin",
+            "synonyms": [
+                "mabilis na din naman ang connection namin"
+            ]
+        },
+        {
+            "keyword": "mabilis naman",
+            "synonyms": [
+                "bilis naman",
+                "bilis namn",
+                "bilis nmn",
+                "mabilis naman",
+                "mabilis namn",
+                "mabilis nmn"
+            ]
+        },
+        {
+            "keyword": "mabilis umaksyon",
+            "synonyms": [
+                "mabilis umaksyon"
+            ]
+        },
+        {
+            "keyword": "madali na lang pala magtrack ng naiconcern mo kay pldt",
+            "synonyms": [
+                "madali na lang pala magtrack ng naiconcern mo kay pldt"
+            ]
+        },
+        {
+            "keyword": "magaganda ang promos",
+            "synonyms": [
+                "magaganda ang promos"
+            ]
+        },
+        {
+            "keyword": "magaganda ang promos sa pldt check nyo lang sa website nila",
+            "synonyms": [
+                "magaganda ang promos sa pldt check nyo lang sa website nila"
+            ]
+        },
+        {
+            "keyword": "maganda",
+            "synonyms": [
+                "maganda"
+            ]
+        },
+        {
+            "keyword": "maganda mag upgrade",
+            "synonyms": [
+                "maganda mag upgrade"
+            ]
+        },
+        {
+            "keyword": "magandang plan na naexperience",
+            "synonyms": [
+                "magandang plan na naexperience"
+            ]
+        },
+        {
+            "keyword": "magandang pldt plan",
+            "synonyms": [
+                "magandang pldt plan"
+            ]
+        },
+        {
+            "keyword": "malakas signal sa pldt",
+            "synonyms": [
+                "malakas signal sa pldt"
+            ]
+        },
+        {
+            "keyword": "mas mabilis na din ang access ngayon",
+            "synonyms": [
+                "mas mabilis na din ang access ngayon"
+            ]
+        },
+        {
+            "keyword": "mas magaan",
+            "synonyms": [
+                "mas magaan"
+            ]
+        },
+        {
+            "keyword": "mas magaan mag internet surfing kay pldt",
+            "synonyms": [
+                "mas magaan mag internet surfing kay pldt"
+            ]
+        },
+        {
+            "keyword": "mas maganda na ang net namin",
+            "synonyms": [
+                "mas maganda na ang net namin"
+            ]
+        },
+        {
+            "keyword": "much better",
+            "synonyms": [
+                "much better"
+            ]
+        },
+        {
+            "keyword": "nag add ons din kame sa plan sulit kase 3 mesh agad yung makukuha",
+            "synonyms": [
+                "nag add ons din kame sa plan sulit kase 3 mesh agad yung makukuha"
+            ]
+        },
+        {
+            "keyword": "never naglag",
+            "synonyms": [
+                "never naglag"
+            ]
+        },
+        {
+            "keyword": "never nagstop pag nagdadownload ako",
+            "synonyms": [
+                "never nagstop pag nagdadownload ako"
+            ]
+        },
+        {
+            "keyword": "nice ang astig ng underground cable",
+            "synonyms": [
+                "nice ang astig ng underground cable"
+            ]
+        },
+        {
+            "keyword": "no hussle",
+            "synonyms": [
+                "no hussle"
+            ]
+        },
+        {
+            "keyword": "no problem na",
+            "synonyms": [
+                "no problem na"
+            ]
+        },
+        {
+            "keyword": "now that's what I like para mag improve dapat makipag partnership",
+            "synonyms": [
+                "now that's what i like para mag improve dapat makipag partnership"
+            ]
+        },
+        {
+            "keyword": "ok pa din naman ang connection sa pldt",
+            "synonyms": [
+                "ok pa din naman ang connection sa pldt"
+            ]
+        },
+        {
+            "keyword": "okay din ang result ng speed test namin",
+            "synonyms": [
+                "okay din ang result ng speed test namin"
+            ]
+        },
+        {
+            "keyword": "okay din yung result ng amin sa speed test",
+            "synonyms": [
+                "okay din yung result ng amin sa speed test"
+            ]
+        },
+        {
+            "keyword": "okay naman ang speed ng net sa pldt",
+            "synonyms": [
+                "okay naman ang speed ng net sa pldt"
+            ]
+        },
+        {
+            "keyword": "okey",
+            "synonyms": [
+                "okay",
+                "okey"
+            ]
+        },
+        {
+            "keyword": "promise mabilis sya",
+            "synonyms": [
+                "promise mabilis sya"
+            ]
+        },
+        {
+            "keyword": "quality service",
+            "synonyms": [
+                "quality service"
+            ]
+        },
+        {
+            "keyword": "recommended ang mesh lalo na kung malawak yung Bahay niyo",
+            "synonyms": [
+                "recommended ang mesh lalo na kung malawak yung bahay niyo"
+            ]
+        },
+        {
+            "keyword": "sa pldt mas gumanda access",
+            "synonyms": [
+                "sa pldt mas gumanda access"
+            ]
+        },
+        {
+            "keyword": "salamat sa mabilis na mag action sa aking reconnection at nag upgrade na din agad ako",
+            "synonyms": [
+                "salamat sa mabilis na mag action sa aking reconnection at nag upgrade na din agad ako"
+            ]
+        },
+        {
+            "keyword": "sobrang ganda netong ganitong new payment app",
+            "synonyms": [
+                "sobrang ganda netong ganitong new payment app"
+            ]
+        },
+        {
+            "keyword": "solid talaga mga fiber plan kay pldt",
+            "synonyms": [
+                "solid talaga mga fiber plan kay pldt"
+            ]
+        },
+        {
+            "keyword": "stable na kami sa pldt",
+            "synonyms": [
+                "stable na kami sa pldt"
+            ]
+        },
+        {
+            "keyword": "super solid naman talaga ng connection",
+            "synonyms": [
+                "super solid naman talaga ng connection"
+            ]
+        },
+        {
+            "keyword": "thanks PLDT cares support :)",
+            "synonyms": [
+                "thanks pldt cares support :)"
+            ]
+        },
+        {
+            "keyword": "tiwala ako sa pldt",
+            "synonyms": [
+                "tiwala ako sa pldt"
+            ]
+        },
+        {
+            "keyword": "tracker",
+            "synonyms": [
+                "tracker"
+            ]
+        },
+        {
+            "keyword": "very smoooth na ngayon ang connection",
+            "synonyms": [
+                "very smoooth na ngayon ang connection"
+            ]
+        },
+        {
+            "keyword": "wala na ding lag",
+            "synonyms": [
+                "wala na ding lag"
+            ]
+        },
+        {
+            "keyword": "wifi mesh is good",
+            "synonyms": [
+                "wifi mesh is good"
+            ]
+        },
+        {
+            "keyword": "yes na babawasan lag",
+            "synonyms": [
+                "yes na babawasan lag"
+            ]
+        }
+    ]
+}

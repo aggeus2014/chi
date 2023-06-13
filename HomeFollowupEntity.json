@@ -1,0 +1,784 @@
+{
+    "name": "HomeFollowupEntity",
+    "roles": [
+        "HomeFollowupEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "3 days",
+            "synonyms": [
+                "3 days"
+            ]
+        },
+        {
+            "keyword": "Accno",
+            "synonyms": [
+                "accno"
+            ]
+        },
+        {
+            "keyword": "Nasan npo yung connection nmn",
+            "synonyms": [
+                "nasan npo yung connection nmn"
+            ]
+        },
+        {
+            "keyword": "PM",
+            "synonyms": [
+                "pm"
+            ]
+        },
+        {
+            "keyword": "Pldt ano n",
+            "synonyms": [
+                "pldt ano n",
+                "pldt ano naaaaa"
+            ]
+        },
+        {
+            "keyword": "almost months",
+            "synonyms": [
+                "almost months"
+            ]
+        },
+        {
+            "keyword": "almost mos",
+            "synonyms": [
+                "almost mos"
+            ]
+        },
+        {
+            "keyword": "ang tagal",
+            "synonyms": [
+                "ang tagal"
+            ]
+        },
+        {
+            "keyword": "ano na",
+            "synonyms": [
+                "ano na"
+            ]
+        },
+        {
+            "keyword": "ano na ang update",
+            "synonyms": [
+                "ano na ang update"
+            ]
+        },
+        {
+            "keyword": "ano na update",
+            "synonyms": [
+                "ano na update"
+            ]
+        },
+        {
+            "keyword": "ano plano",
+            "synonyms": [
+                "ano plano"
+            ]
+        },
+        {
+            "keyword": "anona",
+            "synonyms": [
+                "anona"
+            ]
+        },
+        {
+            "keyword": "anong petsa na",
+            "synonyms": [
+                "anong petsa na"
+            ]
+        },
+        {
+            "keyword": "anong status",
+            "synonyms": [
+                "anong status"
+            ]
+        },
+        {
+            "keyword": "anu na pldt",
+            "synonyms": [
+                "anu na pldt"
+            ]
+        },
+        {
+            "keyword": "asap",
+            "synonyms": [
+                "asap"
+            ]
+        },
+        {
+            "keyword": "balitaan",
+            "synonyms": [
+                "balita",
+                "balitaan"
+            ]
+        },
+        {
+            "keyword": "buwan",
+            "synonyms": [
+                "buwan"
+            ]
+        },
+        {
+            "keyword": "chat",
+            "synonyms": [
+                "chat"
+            ]
+        },
+        {
+            "keyword": "check the status",
+            "synonyms": [
+                "check the status"
+            ]
+        },
+        {
+            "keyword": "dispatch",
+            "synonyms": [
+                "dispatch"
+            ]
+        },
+        {
+            "keyword": "expect",
+            "synonyms": [
+                "expect"
+            ]
+        },
+        {
+            "keyword": "expected",
+            "synonyms": [
+                "expected"
+            ]
+        },
+        {
+            "keyword": "expedite",
+            "synonyms": [
+                "expedite"
+            ]
+        },
+        {
+            "keyword": "feedback",
+            "synonyms": [
+                "feedback"
+            ]
+        },
+        {
+            "keyword": "ff up",
+            "synonyms": [
+                "ff up"
+            ]
+        },
+        {
+            "keyword": "fix case number",
+            "synonyms": [
+                "fix case number"
+            ]
+        },
+        {
+            "keyword": "follow  up ticket",
+            "synonyms": [
+                "'follow up ticket'",
+                "follow  up ticket"
+            ]
+        },
+        {
+            "keyword": "follow up",
+            "synonyms": [
+                "follow up",
+                "followup"
+            ]
+        },
+        {
+            "keyword": "follow up reference",
+            "synonyms": [
+                "'follow up reference'",
+                "follow up reference"
+            ]
+        },
+        {
+            "keyword": "follow up~2",
+            "synonyms": [
+                "follow up~2"
+            ]
+        },
+        {
+            "keyword": "followup",
+            "synonyms": [
+                "followup"
+            ]
+        },
+        {
+            "keyword": "galaw-galaw",
+            "synonyms": [
+                "galaw-galaw"
+            ]
+        },
+        {
+            "keyword": "hanggang kelan pa mawawalan ng net",
+            "synonyms": [
+                "hanggang kelan pa mawawalan ng net"
+            ]
+        },
+        {
+            "keyword": "hanggang ngayon",
+            "synonyms": [
+                "hangang ngayon",
+                "hanggang ngayon",
+                "hanggang ngyon"
+            ]
+        },
+        {
+            "keyword": "hihintayin",
+            "synonyms": [
+                "hihintayin"
+            ]
+        },
+        {
+            "keyword": "ifollow up~2",
+            "synonyms": [
+                "ifollow up~2"
+            ]
+        },
+        {
+            "keyword": "ilang araw",
+            "synonyms": [
+                "ilang araw"
+            ]
+        },
+        {
+            "keyword": "ilang beses",
+            "synonyms": [
+                "ilang beses"
+            ]
+        },
+        {
+            "keyword": "ilang days",
+            "synonyms": [
+                "ilang days"
+            ]
+        },
+        {
+            "keyword": "in process",
+            "synonyms": [
+                "in process"
+            ]
+        },
+        {
+            "keyword": "inbox",
+            "synonyms": [
+                "inbox"
+            ]
+        },
+        {
+            "keyword": "it's almost",
+            "synonyms": [
+                "it's almost"
+            ]
+        },
+        {
+            "keyword": "it's been",
+            "synonyms": [
+                "it's been"
+            ]
+        },
+        {
+            "keyword": "its been",
+            "synonyms": [
+                "its been"
+            ]
+        },
+        {
+            "keyword": "job order",
+            "synonyms": [
+                "job order"
+            ]
+        },
+        {
+            "keyword": "job request",
+            "synonyms": [
+                "job request"
+            ]
+        },
+        {
+            "keyword": "kailan Nyo aayusin yung connection",
+            "synonyms": [
+                "kailan nyo aayusin yung connection"
+            ]
+        },
+        {
+            "keyword": "kailan babalik",
+            "synonyms": [
+                "kailan babalik"
+            ]
+        },
+        {
+            "keyword": "kailan darating",
+            "synonyms": [
+                "kailan darating"
+            ]
+        },
+        {
+            "keyword": "kailan iinstall",
+            "synonyms": [
+                "kailan iinstall"
+            ]
+        },
+        {
+            "keyword": "kailan pupuntahan",
+            "synonyms": [
+                "kailan pupuntahan"
+            ]
+        },
+        {
+            "keyword": "kilos",
+            "synonyms": [
+                "kilos"
+            ]
+        },
+        {
+            "keyword": "last month",
+            "synonyms": [
+                "last month"
+            ]
+        },
+        {
+            "keyword": "last week",
+            "synonyms": [
+                "last week"
+            ]
+        },
+        {
+            "keyword": "last year",
+            "synonyms": [
+                "last year"
+            ]
+        },
+        {
+            "keyword": "linggo",
+            "synonyms": [
+                "linggo"
+            ]
+        },
+        {
+            "keyword": "mag eexpect",
+            "synonyms": [
+                "mag eexpect"
+            ]
+        },
+        {
+            "keyword": "magpapasko na",
+            "synonyms": [
+                "magpapasko na"
+            ]
+        },
+        {
+            "keyword": "magreply kayo",
+            "synonyms": [
+                "magreply kayo"
+            ]
+        },
+        {
+            "keyword": "matagal na",
+            "synonyms": [
+                "matagal na"
+            ]
+        },
+        {
+            "keyword": "may update na",
+            "synonyms": [
+                "may update na"
+            ]
+        },
+        {
+            "keyword": "message",
+            "synonyms": [
+                "message"
+            ]
+        },
+        {
+            "keyword": "months",
+            "synonyms": [
+                "month",
+                "months"
+            ]
+        },
+        {
+            "keyword": "more than a month",
+            "synonyms": [
+                "more than a month"
+            ]
+        },
+        {
+            "keyword": "nag aantay",
+            "synonyms": [
+                "nag aantay"
+            ]
+        },
+        {
+            "keyword": "nag apply",
+            "synonyms": [
+                "nag apply"
+            ]
+        },
+        {
+            "keyword": "nagaantay",
+            "synonyms": [
+                "nagaantay"
+            ]
+        },
+        {
+            "keyword": "nagiintay",
+            "synonyms": [
+                "nagiintay"
+            ]
+        },
+        {
+            "keyword": "nagrereply",
+            "synonyms": [
+                "nagrereply"
+            ]
+        },
+        {
+            "keyword": "news about",
+            "synonyms": [
+                "news about"
+            ]
+        },
+        {
+            "keyword": "no one come",
+            "synonyms": [
+                "no one come"
+            ]
+        },
+        {
+            "keyword": "no progress",
+            "synonyms": [
+                "no progress"
+            ]
+        },
+        {
+            "keyword": "no update",
+            "synonyms": [
+                "no update"
+            ]
+        },
+        {
+            "keyword": "paaabutin",
+            "synonyms": [
+                "paaabutin"
+            ]
+        },
+        {
+            "keyword": "pakibilisan",
+            "synonyms": [
+                "pakibilisan"
+            ]
+        },
+        {
+            "keyword": "pareho lang",
+            "synonyms": [
+                "pareho lang"
+            ]
+        },
+        {
+            "keyword": "pareply",
+            "synonyms": [
+                "pareply"
+            ]
+        },
+        {
+            "keyword": "pasko",
+            "synonyms": [
+                "pasko"
+            ]
+        },
+        {
+            "keyword": "prioritize",
+            "synonyms": [
+                "prioritize"
+            ]
+        },
+        {
+            "keyword": "puro pangako",
+            "synonyms": [
+                "puro pangako"
+            ]
+        },
+        {
+            "keyword": "ref #",
+            "synonyms": [
+                "ref #"
+            ]
+        },
+        {
+            "keyword": "ref number",
+            "synonyms": [
+                "ref number"
+            ]
+        },
+        {
+            "keyword": "ref#",
+            "synonyms": [
+                "ref#"
+            ]
+        },
+        {
+            "keyword": "reference #",
+            "synonyms": [
+                "reference #"
+            ]
+        },
+        {
+            "keyword": "reference number",
+            "synonyms": [
+                "reference number"
+            ]
+        },
+        {
+            "keyword": "repair number",
+            "synonyms": [
+                "repair number"
+            ]
+        },
+        {
+            "keyword": "repair request",
+            "synonyms": [
+                "repair request"
+            ]
+        },
+        {
+            "keyword": "reply",
+            "synonyms": [
+                "reply"
+            ]
+        },
+        {
+            "keyword": "request",
+            "synonyms": [
+                "request"
+            ]
+        },
+        {
+            "keyword": "sabi pupuntahan",
+            "synonyms": [
+                "sabi pupuntahan"
+            ]
+        },
+        {
+            "keyword": "sana talaga before",
+            "synonyms": [
+                "sana talaga before"
+            ]
+        },
+        {
+            "keyword": "service  request",
+            "synonyms": [
+                "service  request"
+            ]
+        },
+        {
+            "keyword": "service order",
+            "synonyms": [
+                "service order"
+            ]
+        },
+        {
+            "keyword": "so#",
+            "synonyms": [
+                "so#"
+            ]
+        },
+        {
+            "keyword": "sobrang aberya",
+            "synonyms": [
+                "sobrang aberya"
+            ]
+        },
+        {
+            "keyword": "sobrang tagal",
+            "synonyms": [
+                "sobrang tagal"
+            ]
+        },
+        {
+            "keyword": "sr#",
+            "synonyms": [
+                "sr#"
+            ]
+        },
+        {
+            "keyword": "status",
+            "synonyms": [
+                "status"
+            ]
+        },
+        {
+            "keyword": "still nothing",
+            "synonyms": [
+                "still nothing"
+            ]
+        },
+        {
+            "keyword": "tagal",
+            "synonyms": [
+                "tagal"
+            ]
+        },
+        {
+            "keyword": "ticket",
+            "synonyms": [
+                "ticket"
+            ]
+        },
+        {
+            "keyword": "ticket #",
+            "synonyms": [
+                "ticket #"
+            ]
+        },
+        {
+            "keyword": "ticket no",
+            "synonyms": [
+                "ticket no"
+            ]
+        },
+        {
+            "keyword": "ticket number",
+            "synonyms": [
+                "ticket number"
+            ]
+        },
+        {
+            "keyword": "umasa ng matagal",
+            "synonyms": [
+                "umasa ng matagal"
+            ]
+        },
+        {
+            "keyword": "umay",
+            "synonyms": [
+                "umay"
+            ]
+        },
+        {
+            "keyword": "unresolved",
+            "synonyms": [
+                "unresolved"
+            ]
+        },
+        {
+            "keyword": "update",
+            "synonyms": [
+                "update"
+            ]
+        },
+        {
+            "keyword": "updates",
+            "synonyms": [
+                "updates"
+            ]
+        },
+        {
+            "keyword": "uy pldt nuna",
+            "synonyms": [
+                "uy pldt nuna"
+            ]
+        },
+        {
+            "keyword": "wala namang pumunta",
+            "synonyms": [
+                "wala namang pumunta"
+            ]
+        },
+        {
+            "keyword": "wala pang technician",
+            "synonyms": [
+                "wala pang technician"
+            ]
+        },
+        {
+            "keyword": "wala parin",
+            "synonyms": [
+                "wala parin",
+                "wala prn",
+                "wla parin"
+            ]
+        },
+        {
+            "keyword": "wala rin po",
+            "synonyms": [
+                "wala rin po"
+            ]
+        },
+        {
+            "keyword": "walang dumarating dito",
+            "synonyms": [
+                "walang dumarating dito",
+                "wlang dumarating dito"
+            ]
+        },
+        {
+            "keyword": "walang dumating",
+            "synonyms": [
+                "walang dumating"
+            ]
+        },
+        {
+            "keyword": "walang installer",
+            "synonyms": [
+                "walang installer"
+            ]
+        },
+        {
+            "keyword": "walang pumunta",
+            "synonyms": [
+                "walang pumunta"
+            ]
+        },
+        {
+            "keyword": "walang technician",
+            "synonyms": [
+                "walang technician"
+            ]
+        },
+        {
+            "keyword": "we've been waiting",
+            "synonyms": [
+                "we've been waiting"
+            ]
+        },
+        {
+            "keyword": "week",
+            "synonyms": [
+                "week"
+            ]
+        },
+        {
+            "keyword": "weeks",
+            "synonyms": [
+                "weeks"
+            ]
+        },
+        {
+            "keyword": "what's the update",
+            "synonyms": [
+                "what's the update"
+            ]
+        },
+        {
+            "keyword": "when",
+            "synonyms": [
+                "when"
+            ]
+        },
+        {
+            "keyword": "when can we expect",
+            "synonyms": [
+                "when can we expect"
+            ]
+        }
+    ]
+}

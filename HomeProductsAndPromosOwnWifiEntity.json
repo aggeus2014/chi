@@ -1,0 +1,85 @@
+{
+    "name": "HomeProductsAndPromosOwnWifiEntity",
+    "roles": [
+        "HomeProductsAndPromosOwnWifiEntity"
+    ],
+    "lookups": [
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "MyOwnWiFi",
+            "synonyms": [
+                "MyOwnWiFi",
+                "myownwifi",
+                "myownwifi 1049",
+                "myownwifi 1349",
+                "myownwifi 649",
+                "myownwifi 849",
+                "myownwifi mesh",
+                "myownwifi pldt"
+            ]
+        },
+        {
+            "keyword": "MyOwnWiFi subscription",
+            "synonyms": [
+                "MyOwnWiFi subscription"
+            ]
+        },
+        {
+            "keyword": "my own wifi",
+            "synonyms": [
+                "my own wifi"
+            ]
+        },
+        {
+            "keyword": "my own wifi fiber",
+            "synonyms": [
+                "my own wifi fiber"
+            ]
+        },
+        {
+            "keyword": "my own wifi plan",
+            "synonyms": [
+                "my own wifi plan"
+            ]
+        },
+        {
+            "keyword": "my own wifi pldt",
+            "synonyms": [
+                "my own wifi pldt"
+            ]
+        },
+        {
+            "keyword": "my own wifi promo",
+            "synonyms": [
+                "my own wifi promo"
+            ]
+        },
+        {
+            "keyword": "my work wifi",
+            "synonyms": [
+                "my work wifi"
+            ]
+        },
+        {
+            "keyword": "mygamewifi",
+            "synonyms": [
+                "my game wifi",
+                "mygamewifi"
+            ]
+        },
+        {
+            "keyword": "mystudywifi",
+            "synonyms": [
+                "mystudywifi"
+            ]
+        },
+        {
+            "keyword": "myworkwifi",
+            "synonyms": [
+                "myworkwifi"
+            ]
+        }
+    ]
+}

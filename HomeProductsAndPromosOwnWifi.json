@@ -1,0 +1,8 @@
+{
+    "name": "HomeProductsAndPromosOwnWifi",
+    "entities": [
+        "HomeConnectivityEntity:HomeConnectivityEntity",
+        "HomeProductsAndPromosEntity:HomeProductsAndPromosEntity",
+        "HomeProductsAndPromosOwnWifiEntity:HomeProductsAndPromosOwnWifiEntity"
+    ]
+}
